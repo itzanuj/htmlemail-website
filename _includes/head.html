@@ -28,6 +28,8 @@
     // Optimizely Universal Analytics Integration
     window.optimizely = window.optimizely || [];
     window.optimizely.push("activateUniversalAnalytics");
+    
+    ga('send', 'pageview');
 
     // Gets a reference to a link pointing to an external domain.
     var destinationLink = document.getElementById('gumroad-button');
@@ -36,8 +38,6 @@
     destinationLink.addEventListener('click', function() {
       ga('linker:decorate', destinationLink);
     });
-    
-    ga('send', 'pageview');
   </script>
 </head>
 <body>
