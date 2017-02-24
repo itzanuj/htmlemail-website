@@ -22,22 +22,19 @@
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-1284993-68', 'auto', {'allowLinker': true});
-    ga('require', 'linker');
-    ga('linker:autoLink', ['gumroad.com','gum.co'] );  
+    // ga('require', 'linker');
+    // ga('linker:autoLink', ['gumroad.com','gum.co'] );  
+    window.addEventListener('load', function() {
+	  var linkerParam = window.ga ? window.ga.getAll()[0].get('linkerParam') : '';
+	  var iframe = document.querySelector('.gumroad-overlay-iframe');
+	  iframe.src += iframe.src.indexOf('?') > -1 ? '&' + linkerParam : '?' + linkerParam;
+	});
 
     // Optimizely Universal Analytics Integration
     window.optimizely = window.optimizely || [];
     window.optimizely.push("activateUniversalAnalytics");
     
     ga('send', 'pageview');
-
-    // Gets a reference to a link pointing to an external domain.
-    var destinationLink = document.getElementById('gumroad-button');
-
-    // Adds click handler that decorates `destinationLink`.
-    destinationLink.addEventListener('click', function() {
-      ga('linker:decorate', destinationLink);
-    });
   </script>
 </head>
 <body>
