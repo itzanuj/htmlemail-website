@@ -40,7 +40,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          '_site/css/main.css': '_assets/css/main.css'
+          'css/main.css': '_assets/css/main.css'
         }
       }
     },
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          '_site/css/main.css': ['_site/css/main.css']
+          'css/main.css': ['css/main.css']
         }
       }
     },
@@ -72,8 +72,8 @@ module.exports = function(grunt) {
       icons: {
         expand: true,
         cwd: '_assets/img',
-        src: ['**/*.svg'],
-        dest: '_site/img/',
+        src: ['src/*.svg'],
+        dest: 'img/',
         options: {
           mode: {
             symbol: true
@@ -96,7 +96,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: '_assets/img',
           src: ['*.{png,jpg,gif}'],
-          dest: '_site/img'
+          dest: 'img'
         }]
       }
     },
@@ -128,7 +128,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          '_site/js/build.js': ['_assets/js/build.js']
+          'js/build.js': ['_assets/js/build.js']
         }
       }
     },
