@@ -11,6 +11,7 @@
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-uglify": "^2.1.0",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "^1.2.0",
     "grunt-postcss": "^0.5.4",
     "grunt-sass": "^1.0.0",
     "grunt-serve": "^0.1.6",

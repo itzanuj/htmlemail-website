@@ -40,7 +40,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          '_build/css/main.css': '_assets/css/main.css'
+          '_site/css/main.css': '_assets/css/main.css'
         }
       }
     },
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
         expand: true,
         cwd: '_assets/img',
         src: ['**/*.svg'],
-        dest: '_build/img/',
+        dest: '_site/img/',
         options: {
           mode: {
             symbol: true
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: '_assets/img',
           src: ['*.{png,jpg,gif}'],
-          dest: '_build/img'
+          dest: '_site/img'
         }]
       }
     },
@@ -110,7 +110,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          '_build/js/build.js': ['_assets/js/build.js']
+          '_site/js/build.js': ['_assets/js/build.js']
         }
       }
     },
@@ -194,8 +194,8 @@ module.exports = function(grunt) {
                                 'postcss',
                                 'concat',
                                 'uglify',
-                                'imagemin',
-                                'svg_sprite',
+                                'newer:imagemin',
+                                'newer:svg_sprite',
                                 'shell:jekyllServe',
                                 'watch']);
 
@@ -204,8 +204,8 @@ module.exports = function(grunt) {
                                 'postcss',
                                 'concat',
                                 'uglify',
-                                'imagemin',
-                                'svg_sprite',
+                                'newer:imagemin',
+                                'newer:svg_sprite',
                                 'shell:JekyllDrafts',
                                 'watch']);
 
