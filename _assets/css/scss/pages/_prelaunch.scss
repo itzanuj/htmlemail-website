@@ -1,0 +1,31 @@
+//**
+// Prelaunch Page
+//**
+
+.prelaunch {
+  box-sizing: border-box;
+  height: 100%;
+
+  body {
+    height: 100%;
+  }
+
+  header {
+    box-sizing: border-box;
+    min-height: 100%;
+  }
+}
+
+
+
+// Responsive styles if needed
+@include responsive($big-break) {
+}
+@include responsive($small-break) {
+}
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }
