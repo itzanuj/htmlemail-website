@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 
 
 
-    //Use PostCSS Autoprefixer to apply browser prefixes for certain styles
+    // Use PostCSS Autoprefixer to apply browser prefixes for certain styles
     postcss: {
       options: {
         map: false,
@@ -41,6 +41,23 @@ module.exports = function(grunt) {
       dist: {
         files: {
           '_site/css/main.css': '_assets/css/main.css'
+        }
+      }
+    },
+
+
+
+
+
+    // Use minify CSS to minify the output
+    cssmin: {
+      options: {
+        mergeIntoShorthands: true,
+        roundingPrecision: -1
+      },
+      target: {
+        files: {
+          '_site/css/main.css': ['_site/css/main.css']
         }
       }
     },
@@ -127,7 +144,8 @@ module.exports = function(grunt) {
         ],
         tasks: [
           'sass',
-          'postcss'
+          'postcss',
+          'cssmin'
         ]
       },
       scripts: {
@@ -192,6 +210,7 @@ module.exports = function(grunt) {
   // Register build as the default task fallback
   grunt.registerTask('default', ['sass',
                                 'postcss',
+                                'cssmin',
                                 'concat',
                                 'uglify',
                                 'newer:imagemin',
@@ -202,6 +221,7 @@ module.exports = function(grunt) {
   // Serve with drafts too
   grunt.registerTask('drafts', ['sass',
                                 'postcss',
+                                'cssmin',
                                 'concat',
                                 'uglify',
                                 'newer:imagemin',
