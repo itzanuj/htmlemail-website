@@ -25,12 +25,10 @@
     // ga('require', 'linker');
     // ga('linker:autoLink', ['gumroad.com','gum.co'] );  
     window.addEventListener('load', function() {
-      window.setTimeout(function() {
-        var linkerParam = window.ga ? window.ga.getAll()[0].get('linkerParam') : '';
-        var iframe = document.querySelector('.gumroad-overlay-iframe');
-        iframe.src += iframe.src.indexOf('?') > -1 ? '&' + linkerParam : '?' + linkerParam;
-      }, 2000);
-    });
+	  var linkerParam = window.ga ? window.ga.getAll()[0].get('linkerParam') : '';
+	  var iframe = document.querySelector('.gumroad-overlay-iframe');
+	  iframe.src += iframe.src.indexOf('?') > -1 ? '&' + linkerParam : '?' + linkerParam;
+	});
 
     // Optimizely Universal Analytics Integration
     window.optimizely = window.optimizely || [];
