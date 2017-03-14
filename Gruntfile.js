@@ -153,7 +153,7 @@ module.exports = function(grunt) {
           '_assets/img/*.{png,jpg,gif}'
         ],
         tasks: [
-          'imagemin'
+          'newer:imagemin'
         ]
       },
       svg: {
@@ -161,7 +161,7 @@ module.exports = function(grunt) {
           '_assets/img/src/*.{svg}'
         ],
         tasks: [
-          'svg_sprite'
+          'newer:svg_sprite'
         ]
       }
     },
