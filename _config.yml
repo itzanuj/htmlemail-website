@@ -31,7 +31,17 @@ markdown: kramdown
 theme: minima
 
 # Exclude
-exclude: ['node_modules', 'bower_components']
+# Ignore /assets/* so that Grunt handles those
+exclude: ['node_modules', 
+          'bower_components', 
+          'Gemfile', 
+          'Gemfile.lock',
+          'Gruntfile.js',
+          'package.json',
+          '/_assets/css',
+          '/_assets/js',
+          '/_assets/img',
+          '/_assets/fonts',]
 
 # Gems
 gems: ['jekyll-paginate', 'jekyll-sitemap']
