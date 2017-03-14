@@ -19,7 +19,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'css/main.css': 'css/scss/main.scss'
+          '_assets/css/main.css': '_assets/css/scss/main.scss'
         }
       }
     },
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 
 
 
-    //Use PostCSS Autoprefixer to apply browser prefixes for certain styles
+    // Use PostCSS Autoprefixer to apply browser prefixes for certain styles
     postcss: {
       options: {
         map: false,
@@ -39,7 +39,27 @@ module.exports = function(grunt) {
         ]
       },
       dist: {
-        src: 'css/*.css'
+        files: {
+          'css/main.css': '_assets/css/main.css'
+        }
+      }
+    },
+
+
+
+
+
+    // Use minify CSS to minify the output
+    cssmin: {
+      options: {
+        mergeIntoShorthands: true,
+        roundingPrecision: -1,
+        'processImport': false
+      },
+      target: {
+        files: {
+          'css/main.css': ['css/main.css']
+        }
       }
     },
 
@@ -51,8 +71,8 @@ module.exports = function(grunt) {
     svg_sprite: {
       icons: {
         expand: true,
-        cwd: 'img',
-        src: ['**/*.svg'],
+        cwd: '_assets/img',
+        src: ['src/*.svg'],
         dest: 'img/',
         options: {
           mode: {
@@ -74,7 +94,7 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'img',
+          cwd: '_assets/img',
           src: ['*.{png,jpg,gif}'],
           dest: 'img'
         }]
@@ -98,9 +118,9 @@ module.exports = function(grunt) {
           'bower_components/moment/min/moment.min.js', 
           'node_modules/js-cookie/src/js.cookie.js', 
           'node_modules/lity/dist/lity.min.js', 
-          'js/main.js'
+          '_assets/js/main.js'
         ],
-        dest: 'js/build.js',
+        dest: '_assets/js/build.js',
       },
     },
 
@@ -108,7 +128,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'js/build.js': ['js/build.js']
+          'js/build.js': ['_assets/js/build.js']
         }
       }
     },
@@ -121,24 +141,27 @@ module.exports = function(grunt) {
     watch: {
       css: {
         files: [
-          'css/**/*.scss'
+          '_assets/css/**/*.scss'
         ],
         tasks: [
           'sass',
-          'postcss'
+          'postcss',
+          'cssmin'
         ]
       },
       scripts: {
         files: [
-          'js/**/*.js'
+          '_assets/js/**/*.js'
         ],
         tasks: [
-          'concat', 'uglify'
+          'concat',
+          'uglify'
         ]
       },
       html: {
         files: [
-          '**/*.{html,markdown,md}','!_site'
+          '**/*.{html,markdown,md}',
+          '!_site'
         ],
         tasks: [
           'shell:jekyllBuild'
@@ -146,45 +169,19 @@ module.exports = function(grunt) {
       },
       images: {
         files: [
-          'img/*.{png,jpg,gif}'
+          '_assets/img/*.{png,jpg,gif}'
         ],
         tasks: [
-          'imagemin'
+          'newer:imagemin'
         ]
       },
       svg: {
         files: [
-          'img/src/*.{svg}'
+          '_assets/img/src/*.{svg}'
         ],
         tasks: [
-          'svg_sprite'
+          'newer:svg_sprite'
         ]
-      }
-    },
-
-
-
-
-
-    // run tasks in parallel
-    concurrent: {
-      serve: [
-        'sass',
-        'postcss',
-        'concat',
-        'uglify',
-        'imagemin',
-        'svg_sprite',
-        'shell:jekyllServe',
-        'watch',
-      ],
-      serveDrafts: [
-        'sass',
-        'watch',
-        'shell:jekyllDrafts'
-      ],
-      options: {
-        logConcurrentOutput: true
       }
     },
 
@@ -212,9 +209,25 @@ module.exports = function(grunt) {
   ]);
 
   // Register build as the default task fallback
-  grunt.registerTask('default', 'serve');
+  grunt.registerTask('default', ['sass',
+                                'postcss',
+                                'cssmin',
+                                'concat',
+                                'uglify',
+                                'newer:imagemin',
+                                'newer:svg_sprite',
+                                'shell:jekyllServe',
+                                'watch']);
 
   // Serve with drafts too
-  grunt.registerTask('drafts', ['concurrent:serveDrafts']);
+  grunt.registerTask('drafts', ['sass',
+                                'postcss',
+                                'cssmin',
+                                'concat',
+                                'uglify',
+                                'newer:imagemin',
+                                'newer:svg_sprite',
+                                'shell:JekyllDrafts',
+                                'watch']);
 
 };
