@@ -170,32 +170,6 @@ module.exports = function(grunt) {
 
 
 
-    // run tasks in parallel
-    concurrent: {
-      serve: [
-        'sass',
-        'postcss',
-        'concat',
-        'uglify',
-        'imagemin',
-        'svg_sprite',
-        'shell:jekyllServe',
-        'watch',
-      ],
-      serveDrafts: [
-        'sass',
-        'watch',
-        'shell:jekyllDrafts'
-      ],
-      options: {
-        logConcurrentOutput: true
-      }
-    },
-
-
-
-
-
     shell: {
       jekyllBuild: {
         command: 'jekyll build'
@@ -216,9 +190,23 @@ module.exports = function(grunt) {
   ]);
 
   // Register build as the default task fallback
-  grunt.registerTask('default', 'serve');
+  grunt.registerTask('default', ['sass',
+                                'postcss',
+                                'concat',
+                                'uglify',
+                                'imagemin',
+                                'svg_sprite',
+                                'shell:jekyllServe',
+                                'watch']);
 
   // Serve with drafts too
-  grunt.registerTask('drafts', ['concurrent:serveDrafts']);
+  grunt.registerTask('drafts', ['sass',
+                                'postcss',
+                                'concat',
+                                'uglify',
+                                'imagemin',
+                                'svg_sprite',
+                                'shell:JekyllDrafts',
+                                'watch']);
 
 };
