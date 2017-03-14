@@ -28,4 +28,7 @@ $(document).ready(function(){
     event.preventDefault();
   });
 
+  // Initiate smooth scroll
+  smoothScroll.init();
+
 });
