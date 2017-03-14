@@ -53,7 +53,8 @@ module.exports = function(grunt) {
     cssmin: {
       options: {
         mergeIntoShorthands: true,
-        roundingPrecision: -1
+        roundingPrecision: -1,
+        'processImport': false
       },
       target: {
         files: {
