@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   // Rotate header text
   $("#typed").typed({
-    strings: ["Startups", "Developers", "Email Marketers", "Ecommerce", "Companies"],
+    strings: ["Startups", "Developers", "Mobile", "Email Marketers", "Ecommerce", "Professional Companies"],
     typeSpeed: 10,
     loop: true
   });
