@@ -41,6 +41,6 @@ exclude: ['node_modules',
           '_assets']
 
 # Gems
-gems: ['jekyll-paginate', 'jekyll-sitemap']
+gems: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-redirect-from']
 paginate: 100
 paginate_path: /blog/page/:num
