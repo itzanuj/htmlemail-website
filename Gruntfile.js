@@ -137,7 +137,7 @@ module.exports = function(grunt) {
 
 
 
-    //Watches files and folders for us
+    // Watches files and folders for us
     watch: {
       css: {
         files: [
@@ -161,7 +161,9 @@ module.exports = function(grunt) {
       html: {
         files: [
           '**/*.{html,markdown,md}',
-          '!_site'
+          '!**/node_modules/**',
+          '!**/bower_components/**',
+          '!_site/**'
         ],
         tasks: [
           'shell:jekyllBuild'
@@ -189,6 +191,26 @@ module.exports = function(grunt) {
 
 
 
+    // Concurrent run these commands
+    concurrent: {
+      all: {
+        tasks: ['shell:jekyllServe', 'watch'],
+        options: {
+          logConcurrentOutput: true
+        }
+      },
+      drafts: {
+        tasks: ['shell:jekyllDrafts', 'watch'],
+        options: {
+          logConcurrentOutput: true
+        }
+      }
+    },
+
+
+
+
+
     shell: {
       jekyllBuild: {
         command: 'jekyll build'
@@ -202,11 +224,6 @@ module.exports = function(grunt) {
     }
  
   });
- 
-  // Register the grunt serve task
-  grunt.registerTask('serve', [
-    'concurrent:serve'
-  ]);
 
   // Register build as the default task fallback
   grunt.registerTask('default', ['sass',
@@ -216,8 +233,7 @@ module.exports = function(grunt) {
                                 'uglify',
                                 'newer:imagemin',
                                 'newer:svg_sprite',
-                                'shell:jekyllServe',
-                                'watch']);
+                                'concurrent:all']);
 
   // Serve with drafts too
   grunt.registerTask('drafts', ['sass',
@@ -227,7 +243,6 @@ module.exports = function(grunt) {
                                 'uglify',
                                 'newer:imagemin',
                                 'newer:svg_sprite',
-                                'shell:JekyllDrafts',
-                                'watch']);
+                                'concurrent:drafts']);
 
 };
