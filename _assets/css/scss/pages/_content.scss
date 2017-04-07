@@ -12,8 +12,7 @@
   background: -webkit-linear-gradient(-45deg, $gradient3, $gradient4);
   background: linear-gradient(-45deg, $gradient3, $gradient4);   
   color: #fff;
-  padding-left: $padding*2;
-  padding-right: $padding*2;
+  padding: $padding $padding*2;
 
   a {
     color: inherit;
