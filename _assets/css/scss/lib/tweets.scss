@@ -1,0 +1,29 @@
+
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  padding: 16px;
+  margin: 10px 0;
+  max-width: 468px;
+  border: #eee 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  // color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+blockquote.twitter-tweet p {
+  margin: 0 5px 10px 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+blockquote.twitter-tweet a {
+  font-weight: normal;
+  color: #666;
+  // font-size: 12px;
+}
