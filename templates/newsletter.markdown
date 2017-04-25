@@ -14,7 +14,7 @@ description: Something...
     <p><img src="/img/preview-newsletter.jpg" alt="Litmus email tests" width="300"></p>
   </div>
   <div class="span3">
-    <p><a href="" class="btn btn-primary">Purchase all 8 templates for $49</a></p>
+    <h3>Description</h3>
     <p>Robust responsive email template for daily, weekly and monthly newsletters.</p>
     <h4>Responsive 3 column grid</h4>
     <p>Responsive on mobile.</p>
