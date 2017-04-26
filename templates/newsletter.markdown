@@ -2,57 +2,10 @@
 layout: template
 title:  "Newsletter Email Template"
 description: Something...
+desktop-preview: "/img/preview-newsletter-desktop-hd.jpg"
+mobile-preview: "/img/preview-newsletter-mobile-hd.jpg"
 ---
 
-<div class="group">
-  <div class="span6">
-    <h3>Desktop preview</h3>
-    <p><img src="/img/preview-newsletter.jpg" alt="Litmus email tests" width="600"></p>
-  </div>
-  <div class="span3">
-    <h3>Mobile preview</h3>
-    <p><img src="/img/preview-newsletter.jpg" alt="Litmus email tests" width="300"></p>
-  </div>
-  <div class="span3">
-    <h3>Description</h3>
-    <p>Robust responsive email template for daily, weekly and monthly newsletters.</p>
-    <h4>Responsive 3 column grid</h4>
-    <p>Responsive on mobile.</p>
-    <h4>Compatible with top clients and mailboxes</h4>
-    <ul class="">
-      <li>Apple iPhone, iPad</li>
-      <li>Gmail (web, mobile)</li>
-      <li>Google Android</li>
-      <li>Apple Mail</li>
-      <li>Outlook (2010, 11, 13, 15, 17)</li>
-      <li>Outlook.com</li>
-      <li>Yahoo! Mail</li>
-      <li>Windows Mail</li>
-      <li>Yandex</li>
-    </ul>
-    <h4>Compatible with 30+ email service providers</h4>
-    <ul class="">
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-    </ul>
-    <h4>Features included</h4>
-    <ul class="">
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-      <li>Mailchimp</li>
-    </ul>
-  </div>
-</div>
+<p>Robust responsive email template for daily, weekly and monthly newsletters. Responsive 3 column grid, works great on mobile. Social media icon assets for sharing and app store download buttons included.</p>
 
 

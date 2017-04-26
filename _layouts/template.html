@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="span6 text-right">
-        <a href="/" class="btn btn-primary btn-primary_hero">Get Email Templates</a>
+        <a href="/" class="btn btn-primary btn-primary_hero">View All Email Templates</a>
       </div>
     </div>
   </div>
@@ -18,11 +18,104 @@
 <div class="container">
 
   <h1>{{ page.title }}</h1>
-  <p><a href="" class="btn btn-secondary">Purchase this template for $10</a> <a href="" class="btn btn-primary">Purchase all 8 templates for $49</a></p>
+  <p><a href="https://gum.co/emailtemplates?wanted=true" data-gumroad-single-product="true" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-{{ page.title }}');">Buy 8 email templates for $49</a></p>
 
 
-  {{ content }}
+  <div class="group">
+    <div class="span6">
+      <h3>Desktop preview</h3>
+      <p><img src="{{ page.desktop-preview }}" alt="{{ page.title }} desktop preview" width="600"></p>
+    </div>
+    <div class="span3">
+      <h3>Mobile preview</h3>
+      <p><img src="{{ page.mobile-preview }}" alt="{{ page.title }} mobile preview" width="300"></p>
+    </div>
+    <div class="span3">
+      <h3>Description</h3>
+      {{ content }}
+      <h4>Email clients</h4>
+      <p>Compatible with top clients and mailboxes, including:</p>
+      <ul class="">
+        <li>Apple iPhone, iPad</li>
+        <li>Gmail (web, mobile)</li>
+        <li>Google Android</li>
+        <li>Apple Mail</li>
+        <li>Outlook (2010, 11, 13, 15, 17)</li>
+        <li>Outlook.com</li>
+        <li>Yahoo! Mail</li>
+        <li>Windows Mail</li>
+        <li>Yandex</li>
+      </ul>
+      <h4>Email service providers</h4>
+      <p>Compatible with all email service providers that support custom HTML, including:</p>
+      <ul class="">
+        <li>Mailchimp</li>
+        <li>Sendgrid</li>
+        <li>Mailgun</li>
+        <li>Hubspot</li>
+        <li>Campaign Monitor</li>
+        <li>Marketo</li>
+        <li>Constant Contact</li>
+        <li>Salesforce Marketing</li>
+        <li>MoonMail</li>
+        <li>Pardot</li>
+      </ul>
+      <h4>Template features</h4>
+      <ul class="">
+        <li>8 Beautiful email templates</li>
+        <li>Responsive on mobile</li>
+        <li>Inlined CSS and external stylesheet</li>
+        <li>6 Column grid</li>
+        <li>Retina ready image assets</li>
+      </ul>
+    </div>
+  </div>
 
 </div>
 
+<section class="full-section full-section-callout">
+  <div class="container">
+    <blockquote>
+      <img src="/img/mark.jpg" alt="Mark Studebaker" class="blockquote-avatar">
+      <p>I played around with other templates... what a pain in the butt. Your templates worked great! Love that you had them tested using Litmus and were WELL WORTH the cost. Great job.</p>
+      <cite>&mdash; <a href="https://flowmingo.com">Mark Studebaker, Flowmingo</a></cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="full-section">
+  <div class="container">
+    <h2>What others are saying</h2>
+    <div class="group">
+      <div class="span4">
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It was an absolute breeze to have responsive emails in production because of HTMLemail.io<br><br>Highly recommended!</p>&mdash; WeddingWoo (@weddingwoo) <a href="https://twitter.com/weddingwoo/status/771875324061638656">September 3</a></blockquote>
+
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Never create another responsive HTML email again with @leemunroe&#39;s handy pack of common templates HTMLemail.io</p>&mdash; Si Jobling (@Si) <a href="https://twitter.com/Si/status/763680619012452352">August 11</a></blockquote>
+      </div>
+      <div class="span4">
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">coding emails. what fun. at least I have @leemunroe&#39;s cool grunt email workflow to help with the too-much-fun i&#39;m having. i feel less alone!</p>&mdash; Raphaëlle Cantin (@ar_sea) <a href="https://twitter.com/ar_sea/status/722476438276935681">April 19</a></blockquote>
+
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Using @leemunroe’s HTML Email templates, which is saving so much time and headache: HTMLemail.io</p>&mdash; Kyle Gawley (@kylegawley) <a href="https://twitter.com/kylegawley/status/786180013079003136">October 12</a></blockquote>
+
+      </div>
+      <div class="span4">
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">And if you need a quick start guide into building HTML email templates, may I suggest @LeeMunroe’s fantastic post HTMLemail.io</p>&mdash; Patrick Haney (@notasausage) <a href="https://twitter.com/notasausage/status/674669458917605376">December 9</a></blockquote>
+
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">PROTIP: If you&#39;re building a responsive HTML email from scratch, you can&#39;t beat @leemunroe&#39;s simple starter template HTMLemail.io</p>&mdash; Chris Gabriel (@trampish) <a href="https://twitter.com/trampish/status/667766470433234944">November 20</a></blockquote>
+
+      </div>
+    </div>
+    <div class="text-center">
+      <h4>#1 on Product Hunt</h4>
+      <p>Top voted product on launch day with 2,000 votes &amp; ranked #1 in developer tools.</p>
+      <p><a href="https://www.producthunt.com/posts/html-email" onclick="ga('send', 'event', 'img', 'click', 'Product-Hunt');​"><img src="/img/ph.png" width="150" alt="Product Hunt logo"></a></p>
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I think I love you. I can already feel my email headaches flying away :-)</p>&mdash; Adam Davies
+  (Web Developer) <a href="https://www.producthunt.com/posts/html-email#comment-340701">August 11</a></blockquote>
+    </div>
+  </div>
+</section>
+
 {% include foot.html %}
+
+<!-- Gumroad -->
+<script src="https://gumroad.com/js/gumroad.js"></script>
