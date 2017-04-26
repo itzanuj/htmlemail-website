@@ -1,6 +1,6 @@
 ---
 layout: template
-title:  "Warning Alert Email Template"
+title:  "Warning Alert Email Template - HTML Email"
 description: "Template for alerts and notifications. Use this for dangerous alerts where the user needs to be highly aware of an event that has occured."
 desktop-preview: "/img/preview-alert-warning-desktop-hd.jpg"
 mobile-preview: "/img/preview-alert-danger-mobile-hd.jpg"

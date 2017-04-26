@@ -1,6 +1,6 @@
 ---
 layout: template
-title:  "Success Alert Email Template"
+title:  "Success Alert Email Template - HTML Email"
 description: "Template for alerts and notifications. Use this for successful or friendly alerts where the user is notified about something good that has happened."
 desktop-preview: "/img/preview-alert-success-desktop-hd.jpg"
 mobile-preview: "/img/preview-alert-danger-mobile-hd.jpg"
