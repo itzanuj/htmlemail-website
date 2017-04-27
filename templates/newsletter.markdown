@@ -1,6 +1,6 @@
 ---
 layout: template
-title:  "Newsletter Email Template - HTML Email"
+title:  "Newsletter Email Template"
 description: Something...
 desktop-preview: "/img/preview-newsletter-desktop-hd.jpg"
 mobile-preview: "/img/preview-newsletter-mobile-hd.jpg"
