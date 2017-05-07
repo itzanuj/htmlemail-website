@@ -9,7 +9,6 @@ $btn-br: 5px; // Button border-radius
 $padding: 80px; // Padding and margins
 $responsive-padding: 10px; // Padding and margins on mobile
 $line-height: 50px; // Consistent height for buttons, inputs etc.
-$font-color: #444;
 $font-stack:  "Work Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $heading-stack: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
@@ -36,8 +35,8 @@ $black: #111;
 
 // Project color variables
 $primary-color: $pink;
-$secondary-color: #FFCAB1;
-$tertiary-color: #69A2B0;
+$secondary-color: $purple;
+$tertiary-color: $orange;
 $quaternary-color: #659157;
 $quinary-color: #A1C084;
 
@@ -52,3 +51,5 @@ $success-color: $green; // Good color for success etc.
 $info-color: $blue; // Good color for success etc.
 $warning-color: $orange; // Good color for success etc.
 $subtle-color: $grey20; // Subtle color for subtle text
+
+$font-color: $grey80;

@@ -42,22 +42,7 @@ h1,
   font-weight: 400;
   margin: $padding 0 $padding/2;
   text-align: center;
-
-  &--banner {
-    background: transparent;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0 0 $padding/4;
-    text-align: center;
-    -webkit-text-fill-color: currentcolor; 
-
-    em {
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 200;
-    }
-  }
+  text-transform: capitalize;
 
   &--invert {
     color: #fff;
@@ -65,33 +50,35 @@ h1,
 }
 
 h2 {
-  background: $gradient2;
-  background: -webkit-linear-gradient(0deg, $gradient1, $gradient2);
-  background: linear-gradient(0deg, $gradient1, $gradient2); 
-  -webkit-background-clip: text;
-  font-size: 28px;
+  color: $secondary-color;
+  font-size: 36px;
   font-style: normal;
   font-weight: 400;
-  margin: 0 0 $padding/2;
+  margin: $padding auto $padding/2;
+  max-width: 600px;
   text-align: center;
-  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+
+  &:after {
+    background: $tertiary-color;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 20px auto 0;
+    width: 160px;
+  }
+
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 
 h3 {
-  color: $quaternary-color; 
+  color: $primary-color; 
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0 0 $padding/4;
-
-  &:after {
-    background: $gradient1;
-    content: "";
-    display: block;
-    height: 3px;
-    margin: 10px 0 20px;
-    width: 50px;
-  }
 }
 
 h4 {

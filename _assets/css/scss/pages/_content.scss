@@ -4,7 +4,7 @@
 
 .full-section {
   background: #fff;
-  padding: $padding/2;
+  padding: $padding 0;
 }
 
 .full-section-callout {
@@ -56,10 +56,9 @@
 
 // Why section
 .why-svg {
-  fill: $primary-color;
-  height: 50px;
+  height: 52px;
   margin-bottom: 10px;
-  width: 100%;
+  width: 64px;
 }
 
 
