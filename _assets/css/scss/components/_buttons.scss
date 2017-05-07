@@ -52,22 +52,15 @@
 }
 
 // Primary in hero
-.btn-primary_hero {
-  background-color: #fff;
+.btn-primary__header {
+  background-color: transparent;
   border-color: #fff;
-  color: $primary-color;
-  text-transform: uppercase;
+  color: #fff;
 
   &:hover,
   &:focus {
-    background: #f1f1f1;
-    border-color: #f1f1f1;
-    color: $primary-color;
-  }
-
-  &:active {
-    background: #f2f2f2;
-    border-color: #f2f2f2;
+    background: #fff;
+    border-color: #fff;
     color: $primary-color;
   }
 }
