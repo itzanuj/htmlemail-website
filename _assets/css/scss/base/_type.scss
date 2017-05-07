@@ -36,15 +36,12 @@ h5 {
 
 h1,
 .h1 {
-  background: $gradient2;
-  background: -webkit-linear-gradient(0deg, $gradient1, $gradient2);
-  background: linear-gradient(0deg, $gradient1, $gradient2); 
-  -webkit-background-clip: text;
-  font-size: 36px;
+  color: $primary-color;
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  margin: $padding/2 0 $padding/4;
-  -webkit-text-fill-color: transparent;
+  margin: $padding 0 $padding/2;
+  text-align: center;
 
   &--banner {
     background: transparent;
@@ -60,6 +57,10 @@ h1,
       font-style: normal;
       font-weight: 200;
     }
+  }
+
+  &--invert {
+    color: #fff;
   }
 }
 
