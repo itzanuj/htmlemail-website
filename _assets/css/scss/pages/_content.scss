@@ -8,28 +8,39 @@
 }
 
 .full-section-callout {
-  background: $gradient4;
-  background: -webkit-linear-gradient(-45deg, $gradient3, $gradient4);
-  background: linear-gradient(-45deg, $gradient3, $gradient4);   
-  color: #fff;
-  padding: $padding $padding*2;
+  padding: 0;
 
-  a {
-    color: inherit;
-    text-decoration: none;
+  blockquote {
+    background: $grey40;
+    border-radius: $br;
+    padding: $padding/2;
+
+    .blockquote-avatar {
+      border: 5px solid #fff;
+    }
+
+    cite {
+      font-weight: 600;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
   }
+}
+
+.blockquote-avatar {
+  border-radius: 80px;
+  float: left;
+  height: 80px;
+  margin: 0 20px 10px 0;
+  width: 80px;
 }
 
 .wide-section {
   margin-left: -80px;
   margin-right: -80px;
-}
-
-.blockquote-avatar {
-  border-radius: 70px;
-  float: left;
-  margin: 0 20px 10px 0;
-  max-height: 70px;
 }
 
 .full-section-fullscreen {
