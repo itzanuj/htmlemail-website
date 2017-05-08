@@ -40,7 +40,8 @@ h1,
   }
 }
 
-h2 {
+h2,
+.h2 {
   color: $secondary-color;
   font-size: 36px;
   font-style: normal;
@@ -61,6 +62,14 @@ h2 {
 
   &:first-of-type {
     margin-top: 0;
+  }
+
+  &--invert {
+    color: #fff;
+
+    &:after {
+      background: $purple;
+    }
   }
 }
 

@@ -77,46 +77,13 @@
 
 // Buy section
 .section-buy {
-  background: $gradient2;
-  background: -webkit-linear-gradient(-45deg, $gradient1 , $gradient2);
-  background: linear-gradient(-45deg, $gradient1 , $gradient2);     
-  color: white;
+  background-color: $primary-color;   
+  color: $grey20;
   padding: $padding;
-  text-align: center;
 
-  em {
-    color: rgba(white, .8);
-  }
-
-  .btn-group {
-    margin-bottom: $padding/2;
-  }
-
-  .heading-price {
-    margin-bottom: 15px;
-
-    strong {
-      font-size: 72px;
-    }
-  }
-
-  h2 {
-    background: transparent;
+  h2,
+  h3 {
     color: #fff;
-    -webkit-text-fill-color: currentcolor;
-  }
-
-  h4 {
-    margin-bottom: 15px;
-  }
-  
-  h4:after {
-    background: rgba(255,255,255,.6);
-    content: "";
-    display: block;
-    height: 2px;
-    margin: 10px auto 0;
-    width: 20px;
   }
 }
 
