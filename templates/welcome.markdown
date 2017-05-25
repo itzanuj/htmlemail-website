@@ -1,7 +1,7 @@
 ---
 layout: template
 title:  "Welcome Email Template"
-description: "Simple plain email template. Use this when you don't want to overwhelm the recipient with a styled HTML email and want to keep things simple."
+description: "Welcome email for when new users sign up to your service and you want to onboard them."
 desktop-preview: "/img/preview-welcome-desktop-hd.jpg"
 mobile-preview: "/img/preview-welcome-mobile-hd.jpg"
 ---

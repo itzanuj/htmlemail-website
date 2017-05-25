@@ -1,7 +1,7 @@
 ---
 layout: template
 title:  "Receipt &amp; Invoice Email Template"
-description: "Simple plain email template. Use this when you don't want to overwhelm the recipient with a styled HTML email and want to keep things simple."
+description: "Receipt and invoice template. Use this when user has just paid or owes a balance."
 desktop-preview: "/img/preview-receipt-desktop-hd.jpg"
 mobile-preview: "/img/preview-receipt-mobile-hd.jpg"
 ---
