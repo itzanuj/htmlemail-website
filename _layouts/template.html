@@ -5,21 +5,36 @@
 <div class="container">
 
   <h1>{{ page.title }}</h1>
-  <p><a href="https://gum.co/emailtemplates?wanted=true" data-gumroad-single-product="true" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-{{ page.title }}');">Buy 8 email templates for $49</a></p>
+  <p class="text-center"><a href="https://gum.co/emailtemplates?wanted=true" data-gumroad-single-product="true" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-{{ page.title }}');">Download 8 templates for $49</a></p>
 
 
   <div class="group">
+    <div class="span2">&nbsp;</div>
     <div class="span6">
       <h3>Desktop preview</h3>
       <p><img src="{{ page.desktop-preview }}" alt="{{ page.title }} desktop preview" width="600"></p>
     </div>
-    <div class="span3">
-      <h3>Mobile preview</h3>
+    <div class="span2">
+      <h3>Mobile</h3>
       <p><img src="{{ page.mobile-preview }}" alt="{{ page.title }} mobile preview" width="300"></p>
     </div>
-    <div class="span3">
-      <h3>Description</h3>
+    <div class="span2">&nbsp;</div>
+  </div>
+
+  <div class="group">
+    <div class="span4">
+      <h4>Description</h4>
       {{ content }}
+      <h4>Features include</h4>
+      <ul class="">
+        <li>8 Beautiful email templates</li>
+        <li>Responsive on mobile</li>
+        <li>Inlined CSS and external stylesheet</li>
+        <li>6 Column grid</li>
+        <li>Retina ready image assets</li>
+      </ul>
+    </div>
+    <div class="span4">
       <h4>Email clients</h4>
       <p>Compatible with top clients and mailboxes, including:</p>
       <ul class="">
@@ -33,6 +48,8 @@
         <li>Windows Mail</li>
         <li>Yandex</li>
       </ul>
+    </div>
+    <div class="span4">
       <h4>Email service providers</h4>
       <p>Compatible with all email service providers that support custom HTML, including:</p>
       <ul class="">
@@ -47,17 +64,8 @@
         <li>MoonMail</li>
         <li>Pardot</li>
       </ul>
-      <h4>Template features</h4>
-      <ul class="">
-        <li>8 Beautiful email templates</li>
-        <li>Responsive on mobile</li>
-        <li>Inlined CSS and external stylesheet</li>
-        <li>6 Column grid</li>
-        <li>Retina ready image assets</li>
-      </ul>
     </div>
   </div>
-
 </div>
 
 <section class="full-section full-section-callout">

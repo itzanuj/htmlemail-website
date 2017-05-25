@@ -85,24 +85,45 @@
   h3 {
     color: #fff;
   }
+
+  &__feature {
+    margin-bottom: $padding;
+  }
+
+  &__panel {
+    border: 1px solid $pink20;
+    border-radius: $br;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  &__heading {
+    color: #fff;
+    font-family: $heading-stack;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 0 20px; 
+
+    strong {
+      display: block;
+    }
+
+    em {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 200;
+    }
+  }
 }
 
-.heading-price {
-  background: transparent;
-  color: #fff;
-  font-family: $heading-stack;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0 0 $padding/4;
-  text-align: center;
-  -webkit-text-fill-color: currentcolor; 
 
-  em {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 200;
-  }
+
+
+
+// About section with author and FAQ
+.section-about {
+  background: $grey40;
 }
 
 

@@ -5,9 +5,8 @@ blockquote.twitter-tweet {
   padding: 16px;
   margin: 10px 0;
   max-width: 468px;
-  border: #eee 1px solid;
-  border-top-color: #eee;
-  border-bottom-color: #ddd;
+  background: $grey20;
+  // border: $grey20 1px solid;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   // color: #000;

@@ -4,14 +4,6 @@
 
 .container--blog {
   max-width: 800px;
-  padding-top: 60px;
-
-  h1,
-  h2 {
-    font-size: 48px;
-    margin: $padding 0 $padding/4;
-    text-align: left;
-  }
 }
 
 .header--blog {
@@ -68,7 +60,7 @@
 
 // Subscribe footer of post
 .post-subscribe {
-  background: $tertiary-color;
+  background: $grey60;
   color: #fff;
   margin-bottom: $padding/4;
   padding: 20px;
