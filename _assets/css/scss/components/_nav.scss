@@ -56,6 +56,11 @@ nav {
 // @include responsive($big-break) {
 // }
 @include responsive($small-break) {
+  .btn-primary--header,
+  .navbar--header {
+    display: none;
+  }
+
   .navbar li a {
     display: block;
     float: none;

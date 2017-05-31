@@ -136,8 +136,11 @@
 @include responsive($small-break) {
   .btn {
     display: block;
-    margin-bottom: 10px;
     width: 100%;
+
+    & + .btn {  
+      margin-top: 10px;
+    }
   }
 }
 
