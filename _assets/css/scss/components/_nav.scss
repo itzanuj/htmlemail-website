@@ -30,6 +30,10 @@ nav {
       &:focus {
         opacity: 1;
       }
+
+      &.active {
+        box-shadow: 0 3px 0 0 rgba(255, 255, 255, .4);
+      }
     }
   }
 

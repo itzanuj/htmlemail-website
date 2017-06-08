@@ -3,8 +3,9 @@
     <div class="group">
       <div class="span4">
         <nav class="navbar navbar--header">
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/inline">Inline CSS</a></li>
+          <li><a href="/blog"{% if page.layout == "post" or page.nav == "blog" %} class="active"{% endif %}>Blog</a></li>
+          <li><a href="/inline"{% if page.nav == "inline" %} class="active"{% endif %}>Inline CSS</a></li>
+          <li><a href="/send"{% if page.nav == "send" %} class="active"{% endif %}>Send Email</a></li>
         </ul>
       </div>
       <div class="span4">
