@@ -722,8 +722,16 @@ $(document).ready(function(){
     loop: true
   });
 
+
+
+
+
   // Tomorrow's date
   $("#tomorrow").html(moment().add(1, 'days').format('dddd MMMM Do'));
+
+
+
+
 
   // Show exit monitor
   // var closeExit = false;
@@ -735,6 +743,10 @@ $(document).ready(function(){
     }
   })
 
+
+
+
+
   // Close exit monitor
   $('.js-close-exit-overlay').click(function(event){
     $('.exit-overlay').hide();
@@ -742,7 +754,23 @@ $(document).ready(function(){
     event.preventDefault();
   });
 
+
+
+
+
   // Initiate smooth scroll
   smoothScroll.init();
 
+
+
+
+  // Sticky header
+  var $header = $(".header"),
+      $clone = $header.before($header.clone().addClass("header__clone"));
+
+  $(window).on("scroll", function() {
+    var fromTop = $("body").scrollTop();
+    $('body').toggleClass("js-show-header", (fromTop > 500));
+  });
+  
 });

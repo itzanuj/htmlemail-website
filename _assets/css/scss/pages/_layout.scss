@@ -6,7 +6,29 @@
   background-color: $primary-color;    
   color: white;
   padding: 10px 0;
+  position: relative;
+  width: 100%;
+
+  // Sticky header
+  &__clone {
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: -60px;
+    transition: 0.2s top cubic-bezier(.3,.73,.3,.74);
+    z-index: 999;
+  }
 }
+
+// Show sticky header
+body.js-show-header .header__clone {
+  top: 0;
+}
+
+
+
+
 
 .hero {
   background-color: $primary-color; 
