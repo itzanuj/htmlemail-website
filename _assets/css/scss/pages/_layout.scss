@@ -105,6 +105,11 @@ footer {
   header {
     height: auto;
   }
+
+  // Hide sticky header
+  .header__clone {
+    display: none !important;
+  }
 }
 @include responsive($small-break) {
 }
