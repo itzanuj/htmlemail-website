@@ -727,32 +727,39 @@ $(document).ready(function(){
 
 
   // Tomorrow's date
-  $("#tomorrow").html(moment().add(1, 'days').format('dddd MMMM Do'));
+  // $("#tomorrow").html(moment().add(1, 'days').format('dddd MMMM Do'));
 
 
 
 
 
   // Show exit monitor
-  // var closeExit = false;
-  $('body').mouseleave(function() {
-    if (Cookies.get('htmlemailExit') == null) { 
-      $('.exit-overlay').show();
-      // closeExit = true;
-      $('.exit-overlay input').focus();
-    }
-  })
-
-
-
-
+  // $('body').mouseleave(function() {
+  //   if (Cookies.get('htmlemailExit') == null) { 
+  //     $('.exit-overlay').show();
+  //     $('.exit-overlay input').focus();
+  //   }
+  // })
 
   // Close exit monitor
-  $('.js-close-exit-overlay').click(function(event){
-    $('.exit-overlay').hide();
-    Cookies.set("htmlemailExit", 1, { expires : 30 });
-    event.preventDefault();
-  });
+  // $('.js-close-exit-overlay').click(function(event){
+  //   $('.exit-overlay').hide();
+  //   Cookies.set("htmlemailExit", 1, { expires : 30 });
+  //   event.preventDefault();
+  // });
+
+  // <div class="exit-overlay">
+  //   <div class="exit-modal">
+  //     <h2>Wow there!</h2>
+  //     <p>Don't need the full set of email templates right now?</p>
+  //     <p class="align-center"><img src="img/preview-free.jpg" alt="Free email" width="400"></p>
+  //     <p>Subscribe to our list and we'll send you a free basic HTML email that you can preview, download and use today.</p>
+  //     <form action="//leemunroe.us1.list-manage.com/subscribe/post?u=1998df7f0f3a32bdf922938ca&amp;id=4bf2c8f8b9" method="post" class="subscribe-form__footer">
+  //       <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email address"> <button type="submit" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Subscribe-Email-List');">Subscribe</button>
+  //     </form>
+  //     <p><a href="#" class="js-close-exit-overlay" onclick="ga('send', 'event', 'button', 'click', 'No-Subscribe-Email-List');">No thanks</a></p>  
+  //   </div>
+  // </div>
 
 
 
