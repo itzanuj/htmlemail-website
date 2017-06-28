@@ -1,6 +1,6 @@
 ---
 layout: template
-title:  "Danger Alert Email Template"
+title:  "Responsive Danger Error Alert Email Template"
 description: "Template for alerts and notifications. Use this for dangerous alerts where the user needs to be highly aware of an event that has occured."
 desktop-preview: "/img/preview-alert-danger-desktop-hd.jpg"
 mobile-preview: "/img/preview-alert-danger-mobile-hd.jpg"

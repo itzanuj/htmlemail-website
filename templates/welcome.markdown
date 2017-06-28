@@ -1,6 +1,6 @@
 ---
 layout: template
-title:  "Welcome Email Template"
+title:  "Responsive Welcome Email Template"
 description: "Welcome email for when new users sign up to your service and you want to onboard them."
 desktop-preview: "/img/preview-welcome-desktop-hd.jpg"
 mobile-preview: "/img/preview-welcome-mobile-hd.jpg"

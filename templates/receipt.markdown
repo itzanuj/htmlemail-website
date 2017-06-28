@@ -1,6 +1,6 @@
 ---
 layout: template
-title:  "Receipt &amp; Invoice Email Template"
+title:  "Responsive Receipt &amp; Invoice Email Template"
 description: "Receipt and invoice template. Use this when user has just paid or owes a balance."
 desktop-preview: "/img/preview-receipt-desktop-hd.jpg"
 mobile-preview: "/img/preview-receipt-mobile-hd.jpg"
