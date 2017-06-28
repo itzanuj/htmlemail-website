@@ -5,7 +5,12 @@
 <div class="container">
 
   <h1>{{ page.title }}</h1>
-  <p class="text-center"><a href="https://gum.co/emailtemplates?wanted=true" data-gumroad-single-product="true" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-{{ page.title }}');">Download 8 templates for $49</a></p>
+  <p class="text-center">
+    <a href="https://gum.co/emailtemplates?wanted=true" data-gumroad-single-product="true" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-{{ page.title }}');">Download all 8 templates for $49</a>
+    {% if page.single-sale == true %}
+    <a href="#" class="btn btn-secondary js-fake-button" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-Test-{{ page.title }}');">Get this template for $14</a>
+    {% endif %}
+  </p>
 
 
   <div class="group">
