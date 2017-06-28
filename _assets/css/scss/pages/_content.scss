@@ -247,6 +247,32 @@
 
 
 
+
+// Checklist
+ul.check,
+ol.check {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 10px;
+
+  li {
+    margin-left: 0;
+
+    &:before {
+      background-image: url('../../img/check.png');
+      background-size: 16px 16px;
+      content:"";
+      display: inline-block;
+      height: 16px;
+      margin-right:5px;
+      width: 16px; 
+    }
+  }
+}
+
+
+
+
 // Responsive styles if needed
 @include responsive($big-break) {
   .full-section {

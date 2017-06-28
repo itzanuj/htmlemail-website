@@ -5,15 +5,15 @@
 <div class="container">
 
   <h1>{{ page.title }}</h1>
-  <p class="text-center">
+  <div class="template-actions">
     <a href="https://gum.co/emailtemplates?wanted=true" data-gumroad-single-product="true" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-{{ page.title }}');">Download all 8 templates for $49</a>
     {% if page.single-sale == true %}
     <a href="#" class="btn btn-secondary js-fake-button" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-Test-{{ page.title }}');">Get this template for $14</a>
     {% endif %}
-  </p>
+  </div>
 
 
-  <div class="group">
+  <div class="group template-previews">
     <div class="span1">&nbsp;</div>
     <div class="span7">
       <h3>Desktop preview</h3>
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="span3">
-      <h3>Mobile</h3>
+      <h3>Mobile preview</h3>
       <div class="mobile-preview">
         <img src="/img/iphone.png" alt="" class="mobile-preview__client">
         <img src="{{ page.mobile-preview }}" alt="{{ page.title }} mobile preview" class="mobile-preview__screenshot">
@@ -37,7 +37,7 @@
       <h4>Description</h4>
       {{ content }}
       <h4>Features include</h4>
-      <ul class="">
+      <ul class="check">
         <li>8 Beautiful email templates</li>
         <li>Responsive on mobile</li>
         <li>Inlined CSS and external stylesheet</li>
@@ -48,7 +48,7 @@
     <div class="span4">
       <h4>Email clients</h4>
       <p>Compatible with top clients and mailboxes, including:</p>
-      <ul class="">
+      <ul class="check">
         <li>Microsoft Outlook</li>
         <li>Apple Mail</li>
         <li>Gmail</li>
@@ -67,7 +67,7 @@
     <div class="span4">
       <h4>Email service providers</h4>
       <p>Compatible with all email service providers that support custom HTML, including:</p>
-      <ul class="">
+      <ul class="check">
         <li>Mailchimp</li>
         <li>Sendgrid</li>
         <li>Mailgun</li>

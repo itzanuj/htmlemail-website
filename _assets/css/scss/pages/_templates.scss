@@ -29,6 +29,20 @@
 
 
 
+
+
+// Buttons and actions
+.template-actions {
+  margin-bottom: $padding/2;
+  text-align: center;
+}
+
+.template-previews {
+  margin-bottom: $padding/2;
+}
+
+
+
 // Responsive styles if needed
 @include responsive($big-break) {
 }
