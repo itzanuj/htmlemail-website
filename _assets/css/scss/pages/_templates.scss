@@ -1,0 +1,41 @@
+//**
+// Templates
+//**
+
+.desktop-preview {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .5);
+
+  img {
+    display: block;
+  }
+}
+
+.mobile-preview {
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, .5));
+  position: relative;
+
+  .mobile-preview__screenshot {
+    left: 7.1%;
+    position: absolute;
+    top: 13.6%;
+    width: 86%;
+  }
+
+  img {
+    display: block;
+  }
+}
+
+
+
+// Responsive styles if needed
+@include responsive($big-break) {
+}
+@include responsive($small-break) {
+}
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }
