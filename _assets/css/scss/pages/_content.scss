@@ -81,9 +81,9 @@
   color: $grey20;
   padding: $padding;
 
-  h2,
-  h3 {
-    color: #fff;
+  &__heading {
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   &__feature {
@@ -91,29 +91,34 @@
   }
 
   &__panel {
-    border: 1px solid $pink20;
+    background: $grey80;
     border-radius: $br;
+    color: #fff;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: $padding/2;
   }
 
-  &__heading {
+  &__price {
     color: #fff;
     font-family: $heading-stack;
-    font-size: 32px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 600;
     margin: 0 0 20px; 
+  }
 
-    strong {
-      display: block;
-    }
+  &__list {
+    font-size: 14px;
+    list-style: none;
+    padding-left: 0;
 
-    em {
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 200;
+    li {
+      padding-left: 0;
     }
+  }
+
+  .btn {
+    display: block;
   }
 }
 
