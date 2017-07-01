@@ -792,5 +792,19 @@ $(document).ready(function(){
     }
     return false;
   });
+
+
+
+
+
+  // CSS Inliner
+  var input = $("#input");
+  var output = $("#output");
+  
+  input.on("keyup", function() {
+    var outputContent = output.val();
+    document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape(outputContent);
+  });
+
   
 });

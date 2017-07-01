@@ -6,8 +6,8 @@
 <head>
   
   <meta charset="utf-8">
-  <title>Inline CSS for HTML Email</title>
-  <meta name="description" content="Use these tools to inline your CSS styles in HTML for your email templates.">
+  <title>Responsive CSS Inliner for HTML Email</title>
+  <meta name="description" content="Use our CSS inliner tool to inline your CSS styles in HTML for your email templates and to ensure they render properly in your customers email clients.">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
@@ -41,16 +41,23 @@
 
 <div class="container container--blog">
 
-  <h1>Inline CSS for HTML Email</h1>
+  <h1>Responsive CSS Inliner for HTML Email</h1>
 
 
-  <p>As <strong>email clients are unpredictable</strong>, and even today many clients strip styles that are not inlined, it is important to inline your CSS before sending. Don't risk your transactional emails or marketing campaigns falling apart.</p>
-<p>We recommend using Juice CSS Inliner to <strong>inline your CSS before sending</strong>. We use this for our own templates and as it is an open source project it is constantly being working on and improved.</p>
-<div class="align-center wide-section">
-  <p><a href="http://automattic.github.io/juice/" onclick="ga('send', 'event', 'img', 'click', 'Juice-inliner');" target="_blank" rel=”nofollow”><img src="../img/juice.jpg" alt="Juice CSS Inliner for HTML Email"></a></p>
+  <div class="inliner">
+  <div class="inliner__input">
+    <textarea id="input"></textarea>
+    <div id="err"></div>
+  </div>
+  <div class="inliner__output">
+    <textarea id="output" readonly></textarea>
+  </div>
+  <div class="inliner__preview">
+    <iframe id="email-preview" class="inliner__preview-iframe"></iframe>
+  </div>
 </div>
-<p>Our <a href="/#templates">email templates</a> come packaged with an inlined version and a non-inlined version so they are ready to go. However once you edit and modify your templates you potentially might have to inline them again. For this we recommend using Juice.</p>
-<p>Just paste your HTML in to the input box, see the output being generated, then copy and paste this in to your email service provider.</p>
+
+<script src="http://automattic.github.io/juice/index.build.js" defer></script>
 
 
 </div>
