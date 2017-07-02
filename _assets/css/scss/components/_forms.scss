@@ -30,6 +30,10 @@ textarea {
   &.full-width {
     width: 100%;
   }
+
+  &:read-only {
+    background-color: $grey20;
+  }
 }
 
 textarea {

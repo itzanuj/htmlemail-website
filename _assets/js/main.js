@@ -86,11 +86,19 @@ $(document).ready(function(){
   // CSS Inliner
   var input = $("#input");
   var output = $("#output");
+  document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape("<div style='font-family: sans-serif; font-size: 14px; text-align: center; color: #999; margin-top: 20px;'>Input your HTML to preview it here.</div>");
   
   input.on("keyup", function() {
     var outputContent = output.val();
     document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape(outputContent);
   });
+
+  $(".js-copy-output").click(function(){
+    $("#output").select();
+    document.execCommand('copy');
+    $(this).after(" <small class='subtle js-copied'>Copied</small>");
+    $(".js-copied").fadeOut(2000);
+});
 
   
 });
