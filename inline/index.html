@@ -1,10 +1,11 @@
 ---
-layout: inliner
+layout: page
 title: HTML Email Responsive CSS Inliner
 description: Use our CSS inliner tool to inline your CSS styles in HTML for your email templates and to ensure they render properly in your customers email clients.
 nav: inline
 ---
 
+<div class="container--inliner">
 <div class="group">
   <div class="span5">
     <div class="inliner__input">
@@ -27,11 +28,12 @@ nav: inline
     </div>
   </div>
 </div>
+</div>
 
 <h2>Why should you inline CSS in HTML emails?</h2>
 
 <p>As email clients are unpredictable, and even today many clients strip styles that are not inlined, it is important to inline your CSS before sending. Don't risk your transactional emails or marketing campaigns falling apart.</p>
 
-<p>We recommend using Juice CSS Inliner to inline your CSS before sending. We use this for our own templates and as it is an open source project it is constantly being working on and improved.</p>
+<p>Our CSS inliner is powered by <a href="https://github.com/Automattic/juice" target="_blank">Juice</a>. You can inline your CSS above then copy the output into your email service provider or codebase. Or you can use a Juice module and inline the CSS in your codebase. We use this for our own templates and as it is an open source project it is constantly being working on and improved.</p>
 
 <script src="http://automattic.github.io/juice/index.build.js" defer></script>
