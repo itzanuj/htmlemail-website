@@ -49,6 +49,7 @@
   .inliner__preview-client {
     box-shadow: 0 20px 40px rgba(0, 0, 0, .5);
     height: calc(100% - 60px);
+    max-height: 1000px;
 
     img {
       display: block;
@@ -63,7 +64,8 @@
 // Preview
 .inliner__preview-iframe {
   border: none;
-  height: 100%;
+  height: calc(100% - 60px);
+  max-height: 1000px;
   width: 100%;
 }
 
