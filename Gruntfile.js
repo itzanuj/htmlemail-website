@@ -117,7 +117,7 @@ module.exports = function(grunt) {
           'node_modules/smooth-scroll/dist/js/smooth-scroll.min.js', 
           'bower_components/moment/min/moment.min.js', 
           'node_modules/js-cookie/src/js.cookie.js', 
-          'node_modules/lity/dist/lity.min.js', 
+          'node_modules/lity/dist/lity.min.js',
           '_assets/js/main.js'
         ],
         dest: '_assets/js/build.js',
@@ -130,6 +130,16 @@ module.exports = function(grunt) {
         files: {
           'js/build.js': ['_assets/js/build.js']
         }
+      }
+    },
+
+    // Copy JS
+    copy: {
+      main: {
+        expand: true, 
+        flatten: true,
+        src: '_assets/js/inliner.js', 
+        dest: 'js/'
       }
     },
  
@@ -231,6 +241,7 @@ module.exports = function(grunt) {
                                 'cssmin',
                                 'concat',
                                 'uglify',
+                                'copy',
                                 'newer:imagemin',
                                 'newer:svg_sprite',
                                 'concurrent:all']);
@@ -241,6 +252,7 @@ module.exports = function(grunt) {
                                 'cssmin',
                                 'concat',
                                 'uglify',
+                                'copy',
                                 'newer:imagemin',
                                 'newer:svg_sprite',
                                 'concurrent:drafts']);

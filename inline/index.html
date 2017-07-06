@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HTML Email Responsive CSS Inliner
+title: Responsive HTML Email CSS Inliner
 description: Use our CSS inliner tool to inline your CSS styles in HTML for your email templates and to ensure they render properly in your customers email clients.
 nav: inline
 ---
@@ -8,12 +8,12 @@ nav: inline
 <div class="container--inliner">
 <div class="group">
   <div class="span5">
-    <div class="inliner__input">
-      <label for="input" autofocus>Input your source HTML/CSS</label>
-      <textarea id="input" class="inliner__input-editor"></textarea>
+    <div class="inliner__input form-field">
+      <label for="input">Input your source HTML/CSS</label>
+      <textarea id="input" class="inliner__input-editor" autofocus></textarea>
       <div id="err"></div>
     </div>
-    <div class="inliner__output">
+    <div class="inliner__output form-field">
       <label for="output">Copy your inlined HTML/CSS</label>
       <textarea id="output" readonly class="inliner__output-editor"></textarea>
       <button class="btn btn-primary btn-sm js-copy-output">Copy</button>
@@ -36,4 +36,4 @@ nav: inline
 
 <p>Our CSS inliner is powered by <a href="https://github.com/Automattic/juice" target="_blank">Juice</a>. You can inline your CSS above then copy the output into your email service provider or codebase. Or you can use a Juice module and inline the CSS in your codebase. We use this for our own templates and as it is an open source project it is constantly being working on and improved.</p>
 
-<script src="http://automattic.github.io/juice/index.build.js" defer></script>
+<script src="/js/inliner.js" defer></script>
