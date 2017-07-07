@@ -1,7 +1,7 @@
 ---
 layout: template
 title:  "Responsive Monthly Newsletter Email Template"
-description: Something...
+description: "Newsletter template for monthly, weekly or daily newsletters. 2 column and 3 column grid layout. Responsive for all mobile email clients. Ready to send."
 desktop-preview: "/img/preview-newsletter-desktop-hd.jpg"
 mobile-preview: "/img/preview-newsletter-mobile-hd.jpg"
 single-sale: true
