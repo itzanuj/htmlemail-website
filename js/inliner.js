@@ -10970,7 +10970,7 @@ exports.getDefaultOptions = function(options) {
     extraCss: '',
     applyStyleTags: true,
     removeStyleTags: true,
-    preserveMediaQueries: false,
+    preserveMediaQueries: true,
     preserveFontFaces: false,
     applyWidthAttributes: false,
     applyHeightAttributes: false,

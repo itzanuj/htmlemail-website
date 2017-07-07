@@ -165,7 +165,8 @@ module.exports = function(grunt) {
         ],
         tasks: [
           'concat',
-          'uglify'
+          'uglify',
+          'copy'
         ]
       },
       html: {
