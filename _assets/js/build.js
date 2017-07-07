@@ -800,20 +800,27 @@ $(document).ready(function(){
   // CSS Inliner
   var input = $("#input");
   var output = $("#output");
+
+  // Set default hint text
   document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape("<div style='font-family: sans-serif; font-size: 14px; text-align: center; color: #999; margin-top: 20px;'>Input your HTML to preview it here.</div>");
   
+  // On typing take the output value and render it in iframe
   input.on("keyup", function() {
     var outputContent = output.val();
     document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape(outputContent);
+    ga('send', 'event', 'input', 'type', 'Input HTML');
   });
 
+  // Copy the output value to clipboard
   $(".js-copy-output").click(function(){
     $("#output").select();
     document.execCommand('copy');
+    ga('send', 'event', 'button', 'click', 'Copy Inlined CSS');
     $(this).after(" <small class='subtle js-copied'>Copied</small>");
     $(".js-copied").fadeOut(2000);
   });
 
+  // Select all the output on click
   output.on('click', function() {
     output.select();
   })
