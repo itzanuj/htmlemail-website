@@ -144,6 +144,15 @@ a {
 
 
 
+// Selected elements
+::selection {
+  background: $pink;
+  color: #fff;
+}
+
+
+
+
 // Typed blinker
 .typed-cursor{
   opacity: 1;

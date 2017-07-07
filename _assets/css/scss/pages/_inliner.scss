@@ -71,6 +71,48 @@
 
 
 
+
+
+// Examples
+.example {
+
+  margin-bottom: $padding/2;
+
+  img {
+    display: block;
+    margin: 0 auto $padding/4 auto;
+  }
+
+  h5 {
+    border-top: 5px solid;
+    margin: 0 0 5px;
+    padding-top: 5px
+  }
+
+  p {
+    color: $grey60;
+    font-size: 14px;
+  }
+
+  &__good {
+
+    h5 {
+      border-color: $green;
+      color: $green;
+    }
+  }
+
+  &__bad {
+
+    h5 {
+      border-color: $red; 
+      color: $red;
+    }
+  }
+}
+
+
+
 // Responsive styles if needed
 @include responsive($big-break) {
 }

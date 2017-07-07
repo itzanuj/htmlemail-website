@@ -812,7 +812,11 @@ $(document).ready(function(){
     document.execCommand('copy');
     $(this).after(" <small class='subtle js-copied'>Copied</small>");
     $(".js-copied").fadeOut(2000);
-});
+  });
+
+  output.on('click', function() {
+    output.select();
+  })
 
   
 });
