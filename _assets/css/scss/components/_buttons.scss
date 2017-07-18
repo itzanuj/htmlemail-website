@@ -9,7 +9,7 @@
   border: 1px solid $primary-color;
   color: $primary-color;
   display: inline-block;
-  height: $line-height;
+  min-height: $line-height;
   line-height: $line-height;
   outline: none;
   padding: 0 30px;
@@ -56,7 +56,7 @@
   background-color: transparent;
   border-color: #fff;
   color: #fff;
-  height: $header-line-height;
+  min-height: $header-line-height;
   line-height: $header-line-height;
   padding: 0 15px;
 
@@ -85,14 +85,14 @@
 // Larger button
 .btn-lg {
   font-size: 1.4em;
-  height: $line-height*1.5;
+  min-height: $line-height*1.5;
   padding: 0 60px;
 }
 
 // Smaller button
 .btn-sm {
   font-size: .85em;
-  height: $line-height*.7;
+  min-height: $line-height*.7;
   line-height: $line-height*.7;
   padding: 0 10px;
 }
