@@ -802,8 +802,10 @@ $(document).ready(function(){
   var output = $("#output");
 
   // Set default hint text
-  if (document.getElementById('email-preview') > 0) {
-    document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape("<div style='font-family: sans-serif; font-size: 14px; text-align: center; color: #999; margin-top: 20px;'>Input your HTML to preview it here.</div>");
+  var preview = document.getElementById('email-preview');
+  if (typeof(preview) != 'undefined' && preview != null) {
+    console.log("hi");
+    preview.src = "data:text/html;charset=utf-8," + escape("<div style='font-family: sans-serif; font-size: 14px; text-align: center; color: #999; margin-top: 20px;'>Input your HTML to preview it here.</div>");
   }
   
   // On typing take the output value and render it in iframe
