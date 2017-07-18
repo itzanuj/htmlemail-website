@@ -111,5 +111,30 @@ $(document).ready(function(){
     output.select();
   })
 
+
+
+
+
+  // Show copy monitor
+  $(".js-copy-output").click(function(){
+    if (Cookies.get('htmlemailCopy') == null) { 
+      $('.exit-overlay').show();
+      $('.exit-overlay input').focus();
+    }
+  })
+
+  // Close copy monitor
+  $('.js-close-copy-overlay').click(function(event){
+    $('.exit-overlay').hide();
+    Cookies.set("htmlemailCopy", 1, { expires : 30 });
+    event.preventDefault();
+  });
+
+  // Submit copy monitor
+  $('.js-submit-copy-overlay').click(function(event){
+    $('.exit-overlay').hide();
+    Cookies.set("htmlemailCopy", 1, { expires : 30 });
+  });
+
   
 });
