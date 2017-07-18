@@ -96,6 +96,7 @@
     color: #fff;
     margin-bottom: 20px;
     padding: $padding/2;
+    text-align: center;
   }
 
   &__price {
@@ -108,12 +109,17 @@
   }
 
   &__list {
-    font-size: 14px;
+    // font-size: 14px;
     list-style: none;
     padding-left: 0;
 
     li {
-      padding-left: 0;
+      border-top: 1px dashed rgba($grey60, .5);
+      padding: 10px 0;
+
+      &:last-child {
+        border-bottom: 1px dashed rgba($grey60, .5);
+      }
     }
   }
 
