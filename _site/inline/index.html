@@ -69,7 +69,7 @@
 </div>
 </div>
 
-<h2>Why should you inline CSS in HTML emails?</h2>
+<h2>Why you should inline CSS<br> in HTML emails</h2>
 
 <p>As email clients are unpredictable, and even today many clients strip styles that are not inlined, it is important to inline your CSS before sending. Don't risk your transactional emails or marketing campaigns falling apart.</p>
 
@@ -106,6 +106,24 @@
   </div>
 </div>
 
+<h2>How CSS inlining works</h2>
+<p>Paste your HTML with embedded CSS into the input field. We'll take your embedded CSS and inline those styles making your email templates bullet proof for any email client.</p>
+<div class="group">
+  <div class="span6">
+    <div class="example example__bad">
+      <img src="/img/code-notinlined.jpg" alt="Code with embedded CSS">
+      <h5>Before with embedded CSS</h5>
+      <p>Embedded CSS at the top of your HTML is easier for developers to maintain and manage, but certain email clients don't like it.</p>
+    </div>
+  </div>
+  <div class="span6">
+    <div class="example example__good">
+      <img src="/img/code-inlined.jpg" alt="Code with inlined CSS">
+      <h5>After with inlined CSS</h5>
+      <p>Inlined CSS behaves in all email clients but it's not the easiest or prettiest to write. Our inliner does it for you.</p>
+    </div>
+  </div>
+</div>
 <p>Our CSS inliner is powered by <a href="https://github.com/Automattic/juice" target="_blank">Juice</a>. We use this for our own templates and as it is an open source project it is constantly being working on and improved. You can inline your CSS above then copy the output into your email service provider or codebase. Or you can use a Juice module and inline the CSS in your codebase before your emails are sent.</p>
 
 <script src="/js/inliner.js" defer></script>
