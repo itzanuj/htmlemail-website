@@ -838,7 +838,13 @@ $(document).ready(function(){
       $('.exit-overlay').show();
       $('.exit-overlay input').focus();
     }
-  })
+  });
+  $("#output").click(function(){
+    if (Cookies.get('htmlemailCopy') == null) { 
+      $('.exit-overlay').show();
+      $('.exit-overlay input').focus();
+    }
+  });
 
   // Close copy monitor
   $('.js-close-copy-overlay').click(function(event){
