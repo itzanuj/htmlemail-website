@@ -92,10 +92,10 @@ $(document).ready(function(){
   var savedInput = localStorage.getItem("cssInlinerInput");
   var savedOutput = localStorage.getItem("cssInlinerOutput");
 
-  if (savedInput != null) {
+  if (preview && savedInput != null) {
     input.val(savedInput);
     output.val(savedOutput);
-    document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape(savedOutput);
+    preview.src = "data:text/html;charset=utf-8," + escape(savedOutput);
   } else if (typeof(preview) != 'undefined' && preview != null) {
     preview.src = "data:text/html;charset=utf-8," + escape("<div style='font-family: sans-serif; font-size: 14px; text-align: center; color: #999; margin-top: 20px;'>Input your HTML to preview it here.</div>");
   }
