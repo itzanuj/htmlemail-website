@@ -82,6 +82,25 @@ $(document).ready(function(){
 
 
 
+  // Set cursor position
+  $.fn.setCursorPosition = function (pos) {
+    this.each(function (index, elem) {
+        if (elem.setSelectionRange) {
+            elem.setSelectionRange(pos, pos);
+        } else if (elem.createTextRange) {
+            var range = elem.createTextRange();
+            range.collapse(true);
+            range.moveEnd('character', pos);
+            range.moveStart('character', pos);
+            range.select();
+        }
+    });
+    return this;
+  };
+
+
+
+
 
   // CSS Inliner
   var input = $("#input");
@@ -94,6 +113,7 @@ $(document).ready(function(){
 
   if (preview && savedInput != null) {
     input.val(savedInput);
+    input.focus().scrollTop(0).setCursorPosition(0);
     output.val(savedOutput);
     preview.src = "data:text/html;charset=utf-8," + escape(savedOutput);
   } else if (typeof(preview) != 'undefined' && preview != null) {
