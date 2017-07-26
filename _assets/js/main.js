@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   // Show exit monitor
   // $('body').mouseleave(function() {
-  //   if (Cookies.get('htmlemailExit') == null) { 
+  //   if (Cookies.get('htmlemailExit') == null) {
   //     $('.exit-overlay').show();
   //     $('.exit-overlay input').focus();
   //   }
@@ -43,7 +43,7 @@ $(document).ready(function(){
   //     <form action="//leemunroe.us1.list-manage.com/subscribe/post?u=1998df7f0f3a32bdf922938ca&amp;id=4bf2c8f8b9" method="post" class="subscribe-form__footer">
   //       <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email address"> <button type="submit" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Subscribe-Email-List');">Subscribe</button>
   //     </form>
-  //     <p><a href="#" class="js-close-exit-overlay" onclick="ga('send', 'event', 'button', 'click', 'No-Subscribe-Email-List');">No thanks</a></p>  
+  //     <p><a href="#" class="js-close-exit-overlay" onclick="ga('send', 'event', 'button', 'click', 'No-Subscribe-Email-List');">No thanks</a></p>
   //   </div>
   // </div>
 
@@ -71,10 +71,10 @@ $(document).ready(function(){
 
 
   // Fake button test
-  $(".js-fake-button").click(function() { 
+  $(".js-fake-button").click(function() {
     var email = prompt("Thanks for your interest. Buying single templates is coming soon. Enter your email below and we'll email you as soon as it is ready. In the mean time use code 'ship10' for 10% off buying our pack of 8 templates.");
     if(email){
-      ga('send', 'event', 'data', 'waiting-for-newsletter', email); 
+      ga('send', 'event', 'data', 'waiting-for-newsletter', email);
     }
     return false;
   });
@@ -89,15 +89,26 @@ $(document).ready(function(){
 
   // Set default hint text
   var preview = document.getElementById('email-preview');
-  if (typeof(preview) != 'undefined' && preview != null) {
+  var savedInput = localStorage.getItem("cssInlinerInput");
+  var savedOutput = localStorage.getItem("cssInlinerOutput");
+
+  if (savedInput != null) {
+    input.val(savedInput);
+    output.val(savedOutput);
+    document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape(savedOutput);
+  } else if (typeof(preview) != 'undefined' && preview != null) {
     preview.src = "data:text/html;charset=utf-8," + escape("<div style='font-family: sans-serif; font-size: 14px; text-align: center; color: #999; margin-top: 20px;'>Input your HTML to preview it here.</div>");
   }
-  
+
   // On typing take the output value and render it in iframe
   input.on("keyup", function() {
+    var inputContent = input.val();
     var outputContent = output.val();
     document.getElementById('email-preview').src = "data:text/html;charset=utf-8," + escape(outputContent);
-    ga('send', 'event', 'input', 'type', 'Input HTML');
+
+    // Save value locally for next visit
+    localStorage.setItem("cssInlinerInput", inputContent);
+    localStorage.setItem("cssInlinerOutput", outputContent);
   });
 
   // Copy the output value to clipboard
@@ -112,6 +123,7 @@ $(document).ready(function(){
   // Select all the output on click
   output.on('click', function() {
     output.select();
+    ga('send', 'event', 'input', 'click', 'Select Inlined CSS');
   })
 
 
@@ -120,13 +132,13 @@ $(document).ready(function(){
 
   // Show copy monitor
   $(".js-copy-output").click(function(){
-    if (Cookies.get('htmlemailCopy') == null) { 
+    if (Cookies.get('htmlemailCopy') == null) {
       $('.exit-overlay').show();
       $('.exit-overlay input').focus();
     }
   });
   $("#output").click(function(){
-    if (Cookies.get('htmlemailCopy') == null) { 
+    if (Cookies.get('htmlemailCopy') == null) {
       $('.exit-overlay').show();
       $('.exit-overlay input').focus();
     }
@@ -145,5 +157,5 @@ $(document).ready(function(){
     Cookies.set("htmlemailCopy", 1, { expires : 30 });
   });
 
-  
+
 });

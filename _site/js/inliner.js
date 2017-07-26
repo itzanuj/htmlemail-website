@@ -3553,7 +3553,7 @@ exports.load = function(content, options) {
   // Mimic jQuery's prototype alias for plugin authors.
   initialize.fn = initialize.prototype;
 
-  // Keep a reference to the top-level scope so we can chain methods that implicitly 
+  // Keep a reference to the top-level scope so we can chain methods that implicitly
   // resolve selectors; e.g. $("<span>").(".bar"), which otherwise loses ._root
   initialize.prototype._originalRoot = root;
 
@@ -4140,7 +4140,7 @@ var attributeRules = {
     if(len === 0){
       return falseFunc;
     }
-    
+
     if(data.ignoreCase){
       value = value.toLowerCase();
 
@@ -4519,11 +4519,11 @@ module.exports={
 },{}],24:[function(require,module,exports){
 /*
   pseudo selectors
-  
+
   ---
-  
+
   they are available in two forms:
-  * filters called when the selector 
+  * filters called when the selector
     is compiled and return a function
     that needs to return next()
   * pseudos get called on execution
@@ -4980,7 +4980,7 @@ function parse(selector, options){
       tokens = [],
       sawWS = false,
       data, firstChar, name;
-  
+
   function getName(){
     var sub = selector.match(re_name)[0];
     selector = selector.substr(sub.length);
@@ -5063,18 +5063,18 @@ function parse(selector, options){
           value: unescapeCSS(data[4] || data[5] || ""),
           ignoreCase: !!data[6]
         });
-        
+
       } else if(firstChar === ":"){
         //if(selector.charAt(0) === ":"){} //TODO pseudo-element
         name = getName().toLowerCase();
         data = null;
-        
+
         if(selector.charAt(0) === "("){
           var pos = getClosingPos(selector);
           data = selector.substr(1, pos - 2);
           selector = selector.substr(pos);
         }
-        
+
         tokens.push({type: "pseudo", name: name, data: data});
       } else {
         //otherwise, the parser needs to throw or it would enter an infinite loop
@@ -5082,7 +5082,7 @@ function parse(selector, options){
       }
     }
   }
-  
+
   if(subselects.length > 0 && tokens.length === 0){
     throw new SyntaxError("empty sub-selector");
   }
@@ -6120,7 +6120,7 @@ CSSOM.CSSValueExpression.prototype._parseJSComment = function(token, idx) {
  * @return {Object|false}
  *          - idx:
  *          - text:
- *          or 
+ *          or
  *          false
  *
  */
@@ -6147,14 +6147,14 @@ CSSOM.CSSValueExpression.prototype._parseJSString = function(token, idx, sep) {
  * @return {Object|false}
  *         - idx:
  *         - regExp:
- *         or 
+ *         or
  *         false
  */
 
 /*
 
 all legal RegExp
- 
+
 /a/
 (/a/)
 [/a/]
@@ -7586,7 +7586,7 @@ exports.prepend = function(elem, prev){
   if(elem.prev){
     elem.prev.next = prev;
   }
-  
+
   prev.parent = parent;
   prev.prev = elem.prev;
   prev.next = elem;
