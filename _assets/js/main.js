@@ -71,13 +71,13 @@ $(document).ready(function(){
 
 
   // Fake button test
-  $(".js-fake-button").click(function() {
-    var email = prompt("Thanks for your interest. Buying single templates is coming soon. Enter your email below and we'll email you as soon as it is ready. In the mean time use code 'ship10' for 10% off buying our pack of 8 templates.");
-    if(email){
-      ga('send', 'event', 'data', 'waiting-for-newsletter', email);
-    }
-    return false;
-  });
+  // $(".js-fake-button").click(function() {
+  //   var email = prompt("Thanks for your interest. Buying single templates is coming soon. Enter your email below and we'll email you as soon as it is ready. In the mean time use code 'ship10' for 10% off buying our pack of 8 templates.");
+  //   if(email){
+  //     ga('send', 'event', 'data', 'waiting-for-newsletter', email);
+  //   }
+  //   return false;
+  // });
 
 
 
