@@ -32,9 +32,16 @@ nav: inline
 
 <h2>Why you should inline CSS<br> in HTML emails</h2>
 
-<p>As email clients are unpredictable, and even today many clients strip styles that are not inlined, it is important to inline your CSS before sending. Don't risk your transactional emails or marketing campaigns falling apart.</p>
+<p>Email clients are unpredictable. Even today many clients strip styles that are not inlined, so it is important to inline your CSS before sending. Don't risk your transactional emails or marketing campaigns falling apart.</p>
 
 <div class="group">
+  <div class="span6">
+  <div class="example example__bad">
+    <img src="/img/desktop-notinlined.jpg" alt="Desktop email without inlined CSS">
+    <h5>Without inlined CSS</h5>
+    <p>Sometimes layouts break on desktop as the email client doesn't recognize CSS that isn't inlined.</p>
+  </div>
+  </div>
   <div class="span6">
     <div class="example example__good">
       <img src="/img/desktop-inlined.jpg" alt="Desktop email with inlined CSS" class="example">
@@ -42,27 +49,20 @@ nav: inline
       <p>Everything looks pixel perfect on desktop as you designed it.</p>
     </div>
   </div>
-  <div class="span6">
-    <div class="example example__bad">
-      <img src="/img/desktop-notinlined.jpg" alt="Desktop email without inlined CSS">
-      <h5>Without inlined CSS</h5>
-      <p>Sometimes layouts break on desktop as the email client doesn't recognize CSS that isn't inlined.</p>
-    </div>
-  </div>
 </div>
 <div class="group">
+  <div class="span6">
+  <div class="example example__bad">
+    <img src="/img/mobile-notinlined.jpg" alt="Mobile email without inlined CSS" width="200">
+    <h5>Without inlined CSS</h5>
+    <p>Sometimes buttons and other components break on mobile as the email client doesn't recognize CSS that isn't inlined.</p>
+  </div>
+  </div>
   <div class="span6">
     <div class="example example__good">
       <img src="/img/mobile-inlined.jpg" alt="Mobile email with inlined CSS" width="200">
       <h5>With inlined CSS</h5>
       <p>Everything is pixel perfect on mobile as you designed it.</p>
-    </div>
-  </div>
-  <div class="span6">
-    <div class="example example__bad">
-      <img src="/img/mobile-notinlined.jpg" alt="Mobile email without inlined CSS" width="200">
-      <h5>Without inlined CSS</h5>
-      <p>Sometimes buttons and other components break on mobile as the email client doesn't recognize CSS that isn't inlined.</p>
     </div>
   </div>
 </div>
