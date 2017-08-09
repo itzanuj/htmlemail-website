@@ -20,7 +20,7 @@
 }
 
 .inliner__preview {
-  height: 100vh;
+  height: calc(100vh - 50px);
   width: 100%;
 
   .inliner__preview-client {
@@ -55,6 +55,7 @@
 
 // Preview
 .inliner__preview-iframe {
+  background: #fff;
   border: none;
   height: calc(100% - 60px);
   max-height: 1000px;

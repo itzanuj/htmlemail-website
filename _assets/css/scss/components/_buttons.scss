@@ -118,11 +118,15 @@
 .btn-icon {
   color: $grey60;
   padding: 0 10px;
-  
+
   svg {
     height: 1.2em;
     fill: currentColor;
     width: 1.2em;
+  }
+
+  &.active {
+    color: $primary-color;
   }
 }
 

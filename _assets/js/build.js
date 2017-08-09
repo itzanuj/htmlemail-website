@@ -896,9 +896,13 @@ function switchPreview(device) {
   if (device == "desktop") {
     $('.inliner__preview-client').removeClass('inliner__preview-client--mobile');
     $('.inliner__preview-client .inliner__preview-chrome').attr('src','/img/emailclient.png');
+    $('.js-btn-desktop').addClass('active');
+    $('.js-btn-mobile').removeClass('active');
   } else if (device == "mobile") {
     $('.inliner__preview-client').addClass('inliner__preview-client--mobile');
     $('.inliner__preview-client .inliner__preview-chrome').attr('src','/img/iphone.png');
+    $('.js-btn-desktop').removeClass('active');
+    $('.js-btn-mobile').addClass('active');
   }
   return false;
 }
