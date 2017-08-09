@@ -891,6 +891,9 @@ $(document).ready(function(){
 
 });
 
+
+
+
 // Switch preview
 function switchPreview(device) {
   if (device == "desktop") {
@@ -905,4 +908,22 @@ function switchPreview(device) {
     $('.js-btn-mobile').addClass('active');
   }
   return false;
+}
+
+
+
+
+// Save as file
+function saveAsFile() {
+  console.log("hello");
+  var textToSave = $("#output").value;
+  var textFileAsBlob = new Blob([textToSave], {type:'text/plain'});
+  var textToSaveAsURL = window.URL.createObjectURL(textFileAsBlob);
+  var fileNameToSaveAs = "email.html";
+  var downloadLink = $(".js-download-output");
+
+  downloadLink.download = fileNameToSaveAs;
+  downloadLink.href = textToSaveAsURL;
+
+  downloadLink.click;
 }
