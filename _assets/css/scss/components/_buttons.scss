@@ -114,6 +114,18 @@
   }
 }
 
+// Icon buttons
+.btn-icon {
+  color: $grey60;
+  padding: 0 10px;
+  
+  svg {
+    height: 1.2em;
+    fill: currentColor;
+    width: 1.2em;
+  }
+}
+
 // Link in hero
 .btn-link_hero {
   color: #fff;
@@ -142,7 +154,7 @@
     display: block;
     width: 100%;
 
-    & + .btn {  
+    & + .btn {
       margin-top: 10px;
     }
   }
