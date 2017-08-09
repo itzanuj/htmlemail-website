@@ -59,15 +59,11 @@
     </div>
   </div>
   <div class="span7">
-    <!-- <div class="inliner__preview">
-      <div class="inliner__preview-client">
-        <img src="/img/emailclient.png" alt="" class="desktop-preview__client">
-        <iframe id="email-preview" class="inliner__preview-iframe"></iframe>
-      </div>
-    </div> -->
+    <button class="btn btn-secondary" onclick="return switchPreview('desktop');">Desktop</button>
+    <button class="btn btn-secondary" onclick="return switchPreview('mobile');">Mobile</button>
     <div class="inliner__preview">
-      <div class="inliner__preview-client inliner__preview-client--mobile">
-        <img src="/img/iphone.png" alt="" class="desktop-preview__client">
+      <div class="inliner__preview-client">
+        <img src="/img/emailclient.png" alt="" class="inliner__preview-chrome">
         <iframe id="email-preview" class="inliner__preview-iframe"></iframe>
       </div>
     </div>

@@ -1,9 +1,9 @@
 module.exports = function(grunt) {
- 
+
   // Checks the dependencies associated with Grunt and autoloads
   // & requires ALL of them in this Gruntfile
   require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
- 
+
   // Project configuration.
   grunt.initConfig({
 
@@ -112,12 +112,11 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
-          'bower_components/jquery/dist/jquery.min.js', 
-          'bower_components/typed.js/dist/typed.min.js', 
-          'node_modules/smooth-scroll/dist/js/smooth-scroll.min.js', 
-          'bower_components/moment/min/moment.min.js', 
-          'node_modules/js-cookie/src/js.cookie.js', 
-          'node_modules/lity/dist/lity.min.js',
+          'bower_components/jquery/dist/jquery.min.js',
+          'bower_components/typed.js/dist/typed.min.js',
+          'node_modules/smooth-scroll/dist/js/smooth-scroll.min.js',
+          'bower_components/moment/min/moment.min.js',
+          'node_modules/js-cookie/src/js.cookie.js',
           '_assets/js/main.js'
         ],
         dest: '_assets/js/build.js',
@@ -126,6 +125,9 @@ module.exports = function(grunt) {
 
     // JS Minify
     uglify: {
+      options: {
+        mangle: false
+      },
       my_target: {
         files: {
           'js/build.js': ['_assets/js/build.js']
@@ -136,13 +138,13 @@ module.exports = function(grunt) {
     // Copy JS
     copy: {
       main: {
-        expand: true, 
+        expand: true,
         flatten: true,
-        src: '_assets/js/inliner.js', 
+        src: '_assets/js/inliner.js',
         dest: 'js/'
       }
     },
- 
+
 
 
 
@@ -233,7 +235,7 @@ module.exports = function(grunt) {
         command: 'jekyll serve --drafts'
       }
     }
- 
+
   });
 
   // Register build as the default task fallback
