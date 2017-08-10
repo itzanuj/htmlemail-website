@@ -177,7 +177,6 @@ $(document).ready(function(){
     Cookies.set("htmlemailCopy", 1, { expires : 30 });
   });
 
-
 });
 
 
@@ -202,17 +201,20 @@ function switchPreview(device) {
 
 
 
+
 // Save as file
-function saveAsFile() {
+function downloadInliner() {
+  var text = $("#output").val();
+  var filename = "email.html";
+  var element = document.createElement('a');
+
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+  document.body.removeChild(element);
+
   console.log("hello");
-  var textToSave = $("#output").value;
-  var textFileAsBlob = new Blob([textToSave], {type:'text/plain'});
-  var textToSaveAsURL = window.URL.createObjectURL(textFileAsBlob);
-  var fileNameToSaveAs = "email.html";
-  var downloadLink = $(".js-download-output");
-
-  downloadLink.download = fileNameToSaveAs;
-  downloadLink.href = textToSaveAsURL;
-
-  downloadLink.click;
 }
