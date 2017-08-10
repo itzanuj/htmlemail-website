@@ -154,6 +154,8 @@
 // @include responsive($big-break) {
 // }
 @include responsive($small-break) {
+
+  // All buttons full width on mobile
   .btn {
     display: block;
     width: 100%;
@@ -161,6 +163,12 @@
     & + .btn {
       margin-top: 10px;
     }
+  }
+
+  // Don't make icon buttons full width
+  .btn-icon {
+    display: inline-block;
+    width: auto;
   }
 }
 
