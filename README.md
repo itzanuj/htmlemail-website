@@ -4,3 +4,7 @@
 * bundle install
 * npm install -g bower
 * bower install
+
+# Deploying
+
+* Deploy branch to gh-pages `git push origin local-name:remote-name`
