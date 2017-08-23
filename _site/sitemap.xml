@@ -33,6 +33,9 @@
 <loc>https://htmlemail.io/templates/alert-warning</loc>
 </url>
 <url>
+<loc>https://htmlemail.io/templates/ecommerce</loc>
+</url>
+<url>
 <loc>https://htmlemail.io/send/</loc>
 </url>
 <url>
@@ -55,6 +58,9 @@
 </url>
 <url>
 <loc>https://htmlemail.io/templates/receipt</loc>
+</url>
+<url>
+<loc>https://htmlemail.io/templates/rss</loc>
 </url>
 <url>
 <loc>https://htmlemail.io/templates/welcome</loc>
