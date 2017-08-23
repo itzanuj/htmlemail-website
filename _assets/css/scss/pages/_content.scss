@@ -239,7 +239,11 @@
     float: left;
     margin: 0 .5% $padding/2;
     text-align: center;
-    width: 11.5%;
+    width: 9%;
+
+    figcaption {
+      font-size: 14px;
+    }
 
     a {
       color: inherit;
