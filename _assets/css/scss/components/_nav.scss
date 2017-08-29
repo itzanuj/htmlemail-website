@@ -35,6 +35,10 @@ nav {
         box-shadow: 0 3px 0 0 rgba(255, 255, 255, .4);
       }
     }
+
+    &:last-of-type a {
+      margin-right: 0;
+    }
   }
 
   &--header {
@@ -60,15 +64,22 @@ nav {
 // @include responsive($big-break) {
 // }
 @include responsive($small-break) {
-  .btn-primary--header,
-  .navbar--header {
+  .btn-primary--header {
     display: none;
   }
 
-  .navbar li a {
-    display: block;
-    float: none;
+  .navbar {
     text-align: center;
-    width: 100%;
+  }
+
+  .navbar li {
+    display: inline-block;
+  }
+
+  .navbar li a {
+    // display: block;
+    float: none;
+    // text-align: center;
+    // width: 100%;
   }
 }
