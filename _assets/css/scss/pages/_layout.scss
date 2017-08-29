@@ -52,6 +52,12 @@ body.js-show-header .header__clone {
     min-height: 600px;
     position: relative;
   }
+
+  h1,
+  p {
+    position: relative;
+    z-index: 1; // Make sure button is above the png hero image
+  }
 }
 
 // Hero image templates
