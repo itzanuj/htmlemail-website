@@ -6,7 +6,7 @@
 
   <h1>{{ page.title }}</h1>
   <div class="template-actions">
-    <a href="https://gum.co/emailtemplates?wanted=true" data-gumroad-single-product="true" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-{{ page.title }}');">Download all 10 templates for $49</a>
+    <a data-scroll href="#buynow" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'Buy-Single-{{ page.title }}');">Get all 10 templates for $49</a>
   </div>
 
 
@@ -123,7 +123,8 @@
   </div>
 </section>
 
-{% include foot.html %}
+{% include templates.html %}
 
-<!-- Gumroad -->
-<script src="https://gumroad.com/js/gumroad.js"></script>
+{% include buy.html %}
+
+{% include foot.html %}
