@@ -15,7 +15,7 @@ Congratulations! You've just downloaded your set of [responsive HTML email templ
 
 With SendGrid you can either store your HTML as a reusable template or you can send it as part of your API request.
 
-### How to use custom email templates for Sengrid transactional emails
+### How to use custom email templates for SendGrid transactional emails
 
 * Open your SendGrid dashboard
 * Go to `Templates` > `Transactional`
