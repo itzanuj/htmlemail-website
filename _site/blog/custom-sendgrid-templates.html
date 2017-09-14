@@ -5,8 +5,8 @@
 <!--[if gt IE 8]><!--> <html class="" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>How to use custom HTML email templates with Sendgrid</title>
-  <meta name="description" content="Learn how to set up Sendgrid to use your custom responsive HTML email templates">
+  <title>How to use custom HTML email templates with SendGrid</title>
+  <meta name="description" content="Learn how to set up SendGrid to use your custom responsive HTML email templates">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
@@ -40,30 +40,30 @@
 
 <div class="container container--blog">
 
-  <h1>How to use custom HTML email templates with Sendgrid</h1>
+  <h1>How to use custom HTML email templates with SendGrid</h1>
 
 
   <figure class="blog--image">
-  <img src="/img/sendgrid.gif" alt="Sendgrid" width="200" />
+  <img src="/img/sendgrid.gif" alt="SendGrid" width="200" />
 </figure>
 
-<p>Congratulations! You’ve just downloaded your set of <a href="http://htmlemail.io">responsive HTML email templates</a> and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Sendgrid so you can use them.</p>
+<p>Congratulations! You’ve just downloaded your set of <a href="http://htmlemail.io">responsive HTML email templates</a> and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into SendGrid so you can use them.</p>
 
-<p><a href="https://sendgrid.com">Sendgrid</a> is a great developer solution for an ESP and includes features for sending marketing campaigns, transactional emails and tracking deliverability.</p>
+<p><a href="https://sendgrid.com">SendGrid</a> is a great developer solution for an ESP and includes features for sending marketing campaigns, transactional emails and tracking deliverability.</p>
 
-<p>With Sendgrid you can either store your HTML as a reusable template or you can send it as part of your API request.</p>
+<p>With SendGrid you can either store your HTML as a reusable template or you can send it as part of your API request.</p>
 
-<h3 id="how-to-use-custom-email-templates-for-sengrid-transactional-emails">How to use custom email templates for Sengrid transactional emails</h3>
+<h3 id="how-to-use-custom-email-templates-for-sendgrid-transactional-emails">How to use custom email templates for SendGrid transactional emails</h3>
 
 <ul>
-  <li>Open your Sendgrid dashboard</li>
+  <li>Open your SendGrid dashboard</li>
   <li>Go to <code class="highlighter-rouge">Templates</code> &gt; <code class="highlighter-rouge">Transactional</code></li>
   <li>Create a new template and give it a memorable name</li>
   <li>Add a new version of that template</li>
   <li>Select the <code class="highlighter-rouge">Code Editor</code> option</li>
   <li>Copy over the <em>inlined</em> version of the template you want to use</li>
-  <li>Replace the unsubscribe url with the Sendgrid tag <code class="highlighter-rouge">&lt;%asm_group_unsubscribe_raw_url%&gt;</code></li>
-  <li>Update your placeholder content with Sendgrid <a href="https://sendgrid.com/docs/API_Reference/SMTP_API/substitution_tags.html">sub tags</a> e.g. <code class="highlighter-rouge">&lt;%body-text-goes-here%&gt;</code> or <code class="highlighter-rouge">&lt;%alertText%&gt;</code></li>
+  <li>Replace the unsubscribe url with the SendGrid tag <code class="highlighter-rouge">&lt;%asm_group_unsubscribe_raw_url%&gt;</code></li>
+  <li>Update your placeholder content with SendGrid <a href="https://sendgrid.com/docs/API_Reference/SMTP_API/substitution_tags.html">sub tags</a> e.g. <code class="highlighter-rouge">&lt;%body-text-goes-here%&gt;</code> or <code class="highlighter-rouge">&lt;%alertText%&gt;</code></li>
   <li>Send a test to yourself</li>
   <li>Call this template’s ID when using the API</li>
 </ul>
@@ -72,7 +72,7 @@
 
 <h4 id="create-a-template-and-copy-the-code-across">Create a template and copy the code across</h4>
 
-<p>Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into Sendgrid. Here I’ve copied across the inlined receipt email code.</p>
+<p>Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into SendGrid. Here I’ve copied across the inlined receipt email code.</p>
 
 <figure class="blog--image">
   <img src="/img/sendgrid-create.jpg" alt="Create HTML email template" width="500" />
@@ -82,9 +82,9 @@
   <img src="/img/sendgrid-copy.jpg" alt="Copy code" width="600" />
 </figure>
 
-<h4 id="update-the-placeholder-content-with-sendgrid-sub-tags">Update the placeholder content with Sendgrid sub tags</h4>
+<h4 id="update-the-placeholder-content-with-sendgrid-sub-tags">Update the placeholder content with SendGrid sub tags</h4>
 
-<p>So that you can use this template, Sendgrid needs to know where you want to place the variables and content that you send with your API call.</p>
+<p>So that you can use this template, SendGrid needs to know where you want to place the variables and content that you send with your API call.</p>
 
 <p>First, replace the unsubscribe link with the <code class="highlighter-rouge">&lt;%asm_group_unsubscribe_raw_url%&gt;</code> tag like so:</p>
 
@@ -92,7 +92,7 @@
 </code></pre>
 </div>
 
-<p>Then put Sendgrid sub tags where you want the content e.g. in the receipt email below you can see I’ve placed tags like <code class="highlighter-rouge">&lt;%item%&gt;</code> and <code class="highlighter-rouge">&lt;%price%&gt;</code></p>
+<p>Then put SendGrid sub tags where you want the content e.g. in the receipt email below you can see I’ve placed tags like <code class="highlighter-rouge">&lt;%item%&gt;</code> and <code class="highlighter-rouge">&lt;%price%&gt;</code></p>
 
 <figure class="blog--image">
   <img src="/img/sendgrid-tags.jpg" alt="Sub tags" width="600" />
@@ -108,7 +108,7 @@
 
 <h4 id="using-images">Using images</h4>
 
-<p>Sendgrid offers a handy image upload manager so you can upload your template images and reference them. They then do the hosting for you so no need to worry about an external CDN.</p>
+<p>SendGrid offers a handy image upload manager so you can upload your template images and reference them. They then do the hosting for you so no need to worry about an external CDN.</p>
 
 <figure class="blog--image">
   <img src="/img/sendgrid-upload.jpg" alt="Upload images" width="600" />
@@ -116,7 +116,7 @@
 
 <h4 id="start-sending">Start sending</h4>
 
-<p>That should be you ready to go. When you make your <a href="https://sendgrid.com/docs/API_Reference/Web_API_v3/Transactional_Templates/smtpapi.html">API call</a> to Sendgrid, include the ID of the template and provide it with the necessary <a href="https://sendgrid.com/docs/API_Reference/SMTP_API/substitution_tags.html">sub tags</a> it needs to render.</p>
+<p>That should be you ready to go. When you make your <a href="https://sendgrid.com/docs/API_Reference/Web_API_v3/Transactional_Templates/smtpapi.html">API call</a> to SendGrid, include the ID of the template and provide it with the necessary <a href="https://SendGrid.com/docs/API_Reference/SMTP_API/substitution_tags.html">sub tags</a> it needs to render.</p>
 
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="o">{</span>
   <span class="s2">"to"</span>: <span class="o">[</span>
@@ -148,8 +148,8 @@
 <h3 id="further-reading">Further reading</h3>
 
 <ul>
-  <li><a href="https://sendgrid.com/docs/User_Guide/Transactional_Templates/create_edit.html">Sendgrid: Create and edit templates</a></li>
-  <li><a href="https://sendgrid.com/docs/API_Reference/Web_API_v3/Transactional_Templates/index.html">Sendgrid: Templates API docs</a></li>
+  <li><a href="https://sendgrid.com/docs/User_Guide/Transactional_Templates/create_edit.html">SendGrid: Create and edit templates</a></li>
+  <li><a href="https://sendgrid.com/docs/API_Reference/Web_API_v3/Transactional_Templates/index.html">SendGrid: Templates API docs</a></li>
 </ul>
 
 
@@ -167,7 +167,7 @@
     </a>
 
     <!-- Sharingbutton Twitter -->
-    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=How to use custom HTML email templates with Sendgrid&amp;url=https://htmlemail.io/blog/custom-sendgrid-templates" target="_blank" aria-label="Share on Twitter">
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=How to use custom HTML email templates with SendGrid&amp;url=https://htmlemail.io/blog/custom-sendgrid-templates" target="_blank" aria-label="Share on Twitter">
       <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
             <g>

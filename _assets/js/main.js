@@ -146,14 +146,14 @@ $(document).ready(function(){
   $(".js-copy-output").click(function(){
     if (Cookies.get('htmlemailExit') == null) {
       console.log("hello");
-      $('.exit-overlay-copy').show();
-      $('.exit-overlay input').focus();
+      $('.js-exit-overlay-copy').show();
+      $('.js-exit-overlay-copy input').focus();
     }
   });
   $("#output").click(function(){
     if (Cookies.get('htmlemailExit') == null) {
-      $('.exit-overlay-copy').show();
-      $('.exit-overlay input').focus();
+      $('.js-exit-overlay-copy').show();
+      $('.js-exit-overlay-copy input').focus();
     }
   });
 
