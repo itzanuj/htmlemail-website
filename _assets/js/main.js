@@ -54,7 +54,7 @@ $(document).ready(function(){
       $clone = $header.before($header.clone().addClass("header__clone"));
 
   $(window).on("scroll", function() {
-    var fromTop = $("body").scrollTop();
+    var fromTop = $(window).scrollTop();
     $('body').toggleClass("js-show-header", (fromTop > 500));
   });
 
