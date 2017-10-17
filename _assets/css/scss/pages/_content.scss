@@ -283,6 +283,11 @@ ol.check {
       width: 16px; 
     }
   }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 
@@ -325,6 +330,15 @@ ol.check {
   }
 }
 @include responsive($small-break) {
+
+  .full-section-callout blockquote {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .blockquote-avatar {
+    float: none;
+  }
 }
 
 // Mobile first styles if needed
