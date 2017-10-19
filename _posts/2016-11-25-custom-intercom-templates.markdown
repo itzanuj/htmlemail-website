@@ -126,4 +126,9 @@ That should be you ready to go. When you create an auto message or a direct mess
 
 * [Intercom: Create custom email templates](https://docs.intercom.com/engaging-your-customers/send-emails-that-work/create-custom-email-templates)
 
+### Other email service template tutorials
+
+* [Mailchimp](https://htmlemail.io/blog/custom-mailchimp-templates)
+* [Customer.io](https://htmlemail.io/blog/custom-customerio-templates)
+* [SendGrid](https://htmlemail.io/blog/custom-sendgrid-templates)
 

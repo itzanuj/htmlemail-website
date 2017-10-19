@@ -90,4 +90,8 @@ To disable, switch from `Rich Text` to `Code` mode. You should see a checkbox fo
 * [Customer.io: Create custom email layouts](http://learn.customer.io/documentation/layouts.html)
 * [Customer.io: Disable CSS pre-processing](http://learn.customer.io/documentation/disable-premailer.html)
 
+### Other email service template tutorials
 
+* [Mailchimp](https://htmlemail.io/blog/custom-mailchimp-templates)
+* [Intercom](https://htmlemail.io/blog/custom-intercom-templates)
+* [SendGrid](https://htmlemail.io/blog/custom-sendgrid-templates)

@@ -111,4 +111,8 @@ That should be you ready to go. When you make your [API call](https://sendgrid.c
 * [SendGrid: Create and edit templates](https://sendgrid.com/docs/User_Guide/Transactional_Templates/create_edit.html)
 * [SendGrid: Templates API docs](https://sendgrid.com/docs/API_Reference/Web_API_v3/Transactional_Templates/index.html)
 
+### Other email service template tutorials
 
+* [Mailchimp](https://htmlemail.io/blog/custom-mailchimp-templates)
+* [Intercom](https://htmlemail.io/blog/custom-intercom-templates)
+* [Customer.io](https://htmlemail.io/blog/custom-customerio-templates)

@@ -135,3 +135,8 @@ For more information on editable templates read Mailchimp's [Create Editable Con
 * [Getting Started with MailChimp’s Template Language](http://kb.mailchimp.com/templates/code/getting-started-with-mailchimps-template-language)
 
 
+### Other email service template tutorials
+
+* [Intercom](https://htmlemail.io/blog/custom-intercom-templates)
+* [Customer.io](https://htmlemail.io/blog/custom-customerio-templates)
+* [SendGrid](https://htmlemail.io/blog/custom-sendgrid-templates)
