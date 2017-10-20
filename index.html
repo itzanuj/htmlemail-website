@@ -6,14 +6,15 @@ litmus-preview: "https://litmus.com/checklist/emails/public/a227eb5"
 
 redirect_from: "/index_b.html"
 ---
+<div itemscope itemtype="http://schema.org/Product">
 
 <header class="hero">
   <div class="container">
-    <h1 class="h1--invert">Responsive HTML Email Templates<br>For <span id="typed">Startups</span></h1>
+    <h1 class="h1--invert" itemprop="name">Responsive HTML Email Templates<br>For <span id="typed">Startups</span></h1>
     <p><a data-scroll href="#templates" class="btn btn-primary btn-primary--invert" onclick="ga('send', 'event', 'button', 'click', 'View-Templates');">View Email Templates</a>
     </p>
     <div class="hero-image">
-      <a data-scroll href="#templates"><img src="img/hero.png" alt="Responsive HTML Email Templates" width="1000" onclick="ga('send', 'event', 'img', 'click', 'templates');"></a>
+      <a data-scroll href="#templates"><img itemprop="image" src="img/hero.png" alt="Responsive HTML Email Templates" width="1000" onclick="ga('send', 'event', 'img', 'click', 'templates');"></a>
     </div>
   </div>
 </header>
@@ -62,7 +63,7 @@ redirect_from: "/index_b.html"
         <a href="{{ page.litmus-preview }}" onclick="ga('send', 'event', 'img', 'click', 'Litmus-results');" target="_blank" rel=”nofollow”><img src="img/litmuspreview.jpg" alt="Litmus email tests" width="600"></a>
       </div>
       <div class="span4">
-        <p>These HTML email templates have been <strong>tried and tested across all major email clients</strong>. They render perfectly and are supported on web, desktop and mobile.</p>
+        <p itemprop="description">These HTML email templates have been <strong>tried and tested across all major email clients</strong>. They render perfectly and are supported on web, desktop and mobile.</p>
         <ul class="check">
           <li>Microsoft Outlook</li>
           <li>Apple Mail</li>
@@ -160,10 +161,15 @@ redirect_from: "/index_b.html"
 
 <section class="full-section full-section-callout">
   <div class="container">
-    <blockquote>
+    <blockquote itemprop="review" itemscope itemtype="http://schema.org/Review">
       <img src="img/mark.jpg" alt="Mark Studebaker" class="blockquote-avatar">
-      <p>&ldquo;I played around with other templates... what a pain in the butt. Your templates worked great! Love that you had them tested using Litmus and were WELL WORTH the cost. Great job.&rdquo;</p>
-      <cite>&mdash; Mark Studebaker, Flowmingo</cite>
+      <p>&ldquo;<span itemprop="name">Your templates worked great!</span> <span itemprop="description">I played around with other templates... what a pain in the butt. Love that you had them tested using Litmus and were WELL WORTH the cost. Great job.</span>&rdquo;</p>
+      <cite itemprop="author">&mdash; Mark Studebaker, Flowmingo</cite>
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="worstRating" content = "5">
+        <meta itemprop="ratingValue" content = "5">
+        <meta itemprop="bestRating" content = "5">
+      </div>
     </blockquote>
   </div>
 </section>
@@ -237,5 +243,7 @@ redirect_from: "/index_b.html"
     </div>
   </div>
 </section>
+
+</div>
 
 {% include exit-overlay.html %}
