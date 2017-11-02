@@ -271,7 +271,7 @@ ol.check {
   padding-left: 10px;
 
   li {
-    margin-left: 0;
+    padding-left: 0;
 
     &:before {
       background-image: url('../../img/check.png');
@@ -281,6 +281,15 @@ ol.check {
       height: 16px;
       margin-right:5px;
       width: 16px; 
+    }
+  }
+
+  &--span6 {
+
+    @extend .group;
+
+    li {
+      @extend .span6;
     }
   }
 
