@@ -2,8 +2,12 @@
 layout: post
 title:  "How to use custom HTML email templates with Mailchimp"
 description: Learn how to set up Mailchimp to use your custom responsive HTML email templates
-tags: tutorial, mailchimp
+tags: tutorial, esp
 ---
+
+<figure class="blog--image">
+  <img src="/img/mailchimp-logo.gif" alt="Mailchimp" width="200">
+</figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Mailchimp so you can use them.
 

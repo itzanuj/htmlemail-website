@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fearlessly Send Your Email Campaigns With This Preflight Checklist"
+title:  "Fearlessly send your email campaigns with this preflight checklist"
 description: This email campaign preflight checklist. It covers each part of an email, like subject line, preheader text, and images, and also helps with other aspects of a send that you may not have thought about like testing and analytics.
 ---
 
