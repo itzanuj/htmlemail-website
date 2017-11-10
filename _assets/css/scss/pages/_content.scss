@@ -7,7 +7,8 @@
   padding: $padding 0;
 }
 
-.full-section-callout {
+.full-section-callout, 
+.container--blog {
   padding: 0;
 
   blockquote {
@@ -28,6 +29,12 @@
       }
     }
   }
+}
+
+.container--blog blockquote {
+  margin-bottom: $padding;
+  margin-left: -50px;
+  margin-right: -50px;
 }
 
 .blockquote-avatar {
