@@ -15,6 +15,8 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-last-modified-at (0.3.4)
+      jekyll
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.11.0)
       jekyll (>= 2.0)
@@ -45,6 +47,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.2.0)
+  jekyll-last-modified-at
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
