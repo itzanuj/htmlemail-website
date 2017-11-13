@@ -4,12 +4,12 @@
 
 .full-section {
   background: #fff;
-  padding: $padding 0;
+  padding-bottom: $padding;
+  padding-top: $padding;
 }
 
 .full-section-callout, 
 .container--blog {
-  padding: 0;
 
   blockquote {
     background: $grey40;
@@ -35,6 +35,7 @@
   margin-bottom: $padding;
   margin-left: -50px;
   margin-right: -50px;
+  margin-top: $padding;
 }
 
 .blockquote-avatar {
@@ -312,7 +313,8 @@ ol.check {
 // Responsive styles if needed
 @include responsive($big-break) {
   .full-section {
-    padding: $responsive-padding;
+    padding-bottom: $responsive-padding;
+    padding-top: $responsive-padding;
   }
 
   // Retina image
@@ -345,15 +347,24 @@ ol.check {
     margin-bottom: 10px;
   }
 }
+
 @include responsive($small-break) {
 
-  .full-section-callout blockquote {
+  .full-section-callout blockquote,
+  .container--blog blockquote {
     padding: 20px;
     text-align: center;
   }
 
   .blockquote-avatar {
     float: none;
+  }
+
+  .container--blog blockquote {
+    margin-bottom: 20px; 
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px; 
   }
 }
 
