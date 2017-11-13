@@ -5,13 +5,13 @@
 <!--[if gt IE 8]><!--> <html class="" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>How to use custom HTML email templates with Customer.io</title>
-  <meta name="description" content="Learn how to set up Customer.io to use your custom responsive HTML email templates">
+  <title>How Mindful Industries Use HTML Email Templates to Send Transactional Emails with Mailgun</title>
+  <meta name="description" content="Case study of how Mindful Industries are using html email templates. They are an artificial intelligence company and send thousands of emails every month with Mailgun.">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
   <link rel="preload" href="/img/symbol/svg/sprite.symbol.svg" as="image">
-  <link rel="canonical" href="https://htmlemail.io/blog/custom-customerio-templates" />
+  <link rel="canonical" href="https://htmlemail.io/blog/mindful-industries-mailgun-case-study" />
   <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 </head>
 <body>
@@ -40,114 +40,74 @@
 
 <div class="container container--blog">
 
-  <h1>How to use custom HTML email templates with Customer.io</h1>
-  <p class="blog-meta">Last updated <time datetime="2017-11-10" itemprop="datePublished" pubdate="">10 November 2017</time></p>
+  <h1>How Mindful Industries Use HTML Email Templates to Send Transactional Emails with Mailgun</h1>
+  <p class="blog-meta">Last updated <time datetime="2017-11-12" itemprop="datePublished" pubdate="">12 November 2017</time></p>
 
   <figure class="blog--image">
-  <img src="/img/customerio-logo.png" alt="Customer.io" width="200" />
+  <img src="/img/mindful-logo.png" alt="Mindful Industries" width="200" />
 </figure>
 
-<p>Congratulations! You’ve just downloaded your set of <a href="http://htmlemail.io">responsive HTML email templates</a> and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Customer.io so you can use them.</p>
+<p><a href="https://uploadme.ai" target="_blank">Mindful Industries</a> are an artificial intelligence company. They’ve created an AI ever-living (immortal) doppelgänger of real humans and are <strong>sending tens of thousands of emails a month with Mailgun</strong>.</p>
 
-<p><a href="http://customer.io">Customer.io</a> is a great messaging platform and includes features for automating and segmenting users, so you can send emails at the right time to the right people.</p>
+<p>Here we speak with their <strong>Founder, Jan Kremlacek</strong>, about how they used <a href="https://htmlemail.io#templates">HTML Email templates</a> to create an email library and then embeded it in their codebase.</p>
 
-<p>With Customer.io you can add a custom email template to use for all your emails.</p>
+<blockquote>
+  <img src="/img/mindful-jan.png" alt="Jan Kremlacek" class="blockquote-avatar" />
+  <p>&ldquo;...we plugged all the new HTML templates into our design and codebase in less then 1 day&rdquo;</p>
+  <cite>&mdash; Jan Kremlacek, Founder</cite>
+</blockquote>
 
-<h3 id="how-to-use-custom-email-templates-for-customerio-messaging">How to use custom email templates for Customer.io messaging</h3>
+<h3 id="what-was-the-challenge-you-were-facing">What was the challenge you were facing?</h3>
+
+<p>The main challenge was effort to have a <strong>standardized internal library</strong> to deliver transactional emails with our design. Let me
+be more clear, we weren’t so much concerned about the design (as “keep it simple” works for us), but <strong>we wanted a coherent library</strong> do serve emails <strong>without spending months in development</strong>.</p>
+
+<figure class="blog--image">
+  <img src="/img/mindful1.png" alt="Mindful Industries transactional email" width="400" />
+  <figcaption>Transactional emails are sent through Mailgun.</figcaption>
+</figure>
+
+<p>Another important aspect for us was an ability to inline HTML emails on our side and to <strong>keep the code clean and maintainable</strong> for future use. And of course we wanted code which <strong>works across email clients</strong>.</p>
+
+<h3 id="how-did-html-email-templates-help-solve-this-problem">How did HTML Email templates help solve this problem?</h3>
+
+<p>Your templates helped us a lot! We took the basic one, then <strong>used your knowledge of how to structure HTML email</strong>, which CSS inlining works and which not, and created our own simple components (like the skeleton, buttons, tables, etc.) to fit our design and code work flow.</p>
+
+<figure class="blog--image">
+  <img src="/img/mindful2.png" alt="Mindful Industries transactional email" width="400" />
+  <figcaption>Transactional emails are sent through Mailgun.</figcaption>
+</figure>
+
+<p>These components are mostly just pieces of what you did + <strong>SCSS variables</strong> to fit our styling. The brilliance of your work was the fact that we made and plugged all the new HTML templates into our design and codebase in <strong>less then 1 day</strong>.</p>
+
+<h3 id="what-were-the-results">What were the results?</h3>
+
+<p>In less than <strong>1 day</strong> we were able to establish <strong>fully working HTML email</strong> in our own design fitting our own development process.</p>
+
+<p>It works as now we develop without any maintenance or additional code. In other words, <strong>it works perfectly</strong>. We’ve had no bug reports from
+our customers about the HTML emails functionality.</p>
+
+<h3 id="transaction-email-templates">Transaction email templates</h3>
+
+<p>If you need to get professional looking transactional emails up and running with clean code today, take a look at our templates.</p>
 
 <ul>
-  <li>Open your Customer.io dashboard</li>
-  <li>Go to <code class="highlighter-rouge">Email Layouts</code></li>
-  <li>Create a new layout and give it a memorable name</li>
-  <li>Copy the code across from the inlined email template you want to use</li>
-  <li>Update the content to include Customer.io content tag</li>
-  <li>Update the unsubscribe link to include Customer.io unsubscribe tag</li>
-  <li>Remove preheader text</li>
-  <li>Save</li>
-  <li>Select this layout when setting up messages</li>
+  <li><a href="/templates/alert-warning">Alert Notifications</a></li>
+  <li><a href="/templates/password-reset">Password Reset</a></li>
+  <li><a href="/templates/welcome">Welome Emails</a></li>
 </ul>
-
-<p>Lets look at some of these in more detail.</p>
-
-<h4 id="copy-the-code-across">Copy the code across</h4>
-
-<p>Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into Customer.io. Here I’ve copied across the inlined newsletter code.</p>
-
-<figure class="blog--image">
-  <img src="/img/customerio-template.png" alt="Copy code" width="500" />
-</figure>
-
-<p>At this point the template is using the default HTMLemail.io imagery and branding so remember to switch the logo out for your own logo.</p>
-
-<h4 id="update-the-content-to-include-customerio-tags">Update the content to include Customer.io tags</h4>
-
-<p>So that you can use this template, Customer.io needs to know what parts are editable, and where the unsubscribe link should go.</p>
-
-<p>Replace the current content with the <code class="highlighter-rouge"><span class="p">{</span><span class="err">{</span><span class="w"> </span><span class="err">content</span><span class="w"> </span><span class="p">}</span><span class="err">}</span></code> tag like so:</p>
-
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="c">&lt;!-- START MAIN CONTENT AREA --&gt;</span>
-<span class="nt">&lt;tr&gt;</span>
-  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"wrapper"</span> <span class="na">style=</span><span class="s">"font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 20px;"</span> <span class="na">valign=</span><span class="s">"top"</span><span class="nt">&gt;</span>
-  {{ content }}
-  <span class="nt">&lt;/td&gt;</span>
-<span class="nt">&lt;/tr&gt;</span>
-<span class="c">&lt;!-- END MAIN CONTENT AREA --&gt;</span>
-</code></pre>
-</div>
-
-<p>Then add the unsubscribe url to the unsubscribe link.</p>
-
-<div class="language-html highlighter-rouge"><pre class="highlight"><code>Don't like these emails? <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ unsubscribe_url }}"</span> <span class="na">style=</span><span class="s">"text-decoration: underline; color: #999999; font-size: 12px; text-align: center;"</span><span class="nt">&gt;</span>Unsubscribe<span class="nt">&lt;/a&gt;</span>
-</code></pre>
-</div>
-
-<h4 id="remove-preheader-text">Remove preheader text</h4>
-
-<p>Customer.io doesn’t currently have a feature for supporting preheader text, so you’re safest to remove this so you don’t forget about it i.e. remove this HTML from your template</p>
-
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"preheader"</span> <span class="na">style=</span><span class="s">"color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;"</span><span class="nt">&gt;</span>This is preheader text. Some clients will show this text as a preview.<span class="nt">&lt;/span&gt;</span>
-</code></pre>
-</div>
-
-<h4 id="using-images">Using images</h4>
-
-<p>If you’re using images in the template, like your company logo or the social icons, you should upload these to Imgur or CloudApp. Images that are part of your content you’ll be able to upload when creating your message.</p>
-
-<h4 id="start-sending">Start sending</h4>
-
-<p>That should be you ready to go. When you create an auto message or a newsletter, you can select your new layout and use it.</p>
-
-<figure class="blog--image">
-  <img src="/img/customerio-layout.jpg" alt="Select layout" width="500" />
-</figure>
-
-<p>I recommend disabling CSS pre-processing if you are using the templates that are already inlined. It’s possible that without disabling it may cause issues, especially with responsive media queries.</p>
-
-<p>To disable, switch from <code class="highlighter-rouge">Rich Text</code> to <code class="highlighter-rouge">Code</code> mode. You should see a checkbox for <code class="highlighter-rouge">Disable CSS pre-processing</code>. Check this.</p>
-
-<figure class="blog--image">
-  <img src="/img/customerio-disable.gif" alt="Disable inline CSS" width="500" />
-</figure>
 
 <h3 id="further-reading">Further reading</h3>
 
 <ul>
-  <li><a href="http://learn.customer.io/documentation/layouts.html">Customer.io: Create custom email layouts</a></li>
-  <li><a href="http://learn.customer.io/documentation/disable-premailer.html">Customer.io: Disable CSS pre-processing</a></li>
+  <li><a href="https://uploadme.ai">Mindful Industries: Create your AI ever-living doppelgänger </a></li>
 </ul>
 
-<h3 id="other-email-service-template-tutorials">Other email service template tutorials</h3>
-
-<ul>
-  <li><a href="https://htmlemail.io/blog/custom-mailchimp-templates">Mailchimp</a></li>
-  <li><a href="https://htmlemail.io/blog/custom-intercom-templates">Intercom</a></li>
-  <li><a href="https://htmlemail.io/blog/custom-sendgrid-templates">SendGrid</a></li>
-</ul>
 
 
   <div class="social-sharing-container">
     <!-- Sharingbutton Facebook -->
-    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https://htmlemail.io/blog/custom-customerio-templates" target="_blank" aria-label="Share on Facebook">
+    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https://htmlemail.io/blog/mindful-industries-mailgun-case-study" target="_blank" aria-label="Share on Facebook">
       <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
             <g>
@@ -158,7 +118,7 @@
     </a>
 
     <!-- Sharingbutton Twitter -->
-    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=How to use custom HTML email templates with Customer.io&amp;url=https://htmlemail.io/blog/custom-customerio-templates" target="_blank" aria-label="Share on Twitter">
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=How Mindful Industries Use HTML Email Templates to Send Transactional Emails with Mailgun&amp;url=https://htmlemail.io/blog/mindful-industries-mailgun-case-study" target="_blank" aria-label="Share on Twitter">
       <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
             <g>

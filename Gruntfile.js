@@ -232,7 +232,7 @@ module.exports = function(grunt) {
         command: 'jekyll serve'
       },
       jekyllDrafts: {
-        command: 'jekyll serve --drafts'
+        command: 'jekyll serve --drafts --future'
       }
     }
 
