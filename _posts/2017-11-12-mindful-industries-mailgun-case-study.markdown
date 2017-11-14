@@ -15,7 +15,7 @@ Here we speak with their **Founder, Jan Kremlacek**, about how they used <a href
 
 <blockquote>
   <img src="/img/mindful-jan.png" alt="Jan Kremlacek" class="blockquote-avatar">
-  <p>&ldquo;...we plugged all the new HTML templates into our design and codebase in less then 1 day&rdquo;</p>
+  <p>&ldquo;...we plugged all the new HTML templates into our design and codebase in less than 1 day&rdquo;</p>
   <cite>&mdash; Jan Kremlacek, Founder</cite>
 </blockquote>
 
@@ -40,7 +40,7 @@ Your templates helped us a lot! We took the basic one, then **used your knowledg
   <figcaption>Transactional emails are sent through Mailgun.</figcaption>
 </figure>
 
-These components are mostly just pieces of what you did + **SCSS variables** to fit our styling. The brilliance of your work was the fact that we made and plugged all the new HTML templates into our design and codebase in **less then 1 day**.
+These components are mostly just pieces of what you did + **SCSS variables** to fit our styling. The brilliance of your work was the fact that we made and plugged all the new HTML templates into our design and codebase in **less than 1 day**.
 
 ### What were the results?
 
