@@ -229,7 +229,7 @@ module.exports = function(grunt) {
         command: 'jekyll build'
       },
       jekyllServe: {
-        command: 'jekyll serve'
+        command: 'jekyll serve --drafts --future'
       },
       jekyllDrafts: {
         command: 'jekyll serve --drafts --future'
