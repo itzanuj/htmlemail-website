@@ -132,6 +132,7 @@ Shopify provides two testing methods. Preview in the browser and email yourself.
 
 ### Further reading
 
+* [GitHub: Shopify default email notification templates](https://github.com/leemunroe/shopify-email-templates)
 * [Shopify: Edit notification templates](https://help.shopify.com/manual/sell-online/notifications/edit-template)
 * [Shopify: Notification variables](https://help.shopify.com/manual/sell-online/notifications/email-variables)
 
