@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Mindful Industries Use HTML Email Templates to Send Transactional Emails with Mailgun"
+title:  "How Mindful Industries use HTML email templates to send transactional emails with Mailgun"
 description: Case study of how Mindful Industries are using html email templates. They are an artificial intelligence company and send thousands of emails every month with Mailgun.
 tags: case-study, mailgun, customer
 ---
@@ -56,6 +56,10 @@ If you need to get professional looking transactional emails up and running with
 * [Alert Notifications](/templates/alert-warning)
 * [Password Reset](/templates/password-reset)
 * [Welome Emails](/templates/welcome)
+
+### Other case studies
+
+* [How LightReports use Postmark to send weekly email reports](/blog/light-reports-postmark-case-study)
 
 ### Further reading
 
