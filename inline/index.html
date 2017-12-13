@@ -27,7 +27,7 @@ nav: inline
       </div>
       <div class="inliner__preview">
         <div class="inliner__preview-client">
-          <img src="/img/emailclient.png" alt="" class="inliner__preview-chrome">
+          <img src="{{ site.url }}/img/emailclient.png" alt="" class="inliner__preview-chrome">
           <iframe id="email-preview" class="inliner__preview-iframe"></iframe>
         </div>
       </div>
@@ -66,14 +66,14 @@ nav: inline
 <div class="group">
   <div class="span6">
   <div class="example example__bad">
-    <img src="/img/desktop-notinlined.jpg" alt="Desktop email without inlined CSS">
+    <img src="{{ site.url }}/img/desktop-notinlined.jpg" alt="Desktop email without inlined CSS">
     <h5>Without inlined CSS</h5>
     <p>Sometimes layouts break on desktop as the email client doesn't recognize CSS that isn't inlined.</p>
   </div>
   </div>
   <div class="span6">
     <div class="example example__good">
-      <img src="/img/desktop-inlined.jpg" alt="Desktop email with inlined CSS" class="example">
+      <img src="{{ site.url }}/img/desktop-inlined.jpg" alt="Desktop email with inlined CSS" class="example">
       <h5>With inlined CSS</h5>
       <p>Everything looks pixel perfect on desktop as you designed it.</p>
     </div>
@@ -82,14 +82,14 @@ nav: inline
 <div class="group">
   <div class="span6">
   <div class="example example__bad">
-    <img src="/img/mobile-notinlined.jpg" alt="Mobile email without inlined CSS" width="200">
+    <img src="{{ site.url }}/img/mobile-notinlined.jpg" alt="Mobile email without inlined CSS" width="200">
     <h5>Without inlined CSS</h5>
     <p>Sometimes buttons and other components break on mobile as the email client doesn't recognize CSS that isn't inlined.</p>
   </div>
   </div>
   <div class="span6">
     <div class="example example__good">
-      <img src="/img/mobile-inlined.jpg" alt="Mobile email with inlined CSS" width="200">
+      <img src="{{ site.url }}/img/mobile-inlined.jpg" alt="Mobile email with inlined CSS" width="200">
       <h5>With inlined CSS</h5>
       <p>Everything is pixel perfect on mobile as you designed it.</p>
     </div>
@@ -101,14 +101,14 @@ nav: inline
 <div class="group">
   <div class="span6">
     <div class="example example__bad">
-      <img src="/img/code-notinlined.jpg" alt="Code with embedded CSS">
+      <img src="{{ site.url }}/img/code-notinlined.jpg" alt="Code with embedded CSS">
       <h5>Before with embedded CSS</h5>
       <p>Embedded CSS at the top of your HTML is easier for developers to maintain and manage, but certain email clients don't like it.</p>
     </div>
   </div>
   <div class="span6">
     <div class="example example__good">
-      <img src="/img/code-inlined.jpg" alt="Code with inlined CSS">
+      <img src="{{ site.url }}/img/code-inlined.jpg" alt="Code with inlined CSS">
       <h5>After with inlined CSS</h5>
       <p>Inlined CSS behaves in all email clients but it's not the easiest or prettiest to write. Our inliner does it for you.</p>
     </div>
@@ -127,13 +127,13 @@ nav: inline
 <p>Some times you want to keep some other styles embedded and not inline them e.g. pseudo styles, keyframe animations etc. This can be done adding <code>data-embed</code> attribute to your <code>&lt;style&gt;</code> tag i.e.<code>&lt;style media="all" type="text/css" data-embed&gt;</code></p>
 <p>I recommend having one <code>&lt;style&gt;</code> block for CSS you want to inline and another <code>&lt;style&gt;</code> block for CSS you want to persist.</p>
 
-<script src="/js/inliner.js" defer></script>
+<script src="{{ site.url }}/js/inliner.js" defer></script>
 
 <div class="exit-overlay js-exit-overlay-copy">
   <div class="exit-modal">
     <h2>While we copy your inlined CSS&hellip;</h2>
     <p>Subscribe and stay up to date with new features as we add them to our responsive CSS inliner.</p>
-    <p class="align-center"><img src="/img/preview-free.jpg" alt="Free email" width="400"></p>
+    <p class="align-center"><img src="{{ site.url }}/img/preview-free.jpg" alt="Free email" width="400"></p>
     <p>When you subscribe we'll send you a free responsive HTML email that you can download with both embedded CSS and inlined CSS.</p>
     <form action="//leemunroe.us1.list-manage.com/subscribe/post?u=1998df7f0f3a32bdf922938ca&amp;id=4bf2c8f8b9" method="post" class="subscribe-form__footer" target="_blank">
       <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email address"> <button type="submit" class="btn btn-primary js-submit-copy-overlay js-subscribe-exit-overlay" onclick="ga('send', 'event', 'button', 'click', 'Subscribe-Email-List');">Subscribe</button>

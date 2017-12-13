@@ -6,7 +6,7 @@ tags: case-study, postmark, customer
 ---
 
 <figure class="blog--image">
-  <img src="/img/lightreports-logo.gif" alt="LightReports Logo" width="200">
+  <img src="{{ site.url }}/img/lightreports-logo.gif" alt="LightReports Logo" width="200">
 </figure>
 
 <a href="https://lightreports.com/for/htmlemail" target="_blank">LightReports</a> enables you to receive daily, weekly and monthly email reports about your business so you don't need to look at yet another dashboard, enabling you to focus on your business instead.
@@ -14,7 +14,7 @@ tags: case-study, postmark, customer
 Here we speak with their **CEO, Sven Kapuđija**, about how they use <a href="https://htmlemail.io#templates">HTML Email templates</a> to get their emails up and running with Postmark.
 
 <blockquote>
-  <img src="/img/lightreports-sven.jpg" alt="Sven Kapuđija" class="blockquote-avatar">
+  <img src="{{ site.url }}/img/lightreports-sven.jpg" alt="Sven Kapuđija" class="blockquote-avatar">
   <p>&ldquo;As email reports are essentially our business it's crucial that email templates look &amp; work perfect.&rdquo;</p>
   <cite>&mdash; Sven Kapuđija, CEO</cite>
 </blockquote>
@@ -26,7 +26,7 @@ As a developer-founder, I knew what I would be getting into if I would have made
 Then I found out about HTML Email and all of my concerns were addressed right away - **working across clients, flexible enough to modify as needed, nice & clean design**.
 
 <figure class="blog--image">
-  <img src="/img/lightreports1.jpg" alt="LightReports" width="400">
+  <img src="{{ site.url }}/img/lightreports1.jpg" alt="LightReports" width="400">
   <figcaption>LightReports enables you to receive daily, weekly and monthly email reports about your business.</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ We are also not only using HTML Email templates when sending our emails, but als
 Once setup **they worked perfectly, both on desktop & mobile**. It didn't take too long, maybe a day or two, to adjust it to fit our product requirements. Especially compared to the time it would required me to do in **myself, which would have taken weeks**.
 
 <figure class="blog--image">
-  <img src="/img/lightreports2.jpg" alt="LightReports" width="400">
+  <img src="{{ site.url }}/img/lightreports2.jpg" alt="LightReports" width="400">
   <figcaption>Example of a weekly report with Google Analytics, Gumroad, Facebook Ads and Mailchimp stats.</figcaption>
 </figure>
 

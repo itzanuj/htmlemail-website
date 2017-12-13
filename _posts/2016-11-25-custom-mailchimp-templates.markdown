@@ -6,7 +6,7 @@ tags: tutorial, esp
 ---
 
 <figure class="blog--image">
-  <img src="/img/mailchimp-logo.gif" alt="Mailchimp" width="200">
+  <img src="{{ site.url }}/img/mailchimp-logo.gif" alt="Mailchimp" width="200">
 </figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Mailchimp so you can use them.
@@ -29,7 +29,7 @@ Before we start, lets zip up the template(s) you want to use.
 1. Rename the file so you know what it is
 
 <figure class="blog--image">
-  <img src="/img/mailchimp-zip.gif" alt="Zip your email files" width="300">
+  <img src="{{ site.url }}/img/mailchimp-zip.gif" alt="Zip your email files" width="300">
 </figure>
 
 That should be you good to go with your email template in one zip file.
@@ -53,7 +53,7 @@ When asked to select a template:
 * Wait for it to upload
 
 <figure class="blog--image">
-  <img src="/img/mailchimp-upload.gif" alt="Upload your zip file" width="500">
+  <img src="{{ site.url }}/img/mailchimp-upload.gif" alt="Upload your zip file" width="500">
 </figure>
 
 #### 3. Edit your template
@@ -72,7 +72,7 @@ Now you can replace the content with your content. Remember to do the following:
 Turn the inline CSS setting on so that your styles are automatically inlined before sending.
 
 <figure class="blog--image">
-  <img src="/img/mailchimp-inline.png" alt="Inline your CSS" width="300">
+  <img src="{{ site.url }}/img/mailchimp-inline.png" alt="Inline your CSS" width="300">
 </figure>
 
 Include Mailchimp's unsubscribe tag in your template. The tag is `*|UNSUB|*`. So your unsubscribe line in the footer should look something like:
@@ -88,13 +88,13 @@ Depending on whether you're paying for Mailchimp's service or not, you may be re
 Now test it. This step is VERY important.
 
 <figure class="blog--image">
-  <img src="/img/mailchimp-test.png" alt="Test your email" width="300">
+  <img src="{{ site.url }}/img/mailchimp-test.png" alt="Test your email" width="300">
 </figure>
 
 If all looks good you should be ready to send.
 
 <figure class="blog--image">
-  <img src="/img/mailchimp-sent.png" alt="Send your campaign" width="300">
+  <img src="{{ site.url }}/img/mailchimp-sent.png" alt="Send your campaign" width="300">
 </figure>
 
 ### How to make your templates reusable

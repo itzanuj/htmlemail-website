@@ -36,7 +36,7 @@ Before you copy it in to MoonMail you'll probably want to edit the content in yo
 * Update any social links and links to your website
 
 <figure class="blog--image">
-  <img src="/img/moonmail.png" alt="MoonMail" width="500">
+  <img src="{{ site.url }}/img/moonmail.png" alt="MoonMail" width="500">
 </figure>
 
 #### Working with images

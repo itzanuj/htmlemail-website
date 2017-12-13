@@ -3,13 +3,13 @@
         <channel>
                 <title></title>
                 <description>Responsive HTML Email Templates and Tools for Startups, Developers, Designers and Marketers.</description>
-                <link>http://localhost:4000</link>
-                <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+                <link>https://htmlemail.io</link>
+                <atom:link href="https://htmlemail.io/feed.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
                                 <title>How LightReports send daily HTML email reports with Postmark</title>
                                 <description>&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/lightreports-logo.gif&quot; alt=&quot;LightReports Logo&quot; width=&quot;200&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/lightreports-logo.gif&quot; alt=&quot;LightReports Logo&quot; width=&quot;200&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://lightreports.com/for/htmlemail&quot; target=&quot;_blank&quot;&gt;LightReports&lt;/a&gt; enables you to receive daily, weekly and monthly email reports about your business so you don’t need to look at yet another dashboard, enabling you to focus on your business instead.&lt;/p&gt;
@@ -17,7 +17,7 @@
 &lt;p&gt;Here we speak with their &lt;strong&gt;CEO, Sven Kapuđija&lt;/strong&gt;, about how they use &lt;a href=&quot;https://htmlemail.io#templates&quot;&gt;HTML Email templates&lt;/a&gt; to get their emails up and running with Postmark.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;img src=&quot;/img/lightreports-sven.jpg&quot; alt=&quot;Sven Kapuđija&quot; class=&quot;blockquote-avatar&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/lightreports-sven.jpg&quot; alt=&quot;Sven Kapuđija&quot; class=&quot;blockquote-avatar&quot; /&gt;
   &lt;p&gt;&amp;ldquo;As email reports are essentially our business it's crucial that email templates look &amp;amp; work perfect.&amp;rdquo;&lt;/p&gt;
   &lt;cite&gt;&amp;mdash; Sven Kapuđija, CEO&lt;/cite&gt;
 &lt;/blockquote&gt;
@@ -29,7 +29,7 @@
 &lt;p&gt;Then I found out about HTML Email and all of my concerns were addressed right away - &lt;strong&gt;working across clients, flexible enough to modify as needed, nice &amp;amp; clean design&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/lightreports1.jpg&quot; alt=&quot;LightReports&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/lightreports1.jpg&quot; alt=&quot;LightReports&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;LightReports enables you to receive daily, weekly and monthly email reports about your business.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -44,7 +44,7 @@
 &lt;p&gt;Once setup &lt;strong&gt;they worked perfectly, both on desktop &amp;amp; mobile&lt;/strong&gt;. It didn’t take too long, maybe a day or two, to adjust it to fit our product requirements. Especially compared to the time it would required me to do in &lt;strong&gt;myself, which would have taken weeks&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/lightreports2.jpg&quot; alt=&quot;LightReports&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/lightreports2.jpg&quot; alt=&quot;LightReports&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;Example of a weekly report with Google Analytics, Gumroad, Facebook Ads and Mailchimp stats.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -72,14 +72,14 @@
 
 </description>
                                 <pubDate>Mon, 04 Dec 2017 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/light-reports-postmark-case-study</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/light-reports-postmark-case-study</guid>
+                                <link>https://htmlemail.io//blog/light-reports-postmark-case-study</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/light-reports-postmark-case-study</guid>
                         </item>
                 
                         <item>
                                 <title>How to customize your Shopify email templates</title>
                                 <description>&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-logo.png&quot; alt=&quot;Shopify&quot; width=&quot;200&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-logo.png&quot; alt=&quot;Shopify&quot; width=&quot;200&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;In this article we will learn how to use custom HTML email templates with &lt;a href=&quot;https://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt;.&lt;/p&gt;
@@ -108,11 +108,11 @@
 &lt;/ul&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-1.jpg&quot; alt=&quot;Shopify notifications&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-1.jpg&quot; alt=&quot;Shopify notifications&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-2.jpg&quot; alt=&quot;Shopify notification templates&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-2.jpg&quot; alt=&quot;Shopify notification templates&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;2-upload-the-files-that-you-need&quot;&gt;2. Upload the files that you need&lt;/h4&gt;
@@ -128,11 +128,11 @@
 &lt;/ul&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-3.jpg&quot; alt=&quot;Shopify files CDN&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-3.jpg&quot; alt=&quot;Shopify files CDN&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-4.jpg&quot; alt=&quot;Upload files&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-4.jpg&quot; alt=&quot;Upload files&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;3-customize-your-template-and-insert-the-shopify-liquid-variables-into-your-template&quot;&gt;3. Customize your template and insert the Shopify liquid variables into your template&lt;/h4&gt;
@@ -149,7 +149,7 @@
 &lt;/ul&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-5.jpg&quot; alt=&quot;Email code editor&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-5.jpg&quot; alt=&quot;Email code editor&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Here are some code samples.&lt;/p&gt;
@@ -198,7 +198,7 @@
 &lt;p&gt;Like I mentioned before, you can edit the HTML in the Shopify form, although I have found it much easier to manage this outside of Shopify using my own editor.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-6.jpg&quot; alt=&quot;Copy/paste code&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-6.jpg&quot; alt=&quot;Copy/paste code&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;5-test-your-shopify-emails&quot;&gt;5. Test your Shopify emails&lt;/h4&gt;
@@ -206,11 +206,11 @@
 &lt;p&gt;Shopify provides two testing methods. Preview in the browser and email yourself. Try both until it looks good.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-7.jpg&quot; alt=&quot;Test and preview email template&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-7.jpg&quot; alt=&quot;Test and preview email template&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/shopify-8.jpg&quot; alt=&quot;Test and preview email template&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/shopify-8.jpg&quot; alt=&quot;Test and preview email template&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
@@ -230,14 +230,14 @@
 &lt;/ul&gt;
 </description>
                                 <pubDate>Wed, 22 Nov 2017 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/email-templates-shopify</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/email-templates-shopify</guid>
+                                <link>https://htmlemail.io//blog/email-templates-shopify</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/email-templates-shopify</guid>
                         </item>
                 
                         <item>
                                 <title>How Mindful Industries use HTML email templates to send transactional emails with Mailgun</title>
                                 <description>&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mindful-logo.png&quot; alt=&quot;Mindful Industries&quot; width=&quot;200&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mindful-logo.png&quot; alt=&quot;Mindful Industries&quot; width=&quot;200&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://uploadme.ai&quot; target=&quot;_blank&quot;&gt;Mindful Industries&lt;/a&gt; are an artificial intelligence company. They’ve created an AI ever-living (immortal) doppelgänger of real humans and are &lt;strong&gt;sending tens of thousands of emails a month with Mailgun&lt;/strong&gt;.&lt;/p&gt;
@@ -245,7 +245,7 @@
 &lt;p&gt;Here we speak with their &lt;strong&gt;Founder, Jan Kremlacek&lt;/strong&gt;, about how they used &lt;a href=&quot;https://htmlemail.io#templates&quot;&gt;HTML Email templates&lt;/a&gt; to create an email library and then embeded it in their codebase.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;img src=&quot;/img/mindful-jan.png&quot; alt=&quot;Jan Kremlacek&quot; class=&quot;blockquote-avatar&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mindful-jan.png&quot; alt=&quot;Jan Kremlacek&quot; class=&quot;blockquote-avatar&quot; /&gt;
   &lt;p&gt;&amp;ldquo;...we plugged all the new HTML templates into our design and codebase in less than 1 day&amp;rdquo;&lt;/p&gt;
   &lt;cite&gt;&amp;mdash; Jan Kremlacek, Founder&lt;/cite&gt;
 &lt;/blockquote&gt;
@@ -256,7 +256,7 @@
 be more clear, we weren’t so much concerned about the design (as “keep it simple” works for us), but &lt;strong&gt;we wanted a coherent library&lt;/strong&gt; do serve emails &lt;strong&gt;without spending months in development&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mindful1.png&quot; alt=&quot;Mindful Industries transactional email&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mindful1.png&quot; alt=&quot;Mindful Industries transactional email&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;Transactional emails are sent through Mailgun.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -267,7 +267,7 @@ be more clear, we weren’t so much concerned about the design (as “keep it si
 &lt;p&gt;Your templates helped us a lot! We took the basic one, then &lt;strong&gt;used your knowledge of how to structure HTML email&lt;/strong&gt;, which CSS inlining works and which not, and created our own simple components (like the skeleton, buttons, tables, etc.) to fit our design and code work flow.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mindful2.png&quot; alt=&quot;Mindful Industries transactional email&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mindful2.png&quot; alt=&quot;Mindful Industries transactional email&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;Transactional emails are sent through Mailgun.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -304,8 +304,8 @@ our customers about the HTML emails functionality.&lt;/p&gt;
 
 </description>
                                 <pubDate>Sun, 12 Nov 2017 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/mindful-industries-mailgun-case-study</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/mindful-industries-mailgun-case-study</guid>
+                                <link>https://htmlemail.io//blog/mindful-industries-mailgun-case-study</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/mindful-industries-mailgun-case-study</guid>
                         </item>
                 
                         <item>
@@ -330,7 +330,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;The use of conversational tone is greatly recommended, as the customer will feel engaged when reading the receipt.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/casper.png&quot; alt=&quot;Casper receipt&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/casper.png&quot; alt=&quot;Casper receipt&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;See in the Casper example above how they have a promotional section at the bottom for referring a friend. Photo credit &lt;a href=&quot;http://reallygoodemails.com/&quot;&gt;Really Good Emails&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -355,7 +355,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;A receipt confirmation email is an important document for any customer. As a developer making the email, simple and direct to the point of the highest priority. Ensure your customers do not struggle to read or understand the contents of your email.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/chewy.png&quot; alt=&quot;Chewy receipt&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/chewy.png&quot; alt=&quot;Chewy receipt&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;See in the Chewy example above how they show a breakdown of information with photos of each product. Photo credit &lt;a href=&quot;http://reallygoodemails.com/&quot;&gt;Really Good Emails&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -366,7 +366,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;A good review or your product and services will eventually lead to more returning and new customers. The social media links can be shared bringing in more page visits. This is an easy way to retain your customer without using a penny.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/bluebottle.png&quot; alt=&quot;Blue Bottle receipt&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/bluebottle.png&quot; alt=&quot;Blue Bottle receipt&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;See in the Blue Bottle example above how they have Twitter, Facebook and Instagram icons that link to their profiles. Photo credit &lt;a href=&quot;http://reallygoodemails.com/&quot;&gt;Really Good Emails&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -377,7 +377,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;This effective communication will be instrumental in retaining your customers’ confidence in your company and products. Aim to &lt;strong&gt;declutter your email and optimize the links by providing more space&lt;/strong&gt; which will reduce the likelihood of clicking unintended links.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/niice.png&quot; alt=&quot;Niice receipt&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/niice.png&quot; alt=&quot;Niice receipt&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;See in the Niice example above how they have keep it simple with lots of white space so it looks great on mobile. Photo credit &lt;a href=&quot;http://reallygoodemails.com/&quot;&gt;Really Good Emails&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -388,7 +388,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;As an email developer, you need to factor in this when developing an effective receipt email template. You can allow the customers to &lt;strong&gt;edit the information by themselves or otherwise provide contact information for customer support at the footer&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/airbnb.png&quot; alt=&quot;Airbnb receipt&quot; width=&quot;400&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/airbnb.png&quot; alt=&quot;Airbnb receipt&quot; width=&quot;400&quot; /&gt;
   &lt;figcaption&gt;See in the Airbnb example above how they make it really clear how to contact customer support and make changes post confirmation. Photo credit &lt;a href=&quot;http://reallygoodemails.com/&quot;&gt;Really Good Emails&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -399,18 +399,18 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;If you need a template for your website, we have an easy-to-use, attractive and modern &lt;a href=&quot;https://htmlemail.io/templates/receipt&quot;&gt;receipt email template&lt;/a&gt;. &lt;strong&gt;Responsive and ready to integrate with ESPs like SendGrid and e-commerce platforms like Shopify and Wordpress&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;a href=&quot;https://htmlemail.io/templates/receipt&quot;&gt;&lt;img src=&quot;/img/preview-receipt-desktop-hd.jpg&quot; alt=&quot;Invoice and receipt template&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://htmlemail.io/templates/receipt&quot;&gt;&lt;img src=&quot;https://htmlemail.io/img/preview-receipt-desktop-hd.jpg&quot; alt=&quot;Invoice and receipt template&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 </description>
                                 <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/perfect-receipt-email-template-tips</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/perfect-receipt-email-template-tips</guid>
+                                <link>https://htmlemail.io//blog/perfect-receipt-email-template-tips</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/perfect-receipt-email-template-tips</guid>
                         </item>
                 
                         <item>
                                 <title>How to use custom HTML email templates with SendGrid</title>
                                 <description>&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/sendgrid.gif&quot; alt=&quot;SendGrid&quot; width=&quot;200&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/sendgrid.gif&quot; alt=&quot;SendGrid&quot; width=&quot;200&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Congratulations! You’ve just downloaded your set of &lt;a href=&quot;http://htmlemail.io&quot;&gt;responsive HTML email templates&lt;/a&gt; and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into SendGrid so you can use them.&lt;/p&gt;
@@ -441,11 +441,11 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into SendGrid. Here I’ve copied across the inlined receipt email code.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/sendgrid-create.jpg&quot; alt=&quot;Create HTML email template&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/sendgrid-create.jpg&quot; alt=&quot;Create HTML email template&quot; width=&quot;500&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/sendgrid-copy.jpg&quot; alt=&quot;Copy code&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/sendgrid-copy.jpg&quot; alt=&quot;Copy code&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;update-the-placeholder-content-with-sendgrid-sub-tags&quot;&gt;Update the placeholder content with SendGrid sub tags&lt;/h4&gt;
@@ -461,7 +461,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;Then put SendGrid sub tags where you want the content e.g. in the receipt email below you can see I’ve placed tags like &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;%item%&amp;gt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;%price%&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/sendgrid-tags.jpg&quot; alt=&quot;Sub tags&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/sendgrid-tags.jpg&quot; alt=&quot;Sub tags&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;dont-forget-about-preheader-text&quot;&gt;Don’t forget about preheader text&lt;/h4&gt;
@@ -477,7 +477,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;SendGrid offers a handy image upload manager so you can upload your template images and reference them. They then do the hosting for you so no need to worry about an external CDN.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/sendgrid-upload.jpg&quot; alt=&quot;Upload images&quot; width=&quot;600&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/sendgrid-upload.jpg&quot; alt=&quot;Upload images&quot; width=&quot;600&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;start-sending&quot;&gt;Start sending&lt;/h4&gt;
@@ -527,8 +527,8 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;/ul&gt;
 </description>
                                 <pubDate>Mon, 11 Sep 2017 00:00:00 +0200</pubDate>
-                                <link>http://localhost:4000//blog/custom-sendgrid-templates</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/custom-sendgrid-templates</guid>
+                                <link>https://htmlemail.io//blog/custom-sendgrid-templates</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/custom-sendgrid-templates</guid>
                         </item>
                 
                         <item>
@@ -546,8 +546,8 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;/figure&gt;
 </description>
                                 <pubDate>Tue, 30 May 2017 00:00:00 +0200</pubDate>
-                                <link>http://localhost:4000//blog/email-campaign-preflight-checklist</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/email-campaign-preflight-checklist</guid>
+                                <link>https://htmlemail.io//blog/email-campaign-preflight-checklist</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/email-campaign-preflight-checklist</guid>
                         </item>
                 
                         <item>
@@ -587,7 +587,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;/ul&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/moonmail.png&quot; alt=&quot;MoonMail&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/moonmail.png&quot; alt=&quot;MoonMail&quot; width=&quot;500&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;working-with-images&quot;&gt;Working with images&lt;/h4&gt;
@@ -621,14 +621,14 @@ When developing an invoice email template it is recommended that marketers follo
 
 </description>
                                 <pubDate>Thu, 16 Mar 2017 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/custom-moonmail-templates</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/custom-moonmail-templates</guid>
+                                <link>https://htmlemail.io//blog/custom-moonmail-templates</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/custom-moonmail-templates</guid>
                         </item>
                 
                         <item>
                                 <title>How to use custom HTML email templates with Customer.io</title>
                                 <description>&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/customerio-logo.png&quot; alt=&quot;Customer.io&quot; width=&quot;200&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/customerio-logo.png&quot; alt=&quot;Customer.io&quot; width=&quot;200&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Congratulations! You’ve just downloaded your set of &lt;a href=&quot;http://htmlemail.io&quot;&gt;responsive HTML email templates&lt;/a&gt; and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Customer.io so you can use them.&lt;/p&gt;
@@ -658,7 +658,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into Customer.io. Here I’ve copied across the inlined newsletter code.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/customerio-template.png&quot; alt=&quot;Copy code&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/customerio-template.png&quot; alt=&quot;Copy code&quot; width=&quot;500&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;At this point the template is using the default HTMLemail.io imagery and branding so remember to switch the logo out for your own logo.&lt;/p&gt;
@@ -702,7 +702,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;That should be you ready to go. When you create an auto message or a newsletter, you can select your new layout and use it.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/customerio-layout.jpg&quot; alt=&quot;Select layout&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/customerio-layout.jpg&quot; alt=&quot;Select layout&quot; width=&quot;500&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I recommend disabling CSS pre-processing if you are using the templates that are already inlined. It’s possible that without disabling it may cause issues, especially with responsive media queries.&lt;/p&gt;
@@ -710,7 +710,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;To disable, switch from &lt;code class=&quot;highlighter-rouge&quot;&gt;Rich Text&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Code&lt;/code&gt; mode. You should see a checkbox for &lt;code class=&quot;highlighter-rouge&quot;&gt;Disable CSS pre-processing&lt;/code&gt;. Check this.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/customerio-disable.gif&quot; alt=&quot;Disable inline CSS&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/customerio-disable.gif&quot; alt=&quot;Disable inline CSS&quot; width=&quot;500&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
@@ -729,14 +729,14 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;/ul&gt;
 </description>
                                 <pubDate>Thu, 19 Jan 2017 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/custom-customerio-templates</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/custom-customerio-templates</guid>
+                                <link>https://htmlemail.io//blog/custom-customerio-templates</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/custom-customerio-templates</guid>
                         </item>
                 
                         <item>
                                 <title>How to use custom HTML email templates with Mailchimp</title>
                                 <description>&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mailchimp-logo.gif&quot; alt=&quot;Mailchimp&quot; width=&quot;200&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mailchimp-logo.gif&quot; alt=&quot;Mailchimp&quot; width=&quot;200&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Congratulations! You’ve just downloaded your set of &lt;a href=&quot;http://htmlemail.io&quot;&gt;responsive HTML email templates&lt;/a&gt; and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Mailchimp so you can use them.&lt;/p&gt;
@@ -764,7 +764,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;/ol&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mailchimp-zip.gif&quot; alt=&quot;Zip your email files&quot; width=&quot;300&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mailchimp-zip.gif&quot; alt=&quot;Zip your email files&quot; width=&quot;300&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;That should be you good to go with your email template in one zip file.&lt;/p&gt;
@@ -792,7 +792,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;/ul&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mailchimp-upload.gif&quot; alt=&quot;Upload your zip file&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mailchimp-upload.gif&quot; alt=&quot;Upload your zip file&quot; width=&quot;500&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;3-edit-your-template&quot;&gt;3. Edit your template&lt;/h4&gt;
@@ -813,7 +813,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;Turn the inline CSS setting on so that your styles are automatically inlined before sending.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mailchimp-inline.png&quot; alt=&quot;Inline your CSS&quot; width=&quot;300&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mailchimp-inline.png&quot; alt=&quot;Inline your CSS&quot; width=&quot;300&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Include Mailchimp’s unsubscribe tag in your template. The tag is &lt;code class=&quot;highlighter-rouge&quot;&gt;*|UNSUB|*&lt;/code&gt;. So your unsubscribe line in the footer should look something like:&lt;/p&gt;
@@ -829,13 +829,13 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;p&gt;Now test it. This step is VERY important.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mailchimp-test.png&quot; alt=&quot;Test your email&quot; width=&quot;300&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mailchimp-test.png&quot; alt=&quot;Test your email&quot; width=&quot;300&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;If all looks good you should be ready to send.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/mailchimp-sent.png&quot; alt=&quot;Send your campaign&quot; width=&quot;300&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/mailchimp-sent.png&quot; alt=&quot;Send your campaign&quot; width=&quot;300&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;how-to-make-your-templates-reusable&quot;&gt;How to make your templates reusable&lt;/h3&gt;
@@ -891,14 +891,14 @@ This content is then editable by any one when using this template
 &lt;/ul&gt;
 </description>
                                 <pubDate>Fri, 25 Nov 2016 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/custom-mailchimp-templates</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/custom-mailchimp-templates</guid>
+                                <link>https://htmlemail.io//blog/custom-mailchimp-templates</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/custom-mailchimp-templates</guid>
                         </item>
                 
                         <item>
                                 <title>How to use custom HTML email templates with Intercom</title>
                                 <description>&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/intercom-logo.gif&quot; alt=&quot;Intercom&quot; width=&quot;200&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/intercom-logo.gif&quot; alt=&quot;Intercom&quot; width=&quot;200&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Congratulations! You’ve just downloaded your set of &lt;a href=&quot;http://htmlemail.io&quot;&gt;responsive HTML email templates&lt;/a&gt; and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Intercom so you can use them.&lt;/p&gt;
@@ -928,7 +928,7 @@ This content is then editable by any one when using this template
 &lt;p&gt;Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into Intercom. Here I’ve copied across the plain inlined email code.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/intercom-copy.png&quot; alt=&quot;Copy code&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/intercom-copy.png&quot; alt=&quot;Copy code&quot; width=&quot;500&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;update-the-content-to-include-intercom-tags&quot;&gt;Update the content to include Intercom tags&lt;/h4&gt;
@@ -1017,7 +1017,7 @@ This content is then editable by any one when using this template
 &lt;p&gt;That should be you ready to go. When you create an auto message or a direct message, you can select your template and use it. Then add basic formatting when creating your content.&lt;/p&gt;
 
 &lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;/img/intercom-select.png&quot; alt=&quot;Select template&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;https://htmlemail.io/img/intercom-select.png&quot; alt=&quot;Select template&quot; width=&quot;500&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
@@ -1036,8 +1036,8 @@ This content is then editable by any one when using this template
 
 </description>
                                 <pubDate>Fri, 25 Nov 2016 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/custom-intercom-templates</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/custom-intercom-templates</guid>
+                                <link>https://htmlemail.io//blog/custom-intercom-templates</link>
+                                <guid isPermaLink="true">https://htmlemail.io//blog/custom-intercom-templates</guid>
                         </item>
                 
         </channel>

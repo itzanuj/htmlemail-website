@@ -25,7 +25,7 @@ For example, most of newsletter email templates are generic and informal use of 
 The use of conversational tone is greatly recommended, as the customer will feel engaged when reading the receipt.
 
 <figure class="blog--image">
-  <img src="/img/casper.png" alt="Casper receipt" width="400">
+  <img src="{{ site.url }}/img/casper.png" alt="Casper receipt" width="400">
   <figcaption>See in the Casper example above how they have a promotional section at the bottom for referring a friend. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ When referring to important details you should ensure the receipt has the follow
 A receipt confirmation email is an important document for any customer. As a developer making the email, simple and direct to the point of the highest priority. Ensure your customers do not struggle to read or understand the contents of your email.  
 
 <figure class="blog--image">
-  <img src="/img/chewy.png" alt="Chewy receipt" width="400">
+  <img src="{{ site.url }}/img/chewy.png" alt="Chewy receipt" width="400">
   <figcaption>See in the Chewy example above how they show a breakdown of information with photos of each product. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Having social media links attached at the footer of the receipt email will step 
 A good review or your product and services will eventually lead to more returning and new customers. The social media links can be shared bringing in more page visits. This is an easy way to retain your customer without using a penny.
 
 <figure class="blog--image">
-  <img src="/img/bluebottle.png" alt="Blue Bottle receipt" width="400">
+  <img src="{{ site.url }}/img/bluebottle.png" alt="Blue Bottle receipt" width="400">
   <figcaption>See in the Blue Bottle example above how they have Twitter, Facebook and Instagram icons that link to their profiles. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ The expanding use of mobile phones to access the internet shouldn’t be taken l
 This effective communication will be instrumental in retaining your customers’ confidence in your company and products. Aim to **declutter your email and optimize the links by providing more space** which will reduce the likelihood of clicking unintended links.  
 
 <figure class="blog--image">
-  <img src="/img/niice.png" alt="Niice receipt" width="400">
+  <img src="{{ site.url }}/img/niice.png" alt="Niice receipt" width="400">
   <figcaption>See in the Niice example above how they have keep it simple with lots of white space so it looks great on mobile. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ Take a scenario where a customer has filled in **wrong information** such as bil
 As an email developer, you need to factor in this when developing an effective receipt email template. You can allow the customers to **edit the information by themselves or otherwise provide contact information for customer support at the footer**.
 
 <figure class="blog--image">
-  <img src="/img/airbnb.png" alt="Airbnb receipt" width="400">
+  <img src="{{ site.url }}/img/airbnb.png" alt="Airbnb receipt" width="400">
   <figcaption>See in the Airbnb example above how they make it really clear how to contact customer support and make changes post confirmation. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
@@ -92,5 +92,5 @@ As a marketer and email template developer, you are now ready to start designing
 If you need a template for your website, we have an easy-to-use, attractive and modern [receipt email template](https://htmlemail.io/templates/receipt). **Responsive and ready to integrate with ESPs like SendGrid and e-commerce platforms like Shopify and Wordpress**.
 
 <figure class="blog--image">
-  <a href="https://htmlemail.io/templates/receipt"><img src="/img/preview-receipt-desktop-hd.jpg" alt="Invoice and receipt template" width="400"></a>
+  <a href="https://htmlemail.io/templates/receipt"><img src="{{ site.url }}/img/preview-receipt-desktop-hd.jpg" alt="Invoice and receipt template" width="400"></a>
 </figure>

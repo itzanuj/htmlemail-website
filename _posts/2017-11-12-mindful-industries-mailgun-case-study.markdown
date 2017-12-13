@@ -6,7 +6,7 @@ tags: case-study, mailgun, customer
 ---
 
 <figure class="blog--image">
-  <img src="/img/mindful-logo.png" alt="Mindful Industries" width="200">
+  <img src="{{ site.url }}/img/mindful-logo.png" alt="Mindful Industries" width="200">
 </figure>
 
 <a href="https://uploadme.ai" target="_blank">Mindful Industries</a> are an artificial intelligence company. They've created an AI ever-living (immortal) doppelgänger of real humans and are **sending tens of thousands of emails a month with Mailgun**.
@@ -14,7 +14,7 @@ tags: case-study, mailgun, customer
 Here we speak with their **Founder, Jan Kremlacek**, about how they used <a href="https://htmlemail.io#templates">HTML Email templates</a> to create an email library and then embeded it in their codebase.
 
 <blockquote>
-  <img src="/img/mindful-jan.png" alt="Jan Kremlacek" class="blockquote-avatar">
+  <img src="{{ site.url }}/img/mindful-jan.png" alt="Jan Kremlacek" class="blockquote-avatar">
   <p>&ldquo;...we plugged all the new HTML templates into our design and codebase in less than 1 day&rdquo;</p>
   <cite>&mdash; Jan Kremlacek, Founder</cite>
 </blockquote>
@@ -25,7 +25,7 @@ The main challenge was effort to have a **standardized internal library** to del
 be more clear, we weren't so much concerned about the design (as "keep it simple" works for us), but **we wanted a coherent library** do serve emails **without spending months in development**.
 
 <figure class="blog--image">
-  <img src="/img/mindful1.png" alt="Mindful Industries transactional email" width="400">
+  <img src="{{ site.url }}/img/mindful1.png" alt="Mindful Industries transactional email" width="400">
   <figcaption>Transactional emails are sent through Mailgun.</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Another important aspect for us was an ability to inline HTML emails on our side
 Your templates helped us a lot! We took the basic one, then **used your knowledge of how to structure HTML email**, which CSS inlining works and which not, and created our own simple components (like the skeleton, buttons, tables, etc.) to fit our design and code work flow. 
 
 <figure class="blog--image">
-  <img src="/img/mindful2.png" alt="Mindful Industries transactional email" width="400">
+  <img src="{{ site.url }}/img/mindful2.png" alt="Mindful Industries transactional email" width="400">
   <figcaption>Transactional emails are sent through Mailgun.</figcaption>
 </figure>
 

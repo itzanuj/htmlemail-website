@@ -6,7 +6,7 @@ tags: tutorial, shopify, esp
 ---
 
 <figure class="blog--image">
-  <img src="/img/shopify-logo.png" alt="Shopify" width="200">
+  <img src="{{ site.url }}/img/shopify-logo.png" alt="Shopify" width="200">
 </figure>
 
 In this article we will learn how to use custom HTML email templates with [Shopify](https://www.shopify.com/). 
@@ -31,11 +31,11 @@ You've just got yourself some new [HTML email templates](http://htmlemail.io/#te
 * Open up your new [email template](/templates/receipt) (lets use `receipt-inlined.html` as an example) in your favorite editor as well so you have this side by side with the Shopify template for reference
 
 <figure class="blog--image">
-  <img src="/img/shopify-1.jpg" alt="Shopify notifications" width="600">
+  <img src="{{ site.url }}/img/shopify-1.jpg" alt="Shopify notifications" width="600">
 </figure>
 
 <figure class="blog--image">
-  <img src="/img/shopify-2.jpg" alt="Shopify notification templates" width="600">
+  <img src="{{ site.url }}/img/shopify-2.jpg" alt="Shopify notification templates" width="600">
 </figure>
 
 #### 2. Upload the files that you need
@@ -49,11 +49,11 @@ Shopify provides a files feature where you can upload images. This is your CDN a
 * e.g. `img/logo.png` becomes something like `//cdn.shopify.com/files/1234/logo.png`
 
 <figure class="blog--image">
-  <img src="/img/shopify-3.jpg" alt="Shopify files CDN" width="600">
+  <img src="{{ site.url }}/img/shopify-3.jpg" alt="Shopify files CDN" width="600">
 </figure>
 
 <figure class="blog--image">
-  <img src="/img/shopify-4.jpg" alt="Upload files" width="600">
+  <img src="{{ site.url }}/img/shopify-4.jpg" alt="Upload files" width="600">
 </figure>
 
 #### 3. Customize your template and insert the Shopify liquid variables into your template
@@ -68,7 +68,7 @@ This is going to be the bulk of the task. Referencing the original Shopify templ
 * Use a `for` statement for your list of items `{% raw %}{% for line in line_items %}{% endraw %}`
 
 <figure class="blog--image">
-  <img src="/img/shopify-5.jpg" alt="Email code editor" width="600">
+  <img src="{{ site.url }}/img/shopify-5.jpg" alt="Email code editor" width="600">
 </figure>
 
 Here are some code samples.
@@ -115,7 +115,7 @@ At this point copy/paste your email template code over to Shopify.
 Like I mentioned before, you can edit the HTML in the Shopify form, although I have found it much easier to manage this outside of Shopify using my own editor.
 
 <figure class="blog--image">
-  <img src="/img/shopify-6.jpg" alt="Copy/paste code" width="600">
+  <img src="{{ site.url }}/img/shopify-6.jpg" alt="Copy/paste code" width="600">
 </figure>
 
 #### 5. Test your Shopify emails
@@ -123,11 +123,11 @@ Like I mentioned before, you can edit the HTML in the Shopify form, although I h
 Shopify provides two testing methods. Preview in the browser and email yourself. Try both until it looks good.
 
 <figure class="blog--image">
-  <img src="/img/shopify-7.jpg" alt="Test and preview email template" width="600">
+  <img src="{{ site.url }}/img/shopify-7.jpg" alt="Test and preview email template" width="600">
 </figure>
 
 <figure class="blog--image">
-  <img src="/img/shopify-8.jpg" alt="Test and preview email template" width="600">
+  <img src="{{ site.url }}/img/shopify-8.jpg" alt="Test and preview email template" width="600">
 </figure>
 
 ### Further reading

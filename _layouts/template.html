@@ -15,15 +15,15 @@
     <div class="span7">
       <h3>Desktop preview</h3>
       <div class="desktop-preview">
-        <img src="/img/emailclient.png" alt="" class="desktop-preview__client">
-        <img src="{{ page.desktop-preview }}" alt="{{ page.title }} desktop preview" class="desktop-preview__screenshot">
+        <img src="{{ site.url }}/img/emailclient.png" alt="" class="desktop-preview__client">
+        <img src="{{ site.url }}{{ page.desktop-preview }}" alt="{{ page.title }} desktop preview" class="desktop-preview__screenshot">
       </div>
     </div>
     <div class="span3">
       <h3>Mobile preview</h3>
       <div class="mobile-preview">
-        <img src="/img/iphone.png" alt="" class="mobile-preview__client">
-        <img src="{{ page.mobile-preview }}" alt="{{ page.title }} mobile preview" class="mobile-preview__screenshot">
+        <img src="{{ site.url }}/img/iphone.png" alt="" class="mobile-preview__client">
+        <img src="{{ site.url }}{{ page.mobile-preview }}" alt="{{ page.title }} mobile preview" class="mobile-preview__screenshot">
       </div>
     </div>
     <div class="span1">&nbsp;</div>
@@ -64,7 +64,7 @@
         <li>iPhone / iPad / iOS / Android</li>
         <li>Chrome / Firefox / Safari / Explorer</li>
       </ul>
-      <p><img src="/img/litmus.gif" title="Litmus Test Results" alt="Litmus Test Results" class="litmus-preview"> <a href="{{ page.litmus-preview }}" target="_blank" onclick="ga('send', 'event', 'icon', 'click', 'Litmus-test-template_{{ page.title }}');" rel=”nofollow”>See our Litmus test results</a></p>
+      <p><img src="{{ site.url }}/img/litmus.gif" title="Litmus Test Results" alt="Litmus Test Results" class="litmus-preview"> <a href="{{ page.litmus-preview }}" target="_blank" onclick="ga('send', 'event', 'icon', 'click', 'Litmus-test-template_{{ page.title }}');" rel=”nofollow”>See our Litmus test results</a></p>
     </div>
     <div class="span4">
       <h4>Email service providers</h4>
@@ -100,7 +100,7 @@
 <section class="full-section full-section-callout">
   <div class="container">
     <blockquote>
-      <img src="/img/mark.jpg" alt="Mark Studebaker" class="blockquote-avatar">
+      <img src="{{ site.url }}/img/mark.jpg" alt="Mark Studebaker" class="blockquote-avatar">
       <p>I played around with other templates... what a pain in the butt. Your templates worked great! Love that you had them tested using Litmus and were WELL WORTH the cost. Great job.</p>
       <cite>&mdash; <a href="https://flowmingo.com">Mark Studebaker, Flowmingo</a></cite>
     </blockquote>
@@ -132,7 +132,7 @@
     <div class="text-center">
       <h4>#1 on Product Hunt</h4>
       <p>Top voted product on launch day with 2,000 votes &amp; ranked #1 in developer tools.</p>
-      <p><a href="https://www.producthunt.com/posts/html-email" onclick="ga('send', 'event', 'img', 'click', 'Product-Hunt');​"><img src="/img/ph.png" width="150" alt="Product Hunt logo"></a></p>
+      <p><a href="https://www.producthunt.com/posts/html-email" onclick="ga('send', 'event', 'img', 'click', 'Product-Hunt');​"><img src="{{ site.url }}/img/ph.png" width="150" alt="Product Hunt logo"></a></p>
       <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I think I love you. I can already feel my email headaches flying away :-)</p>&mdash; Adam Davies
   (Web Developer) <a href="https://www.producthunt.com/posts/html-email#comment-340701">August 11</a></blockquote>
     </div>

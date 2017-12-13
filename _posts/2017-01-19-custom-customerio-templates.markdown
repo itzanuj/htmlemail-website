@@ -6,7 +6,7 @@ tags: tutorial, esp
 ---
 
 <figure class="blog--image">
-  <img src="/img/customerio-logo.png" alt="Customer.io" width="200">
+  <img src="{{ site.url }}/img/customerio-logo.png" alt="Customer.io" width="200">
 </figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Customer.io so you can use them.
@@ -34,7 +34,7 @@ Lets look at some of these in more detail.
 Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into Customer.io. Here I've copied across the inlined newsletter code.
 
 <figure class="blog--image">
-  <img src="/img/customerio-template.png" alt="Copy code" width="500">
+  <img src="{{ site.url }}/img/customerio-template.png" alt="Copy code" width="500">
 </figure>
 
 At this point the template is using the default HTMLemail.io imagery and branding so remember to switch the logo out for your own logo.
@@ -78,7 +78,7 @@ If you're using images in the template, like your company logo or the social ico
 That should be you ready to go. When you create an auto message or a newsletter, you can select your new layout and use it. 
 
 <figure class="blog--image">
-  <img src="/img/customerio-layout.jpg" alt="Select layout" width="500">
+  <img src="{{ site.url }}/img/customerio-layout.jpg" alt="Select layout" width="500">
 </figure>
 
 I recommend disabling CSS pre-processing if you are using the templates that are already inlined. It's possible that without disabling it may cause issues, especially with responsive media queries.
@@ -86,7 +86,7 @@ I recommend disabling CSS pre-processing if you are using the templates that are
 To disable, switch from `Rich Text` to `Code` mode. You should see a checkbox for `Disable CSS pre-processing`. Check this.
 
 <figure class="blog--image">
-  <img src="/img/customerio-disable.gif" alt="Disable inline CSS" width="500">
+  <img src="{{ site.url }}/img/customerio-disable.gif" alt="Disable inline CSS" width="500">
 </figure>
 
 ### Further reading

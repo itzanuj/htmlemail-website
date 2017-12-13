@@ -6,7 +6,7 @@ tags: tutorial, esp
 ---
 
 <figure class="blog--image">
-  <img src="/img/intercom-logo.gif" alt="Intercom" width="200">
+  <img src="{{ site.url }}/img/intercom-logo.gif" alt="Intercom" width="200">
 </figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Intercom so you can use them.
@@ -34,7 +34,7 @@ Lets look at some of these in more detail.
 Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into Intercom. Here I've copied across the plain inlined email code.
 
 <figure class="blog--image">
-  <img src="/img/intercom-copy.png" alt="Copy code" width="500">
+  <img src="{{ site.url }}/img/intercom-copy.png" alt="Copy code" width="500">
 </figure>
 
 #### Update the content to include Intercom tags
@@ -123,7 +123,7 @@ If you're using images in the template, like your company logo or the social ico
 That should be you ready to go. When you create an auto message or a direct message, you can select your template and use it. Then add basic formatting when creating your content.
 
 <figure class="blog--image">
-  <img src="/img/intercom-select.png" alt="Select template" width="500">
+  <img src="{{ site.url }}/img/intercom-select.png" alt="Select template" width="500">
 </figure>
 
 ### Further reading

@@ -6,7 +6,7 @@ tags: tutorial, sendgrid
 ---
 
 <figure class="blog--image">
-  <img src="/img/sendgrid.gif" alt="SendGrid" width="200">
+  <img src="{{ site.url }}/img/sendgrid.gif" alt="SendGrid" width="200">
 </figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into SendGrid so you can use them.
@@ -36,11 +36,11 @@ Lets look at some of these in more detail.
 Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into SendGrid. Here I've copied across the inlined receipt email code.
 
 <figure class="blog--image">
-  <img src="/img/sendgrid-create.jpg" alt="Create HTML email template" width="500">
+  <img src="{{ site.url }}/img/sendgrid-create.jpg" alt="Create HTML email template" width="500">
 </figure>
 
 <figure class="blog--image">
-  <img src="/img/sendgrid-copy.jpg" alt="Copy code" width="600">
+  <img src="{{ site.url }}/img/sendgrid-copy.jpg" alt="Copy code" width="600">
 </figure>
 
 #### Update the placeholder content with SendGrid sub tags
@@ -56,7 +56,7 @@ Don't like these emails? <a href="<%asm_group_unsubscribe_raw_url%>" style="text
 Then put SendGrid sub tags where you want the content e.g. in the receipt email below you can see I've placed tags like `<%item%>` and `<%price%>`
 
 <figure class="blog--image">
-  <img src="/img/sendgrid-tags.jpg" alt="Sub tags" width="600">
+  <img src="{{ site.url }}/img/sendgrid-tags.jpg" alt="Sub tags" width="600">
 </figure>
 
 #### Don't forget about preheader text
@@ -72,7 +72,7 @@ As it is not visible it is easy to forget but you should also be replacing prehe
 SendGrid offers a handy image upload manager so you can upload your template images and reference them. They then do the hosting for you so no need to worry about an external CDN.
 
 <figure class="blog--image">
-  <img src="/img/sendgrid-upload.jpg" alt="Upload images" width="600">
+  <img src="{{ site.url }}/img/sendgrid-upload.jpg" alt="Upload images" width="600">
 </figure>
 
 #### Start sending
