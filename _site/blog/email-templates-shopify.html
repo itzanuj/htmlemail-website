@@ -8,11 +8,11 @@
   <title>How to customize your Shopify email templates</title>
   <meta name="description" content="Step by step tutorial on customizing your Shopify emails to they use your own branded and designed HTML email templates.">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
   <link rel="preload" href="/img/symbol/svg/sprite.symbol.svg" as="image">
-  <link rel="canonical" href="https://htmlemail.io/blog/email-templates-shopify" />
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for HTML Email" href="/feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/blog/email-templates-shopify" />
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for HTML Email" href="http://localhost:4000/feed.xml" />
   <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 </head>
 <body>
@@ -64,7 +64,7 @@
 
 <p>You’ve just got yourself some new <a href="http://htmlemail.io/#templates">HTML email templates</a>. You’re going to use templates that have <a href="/inline">inlined CSS</a> so you know they work across all major email clients. They contain some images like your logo or social media icons.</p>
 
-<h4 id="choose-an-email-template-to-edit">1. Choose an email template to edit</h4>
+<h4 id="1-choose-an-email-template-to-edit">1. Choose an email template to edit</h4>
 
 <ul>
   <li>Go to <code class="highlighter-rouge">Settings</code> -&gt; <code class="highlighter-rouge">Notifications</code></li>
@@ -81,7 +81,7 @@
   <img src="/img/shopify-2.jpg" alt="Shopify notification templates" width="600" />
 </figure>
 
-<h4 id="upload-the-files-that-you-need">2. Upload the files that you need</h4>
+<h4 id="2-upload-the-files-that-you-need">2. Upload the files that you need</h4>
 
 <p>Shopify provides a files feature where you can upload images. This is your CDN and where all your files will be hosted.</p>
 
@@ -101,7 +101,7 @@
   <img src="/img/shopify-4.jpg" alt="Upload files" width="600" />
 </figure>
 
-<h4 id="customize-your-template-and-insert-the-shopify-liquid-variables-into-your-template">3. Customize your template and insert the Shopify liquid variables into your template</h4>
+<h4 id="3-customize-your-template-and-insert-the-shopify-liquid-variables-into-your-template">3. Customize your template and insert the Shopify liquid variables into your template</h4>
 
 <p>This is going to be the bulk of the task. Referencing the original Shopify template you’re going to <strong>copy/paste the various liquid variables</strong> and logic over to your new email template.</p>
 
@@ -157,7 +157,7 @@
   <li><code class="highlighter-rouge"><span class="p">{</span><span class="err">{</span><span class="w"> </span><span class="err">transaction.payment_details.credit_card_last_four_digits</span><span class="w"> </span><span class="p">}</span><span class="err">}</span></code></li>
 </ul>
 
-<h4 id="copy-across-your-email-template-into-shopify">4. Copy across your email template into Shopify</h4>
+<h4 id="4-copy-across-your-email-template-into-shopify">4. Copy across your email template into Shopify</h4>
 
 <p>At this point copy/paste your email template code over to Shopify.</p>
 
@@ -167,7 +167,7 @@
   <img src="/img/shopify-6.jpg" alt="Copy/paste code" width="600" />
 </figure>
 
-<h4 id="test-your-shopify-emails">5. Test your Shopify emails</h4>
+<h4 id="5-test-your-shopify-emails">5. Test your Shopify emails</h4>
 
 <p>Shopify provides two testing methods. Preview in the browser and email yourself. Try both until it looks good.</p>
 
@@ -198,7 +198,7 @@
 
   <div class="social-sharing-container">
     <!-- Sharingbutton Facebook -->
-    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https://htmlemail.io/blog/email-templates-shopify" target="_blank" aria-label="Share on Facebook">
+    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/email-templates-shopify" target="_blank" aria-label="Share on Facebook">
       <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
             <g>
@@ -209,7 +209,7 @@
     </a>
 
     <!-- Sharingbutton Twitter -->
-    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=How to customize your Shopify email templates&amp;url=https://htmlemail.io/blog/email-templates-shopify" target="_blank" aria-label="Share on Twitter">
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=How to customize your Shopify email templates&amp;url=http://localhost:4000/blog/email-templates-shopify" target="_blank" aria-label="Share on Twitter">
       <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
             <g>
@@ -279,31 +279,7 @@
 
   <script src="/js/build.js"></script>
 
-  <!-- GA -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-1284993-68', 'auto', {'allowLinker': true});
-
-    window.addEventListener('load', function() {
-      window.setTimeout(function() {
-        var linkerParam = window.ga ? window.ga.getAll()[0].get('linkerParam') : '';
-        var iframe = document.querySelector('.gumroad-overlay-iframe');
-        if (iframe) {
-          iframe.src += iframe.src.indexOf('?') > -1 ? '&' + linkerParam : '?' + linkerParam;
-        }
-      }, 2000);
-    });
-
-    // Optimizely Universal Analytics Integration
-    window.optimizely = window.optimizely || [];
-    window.optimizely.push("activateUniversalAnalytics");
-
-    ga('send', 'pageview');
-  </script>
+  
 
 </body>
 </html>
