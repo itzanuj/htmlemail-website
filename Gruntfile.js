@@ -171,17 +171,6 @@ module.exports = function(grunt) {
           'copy'
         ]
       },
-      html: {
-        files: [
-          '**/*.{html,markdown,md}',
-          '!**/node_modules/**',
-          '!**/bower_components/**',
-          '!_site/**'
-        ],
-        tasks: [
-          'shell:jekyllBuild'
-        ]
-      },
       images: {
         files: [
           '_assets/img/*.{png,jpg,gif}'
