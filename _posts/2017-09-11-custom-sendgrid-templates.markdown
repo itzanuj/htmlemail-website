@@ -2,7 +2,8 @@
 layout: post
 title:  "How to use custom HTML email templates with SendGrid"
 description: Learn how to set up SendGrid to use your custom responsive HTML email templates
-tags: tutorial, sendgrid
+tags: tutorial, sendgrid, esp
+category: integration
 ---
 
 <figure class="blog--image">

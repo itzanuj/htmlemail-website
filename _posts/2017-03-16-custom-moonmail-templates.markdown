@@ -3,6 +3,7 @@ layout: post
 title:  "How to use custom HTML email templates with MoonMail"
 description: Learn how to set up MoonMail campaigns to use your custom responsive HTML email templates
 tags: tutorial, moonmail
+category: integration
 ---
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into MoonMail so you can use them.

@@ -3,6 +3,7 @@ layout: post
 title:  "How to use custom HTML email templates with Intercom"
 description: Learn how to set up Intercom to use your custom responsive HTML email templates
 tags: tutorial, esp
+category: integration
 ---
 
 <figure class="blog--image">

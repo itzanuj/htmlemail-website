@@ -3,6 +3,7 @@ layout: post
 title:  "How to customize your Shopify email templates"
 description: Step by step tutorial on customizing your Shopify emails to they use your own branded and designed HTML email templates.
 tags: tutorial, shopify, esp
+category: integration
 ---
 
 <figure class="blog--image">

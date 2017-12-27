@@ -3,6 +3,7 @@ layout: post
 title:  "How Mindful Industries use HTML email templates to send transactional emails with Mailgun"
 description: Case study of how Mindful Industries are using html email templates. They are an artificial intelligence company and send thousands of emails every month with Mailgun.
 tags: case-study, mailgun, customer
+category: customer
 ---
 
 <figure class="blog--image">
