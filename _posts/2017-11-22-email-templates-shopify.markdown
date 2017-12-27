@@ -4,11 +4,9 @@ title:  "How to customize your Shopify email templates"
 description: Step by step tutorial on customizing your Shopify emails to they use your own branded and designed HTML email templates.
 tags: tutorial, shopify, esp
 category: integration
+featured: true
+thumbnail: "blog-shopify.jpg"
 ---
-
-<figure class="blog--image">
-  <img src="{{ site.url }}/img/shopify-logo.png" alt="Shopify" width="200">
-</figure>
 
 In this article we will learn how to use custom HTML email templates with [Shopify](https://www.shopify.com/). 
 

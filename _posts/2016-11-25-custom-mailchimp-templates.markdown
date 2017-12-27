@@ -4,6 +4,8 @@ title:  "How to use custom HTML email templates with Mailchimp"
 description: Learn how to set up Mailchimp to use your custom responsive HTML email templates
 tags: tutorial, esp
 category: integration
+featured: true
+thumbnail: "blog-shopify.jpg"
 ---
 
 <figure class="blog--image">

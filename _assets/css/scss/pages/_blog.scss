@@ -51,6 +51,29 @@
   }
 }
 
+// Feature posts
+
+.featured-posts {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .post { 
+    transition: all .2s ease-in-out;
+
+    &__content {
+      padding: 10px;
+    }
+
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+      transform: scale(1.05);
+      z-index: 10;
+    }
+  }
+}
+
 
 
 

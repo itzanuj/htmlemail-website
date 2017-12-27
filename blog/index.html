@@ -1,21 +1,48 @@
 ---
-layout: page
-title: HTML Email Tips and Tutorials
+layout: default
+title: HTML Email Developer &amp; Delivery Blog
 description: Articles on how to set up HTML email templates and how to send emails for developers, designers and marketers
 nav: blog
 ---
 
-<form class="search-form" action="https://www.google.com/search" method="get">
-  <input type="search" name="q" placeholder="Search the blog" autofocus>
-  <input type="hidden" name="sitesearch" value="htmlemail.io">
-</form>
+<div class="container">
+  <h1>HTML Email Developer &amp; Delivery Blog</h1>
 
-<ul class="posts">
-{% for post in paginator.posts %}
-    <li>
-    <a href="{{ post.url }}" class="post__title">
-    	{{ post.title }}
-    </a>
-    </li>
-{% endfor %}
-</ul>
+  <form class="search-form" action="https://www.google.com/search" method="get">
+    <input type="search" name="q" placeholder="Search the blog" autofocus>
+    <input type="hidden" name="sitesearch" value="htmlemail.io">
+  </form>
+
+  <h2>ESP Integration Guides</h2>
+  <div class="featured-posts">
+    <div class="group">
+      {% for post in site.categories.integration %}
+      {% if post.featured == true %}
+      <div class="span4">
+        <a href="{{ post.url }}">
+          <div class="post">
+            <div class="post__image">
+              <img src="{{ site.url }}/img/{{ post.thumbnail }}" alt="{{ post.title }}">
+            </div>
+            <div class="post__content">
+              <h3 class="post__title">{{ post.title }}</h3>
+              <p class="post__desc">{{ post.description | truncate_words: 20 }}</p>
+            </div>
+          </div>
+        </a>  
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <ul class="posts">
+  {% for post in paginator.posts %}
+      <li>
+      <a href="{{ post.url }}" class="post__title">
+        {{ post.title }}
+      </a>
+      </li>
+  {% endfor %}
+  </ul>
+</div>
