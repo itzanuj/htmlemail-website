@@ -5,12 +5,8 @@ description: Learn how to set up Mailchimp to use your custom responsive HTML em
 tags: tutorial, esp
 category: integration
 featured: true
-thumbnail: "blog-shopify.jpg"
+thumbnail: "blog-mailchimp.jpg"
 ---
-
-<figure class="blog--image">
-  <img src="{{ site.url }}/img/mailchimp-logo.gif" alt="Mailchimp" width="200">
-</figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Mailchimp so you can use them.
 

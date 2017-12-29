@@ -5,12 +5,8 @@ description: Learn how to set up SendGrid to use your custom responsive HTML ema
 tags: tutorial, sendgrid, esp
 category: integration
 featured: true
-thumbnail: "blog-shopify.jpg"
+thumbnail: "blog-sendgrid.jpg"
 ---
-
-<figure class="blog--image">
-  <img src="{{ site.url }}/img/sendgrid.gif" alt="SendGrid" width="200">
-</figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into SendGrid so you can use them.
 
