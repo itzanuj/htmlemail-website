@@ -4,11 +4,9 @@ title:  "How LightReports send daily HTML email reports with Postmark"
 description: Case study of how LightReports are using html email templates. Connect all the services your business uses and receive reports to your inbox daily, weekly or monthly.
 tags: case-study, postmark, customer
 category: customer
+featured: true
+thumbnail: "blog-lightreports.jpg"
 ---
-
-<figure class="blog--image">
-  <img src="{{ site.url }}/img/lightreports-logo.gif" alt="LightReports Logo" width="200">
-</figure>
 
 <a href="https://lightreports.com/for/htmlemail" target="_blank">LightReports</a> enables you to receive daily, weekly and monthly email reports about your business so you don't need to look at yet another dashboard, enabling you to focus on your business instead.
 
