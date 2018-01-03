@@ -8,11 +8,6 @@ nav: blog
 <div class="container">
   <h1>{{ page.title }}</h1>
 
-  <form class="search-form" action="https://www.google.com/search" method="get">
-    <input type="search" name="q" placeholder="Search the blog" autofocus>
-    <input type="hidden" name="sitesearch" value="htmlemail.io">
-  </form>
-
   <h2>ESP Integration Guides</h2>
   <div class="featured-posts">
     <div class="group">
@@ -79,13 +74,21 @@ nav: blog
     </div>
   </div>
 
+  <h3>All Posts</h3>
+
+  <form class="search-form" action="https://www.google.com/search" method="get">
+    <input type="search" name="q" placeholder="Search the blog" autofocus>
+    <input type="hidden" name="sitesearch" value="htmlemail.io">
+  </form>
+
   <ul class="posts">
   {% for post in paginator.posts %}
-      <li>
+    <li>
       <a href="{{ post.url }}" class="post__title">
         {{ post.title }}
       </a>
-      </li>
+      <span class="post__date">&mdash; {{ post.date | date: "%b %Y" }}</span>
+    </li>
   {% endfor %}
   </ul>
 </div>
