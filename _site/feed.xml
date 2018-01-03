@@ -7,6 +7,68 @@
                 <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>How RocketBlocks improved their email templates and started sending with Amazon SES</title>
+                                <description>&lt;p&gt;&lt;a href=&quot;https://www.rocketblocks.me&quot; target=&quot;_blank&quot;&gt;RocketBlocks&lt;/a&gt; help students build and hone the skills they need to succeed in job interviews. They are sending various transactional emails using Amazon SES.&lt;/p&gt;
+
+&lt;p&gt;Here we speak with their &lt;strong&gt;CEO, Kenton Kivestu&lt;/strong&gt;, about how they made their &lt;a href=&quot;https://htmlemail.io#templates&quot;&gt;HTML Email templates&lt;/a&gt; more professional in half a day.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;img src=&quot;http://localhost:4000/img/rocketblocks-kenton.jpg&quot; alt=&quot;Kenton Kivestu&quot; class=&quot;blockquote-avatar&quot; /&gt;
+  &lt;p&gt;&amp;ldquo;The process was super simple. We went from discovery to implemented in production in roughly 1/2 a day.&amp;rdquo;&lt;/p&gt;
+  &lt;cite&gt;&amp;mdash; Kenton Kivestu, CEO&lt;/cite&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;what-was-the-challenge-you-were-facing&quot;&gt;What was the challenge you were facing?&lt;/h3&gt;
+
+&lt;p&gt;Before this, our emails were really janky. &lt;strong&gt;We didn’t have the time to invest in figuring out cross-client issues&lt;/strong&gt; so we went with really barebones, text-only ones. But we were sending enough emails between invoices, forgot password, booking confirmations etc. that it seemed like a big customer touch point to waste with a really “meh” experience.&lt;/p&gt;
+
+&lt;figure class=&quot;blog--image&quot;&gt;
+  &lt;img src=&quot;http://localhost:4000/img/rocketblocks1.jpg&quot; alt=&quot;RocketBlocks&quot; width=&quot;400&quot; /&gt;
+  &lt;figcaption&gt;RocketBlocks helps students prepare for interviews.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;how-did-html-email-templates-help-solve-this-problem&quot;&gt;How did HTML Email templates help solve this problem?&lt;/h3&gt;
+
+&lt;p&gt;Email templates really helped us because we used a slightly modified version, added in our logo, the right social media buttons and &lt;strong&gt;all of a sudden we had a pretty good template&lt;/strong&gt; which would provide a good experience across clients and device types (web vs. mobile). They looked significantly better!&lt;/p&gt;
+
+&lt;h3 id=&quot;what-were-the-results&quot;&gt;What were the results?&lt;/h3&gt;
+
+&lt;p&gt;The process was super simple. We went from discovery, &lt;strong&gt;literally finding the site for the first time, to implemented in production in roughly 1/2 a day&lt;/strong&gt;. We we’re pretty happy with that.&lt;/p&gt;
+
+&lt;figure class=&quot;blog--image&quot;&gt;
+  &lt;img src=&quot;http://localhost:4000/img/rocketblocks2.jpg&quot; alt=&quot;RocketBlocks&quot; width=&quot;400&quot; /&gt;
+  &lt;figcaption&gt;RocketBlocks booking notification.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;transaction-email-templates-for-amazon-ses&quot;&gt;Transaction email templates for Amazon SES&lt;/h3&gt;
+
+&lt;p&gt;If you want to make your emails more professional looking take a look at our templates.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/templates/newsletter&quot;&gt;Weekly &amp;amp; Monthly Newsletters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/templates/rss&quot;&gt;Daily &amp;amp; Weekly News Updates&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/templates/alert-success&quot;&gt;Email Alerts &amp;amp; Notifications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;other-case-studies&quot;&gt;Other case studies&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/mindful-industries-mailgun-case-study&quot;&gt;How Mindful Industries use Mailgun to send transactional emails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.rocketblocks.me&quot;&gt;RocketBlocks: Consulting case interview prep&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+                                <pubDate>Tue, 02 Jan 2018 00:00:00 -0800</pubDate>
+                                <link>http://localhost:4000//blog/rocketblocks-amazon-ses-case-study</link>
+                                <guid isPermaLink="true">http://localhost:4000//blog/rocketblocks-amazon-ses-case-study</guid>
+                        </item>
+                
+                        <item>
                                 <title>How LightReports send daily HTML email reports with Postmark</title>
                                 <description>&lt;figure class=&quot;blog--image&quot;&gt;
   &lt;img src=&quot;http://localhost:4000/img/lightreports-logo.gif&quot; alt=&quot;LightReports Logo&quot; width=&quot;200&quot; /&gt;
@@ -71,7 +133,7 @@
 &lt;/ul&gt;
 
 </description>
-                                <pubDate>Mon, 04 Dec 2017 00:00:00 +0100</pubDate>
+                                <pubDate>Mon, 04 Dec 2017 00:00:00 -0800</pubDate>
                                 <link>http://localhost:4000//blog/light-reports-postmark-case-study</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/light-reports-postmark-case-study</guid>
                         </item>
@@ -229,7 +291,7 @@
   &lt;li&gt;&lt;a href=&quot;https://htmlemail.io/blog/custom-sendgrid-templates&quot;&gt;SendGrid&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-                                <pubDate>Wed, 22 Nov 2017 00:00:00 +0100</pubDate>
+                                <pubDate>Wed, 22 Nov 2017 00:00:00 -0800</pubDate>
                                 <link>http://localhost:4000//blog/email-templates-shopify</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/email-templates-shopify</guid>
                         </item>
@@ -303,7 +365,7 @@ our customers about the HTML emails functionality.&lt;/p&gt;
 &lt;/ul&gt;
 
 </description>
-                                <pubDate>Sun, 12 Nov 2017 00:00:00 +0100</pubDate>
+                                <pubDate>Sun, 12 Nov 2017 00:00:00 -0800</pubDate>
                                 <link>http://localhost:4000//blog/mindful-industries-mailgun-case-study</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/mindful-industries-mailgun-case-study</guid>
                         </item>
@@ -402,7 +464,7 @@ When developing an invoice email template it is recommended that marketers follo
   &lt;a href=&quot;https://htmlemail.io/templates/receipt&quot;&gt;&lt;img src=&quot;http://localhost:4000/img/preview-receipt-desktop-hd.jpg&quot; alt=&quot;Invoice and receipt template&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 </description>
-                                <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+                                <pubDate>Wed, 01 Nov 2017 00:00:00 -0700</pubDate>
                                 <link>http://localhost:4000//blog/perfect-receipt-email-template-tips</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/perfect-receipt-email-template-tips</guid>
                         </item>
@@ -526,7 +588,7 @@ When developing an invoice email template it is recommended that marketers follo
   &lt;li&gt;&lt;a href=&quot;https://htmlemail.io/blog/custom-customerio-templates&quot;&gt;Customer.io&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-                                <pubDate>Mon, 11 Sep 2017 00:00:00 +0200</pubDate>
+                                <pubDate>Mon, 11 Sep 2017 00:00:00 -0700</pubDate>
                                 <link>http://localhost:4000//blog/custom-sendgrid-templates</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/custom-sendgrid-templates</guid>
                         </item>
@@ -545,7 +607,7 @@ When developing an invoice email template it is recommended that marketers follo
   &lt;a href=&quot;https://www.campaignmonitor.com/blog/email-marketing/2017/02/email-campaign-preflight-checklist/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://www.campaignmonitor.com/assets/uploads/2017/02/Screen-Shot-2017-02-21-at-10.39.31-AM.png&quot; alt=&quot;Email Campaign Preflight Checklist - Infographic by Campaign Monitor&quot; title=&quot;Email Campaign Preflight Checklist - Infographic&quot; style=&quot;width: 100%; max-width: 890px; max-height: 1160px;&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 </description>
-                                <pubDate>Tue, 30 May 2017 00:00:00 +0200</pubDate>
+                                <pubDate>Tue, 30 May 2017 00:00:00 -0700</pubDate>
                                 <link>http://localhost:4000//blog/email-campaign-preflight-checklist</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/email-campaign-preflight-checklist</guid>
                         </item>
@@ -620,7 +682,7 @@ When developing an invoice email template it is recommended that marketers follo
 &lt;/ul&gt;
 
 </description>
-                                <pubDate>Thu, 16 Mar 2017 00:00:00 +0100</pubDate>
+                                <pubDate>Thu, 16 Mar 2017 00:00:00 -0700</pubDate>
                                 <link>http://localhost:4000//blog/custom-moonmail-templates</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/custom-moonmail-templates</guid>
                         </item>
@@ -728,7 +790,7 @@ When developing an invoice email template it is recommended that marketers follo
   &lt;li&gt;&lt;a href=&quot;https://htmlemail.io/blog/custom-sendgrid-templates&quot;&gt;SendGrid&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-                                <pubDate>Thu, 19 Jan 2017 00:00:00 +0100</pubDate>
+                                <pubDate>Thu, 19 Jan 2017 00:00:00 -0800</pubDate>
                                 <link>http://localhost:4000//blog/custom-customerio-templates</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/custom-customerio-templates</guid>
                         </item>
@@ -890,154 +952,9 @@ This content is then editable by any one when using this template
   &lt;li&gt;&lt;a href=&quot;https://htmlemail.io/blog/custom-sendgrid-templates&quot;&gt;SendGrid&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-                                <pubDate>Fri, 25 Nov 2016 00:00:00 +0100</pubDate>
+                                <pubDate>Fri, 25 Nov 2016 00:00:00 -0800</pubDate>
                                 <link>http://localhost:4000//blog/custom-mailchimp-templates</link>
                                 <guid isPermaLink="true">http://localhost:4000//blog/custom-mailchimp-templates</guid>
-                        </item>
-                
-                        <item>
-                                <title>How to use custom HTML email templates with Intercom</title>
-                                <description>&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;http://localhost:4000/img/intercom-logo.gif&quot; alt=&quot;Intercom&quot; width=&quot;200&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Congratulations! You’ve just downloaded your set of &lt;a href=&quot;http://htmlemail.io&quot;&gt;responsive HTML email templates&lt;/a&gt; and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Intercom so you can use them.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://inter.com&quot;&gt;Intercom&lt;/a&gt; is a great solution for communicating with users and includes features for sending onboarding campaigns, 3rd party integrations, segmentation, automation and a powerful developer API.&lt;/p&gt;
-
-&lt;p&gt;With Intercom you can add a custom email template to use for all your emails.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-to-use-custom-email-templates-for-intercom-messaging&quot;&gt;How to use custom email templates for Intercom messaging&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Open your Intercom dashboard&lt;/li&gt;
-  &lt;li&gt;Go to &lt;code class=&quot;highlighter-rouge&quot;&gt;App Settings&lt;/code&gt; &amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Email Templates&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Create a new template and give it a memorable name&lt;/li&gt;
-  &lt;li&gt;Copy the code across from the inlined email template you want to use&lt;/li&gt;
-  &lt;li&gt;Update the content to include Intercom tags&lt;/li&gt;
-  &lt;li&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;data-premailer=&quot;ignore&quot;&lt;/code&gt; to media queries&lt;/li&gt;
-  &lt;li&gt;Update button styles&lt;/li&gt;
-  &lt;li&gt;Remove preheader text&lt;/li&gt;
-  &lt;li&gt;Select this template when setting up messages&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lets look at some of these in more detail.&lt;/p&gt;
-
-&lt;h4 id=&quot;copy-the-code-across&quot;&gt;Copy the code across&lt;/h4&gt;
-
-&lt;p&gt;Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into Intercom. Here I’ve copied across the plain inlined email code.&lt;/p&gt;
-
-&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;http://localhost:4000/img/intercom-copy.png&quot; alt=&quot;Copy code&quot; width=&quot;500&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&quot;update-the-content-to-include-intercom-tags&quot;&gt;Update the content to include Intercom tags&lt;/h4&gt;
-
-&lt;p&gt;So that you can use this template, Intercom needs to know what parts are editable, and where things like unsubscribe links should go.&lt;/p&gt;
-
-&lt;p&gt;Replace the current content with the &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt; tag like so:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- START MAIN CONTENT AREA --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wrapper&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 20px;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;valign=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;top&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  {{ content }}
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- END MAIN CONTENT AREA --&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Then add the unsubscribe url to the unsubscribe link.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Don't like these emails? &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ unsubscribe_url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-decoration: underline; color: #999999; font-size: 12px; text-align: center;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Unsubscribe&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;add-premailer-ignore-attributes-to-media-queries&quot;&gt;Add premailer ignore attributes to media queries&lt;/h4&gt;
-
-&lt;p&gt;We want most of our CSS to be automatically inlined for us, but some of it we want to remain in place for email clients that support it e.g. media queries.&lt;/p&gt;
-
-&lt;p&gt;Intercom uses Premailer to inline CSS for you before sending it. You can tell Intercom to ignore certain CSS by adding &lt;code class=&quot;highlighter-rouge&quot;&gt;data-premailer=&quot;ignore&quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;media=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;all&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-premailer=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ignore&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;620px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;.span-2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;.span-3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;.span-2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;.span-3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;update-button-styles&quot;&gt;Update button styles&lt;/h4&gt;
-
-&lt;p&gt;Intercom adds the class &lt;code class=&quot;highlighter-rouge&quot;&gt;.intercom-h2b-button&lt;/code&gt; to each of its buttons. Therefore you’ll want to include styles for these in your CSS. Take the &lt;code class=&quot;highlighter-rouge&quot;&gt;.button&lt;/code&gt; styles from &lt;code class=&quot;highlighter-rouge&quot;&gt;main.css&lt;/code&gt; and add them to the template i.e.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nc&quot;&gt;.intercom-h2b-button&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#3498db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;border-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#3498db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;box-sizing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;border-box&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ffffff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;pointer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inline-block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;12px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;25px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;text-transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;capitalize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;remove-preheader-text&quot;&gt;Remove preheader text&lt;/h4&gt;
-
-&lt;p&gt;Intercom doesn’t currently have a feature for supporting preheader text, so your safest to remove this so you don’t forget about it i.e. remove this HTML from your template&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;preheader&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;This is preheader text. Some clients will show this text as a preview.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;using-images&quot;&gt;Using images&lt;/h4&gt;
-
-&lt;p&gt;If you’re using images in the template, like your company logo or the social icons, you should upload these to Imgur or CloudApp. Images that are part of your content you’ll be able to upload when creating your message.&lt;/p&gt;
-
-&lt;h4 id=&quot;start-sending&quot;&gt;Start sending&lt;/h4&gt;
-
-&lt;p&gt;That should be you ready to go. When you create an auto message or a direct message, you can select your template and use it. Then add basic formatting when creating your content.&lt;/p&gt;
-
-&lt;figure class=&quot;blog--image&quot;&gt;
-  &lt;img src=&quot;http://localhost:4000/img/intercom-select.png&quot; alt=&quot;Select template&quot; width=&quot;500&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.intercom.com/engaging-your-customers/send-emails-that-work/create-custom-email-templates&quot;&gt;Intercom: Create custom email templates&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;other-email-service-template-tutorials&quot;&gt;Other email service template tutorials&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://htmlemail.io/blog/custom-mailchimp-templates&quot;&gt;Mailchimp&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://htmlemail.io/blog/custom-customerio-templates&quot;&gt;Customer.io&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://htmlemail.io/blog/custom-sendgrid-templates&quot;&gt;SendGrid&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-                                <pubDate>Fri, 25 Nov 2016 00:00:00 +0100</pubDate>
-                                <link>http://localhost:4000//blog/custom-intercom-templates</link>
-                                <guid isPermaLink="true">http://localhost:4000//blog/custom-intercom-templates</guid>
                         </item>
                 
         </channel>
