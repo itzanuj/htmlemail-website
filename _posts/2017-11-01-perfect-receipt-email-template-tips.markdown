@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "5 Tips for developing the perfect email receipt template"
-description: 
+description: "Make your transactional email receipts and invoices more professional with these five tips and examples."
 tags: tips, receipt
 category: tips
+featured: true
+thumbnail: "blog-receipt.jpg"
 ---
 
 Most commercial platforms **automate your receipt** emails which will at most times seem unprofessional as it gives machine like answers to your customers. The emails will often be **overlooked and unopened** as they offer little in terms of a great customer experience. 
