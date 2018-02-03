@@ -23,8 +23,8 @@ Your newsletter is the equivalent of a magazine, newspaper or website, so that i
 Be aware, one of the single biggest mistakes a marketer can make is to stray too far from the brand voice of your business. Brand voice forms a strong impression in your readers’ minds and makes a meaningful statement about your company, so that don’t water down the impact of your brand by incorporating colors, images and other visual elements that veer off the standards you have set to communicate your business through your branding.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/airbnb.png" alt="Airbnb receipt" width="400">
-  <figcaption>See in the Airbnb example above how they make it really clear how to contact customer support and make changes post confirmation. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
+  <img src="{{ site.url }}/img/mailchimp-newsletter.jpg" alt="Mailchimp newsletter" width="400">
+  <figcaption>Mailchimp uses a header that instantly grabs your attention. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
 ### 2. Keep typography consistent
@@ -36,8 +36,8 @@ In addition, you should be aware when designing your email that you should not p
 Take a look at [Google web fonts](https://fonts.google.com/) for fonts you can use in email clients. Keep in mind web fonts aren't supported in all clients and fallbacks are used instead, for example, sans-serif. Therefore, recipients will be able to see the text of your email anyway.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/airbnb.png" alt="Airbnb receipt" width="400">
-  <figcaption>See in the Airbnb example above how they make it really clear how to contact customer support and make changes post confirmation. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
+  <img src="{{ site.url }}/img/misfit.jpg" alt="Misfit newsletter" width="400">
+  <figcaption>Misfit to a great job of keeping their newsletter consistent with their branding by using a web font. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
 ### 3. Make your content scalable
@@ -47,8 +47,8 @@ Emails are only looked at for a few seconds. Therefore long emails are generally
 Be concise, use headings and paragraphs to break up your content, use lists where appropriate and use enough content to entice the user and give them an option to read more with a call to action.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/airbnb.png" alt="Airbnb receipt" width="400">
-  <figcaption>See in the Airbnb example above how they make it really clear how to contact customer support and make changes post confirmation. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
+  <img src="{{ site.url }}/img/cm.jpg" alt="Campaign Monitor newsletter" width="400">
+  <figcaption>Campaign Monitor does a great job of making lots of different types of content digestible. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
 ### 4. Choose appropriate images
@@ -66,8 +66,8 @@ As for image storage, it’s recommended that you keep all files in your own web
 Remember the image file size when you choosing the appropriate image. It is important when viewing the email that readers get to view it quickly without waiting, so makre sure you compress images to make them faster.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/airbnb.png" alt="Airbnb receipt" width="400">
-  <figcaption>See in the Airbnb example above how they make it really clear how to contact customer support and make changes post confirmation. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
+  <img src="{{ site.url }}/img/healthyish.jpg" alt="Healthyish newsletter" width="400">
+  <figcaption>Healthyish newsletter is so appealing you don't even have to read. The photos alone do it justice. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
 ### 5. Care about call to action (CTA)
@@ -84,8 +84,8 @@ A few tips for creating CTAs:
 * Consider (tactful) multiple placements to draw the eye of the reader.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/airbnb.png" alt="Airbnb receipt" width="400">
-  <figcaption>See in the Airbnb example above how they make it really clear how to contact customer support and make changes post confirmation. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
+  <img src="{{ site.url }}/img/shipt.jpg" alt="Shipt newsletter" width="400">
+  <figcaption>The Shipt newsletter has really clear CTAs for each section of their email. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
 ### Download our newsletter template
