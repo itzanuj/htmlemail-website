@@ -35,7 +35,7 @@ Lets look at some of these in more detail.
 Open your email template in your editor of choice so you can see the code. Select all, copy, then paste into Intercom. Here I've copied across the plain inlined email code.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/intercom-copy.png" alt="Copy code" width="500">
+  <img src="{{ site.url }}/img/intercom-copy.jpg" alt="Copy code" width="500">
 </figure>
 
 #### Update the content to include Intercom tags

@@ -62,7 +62,7 @@ Having social media links attached at the footer of the receipt email will step 
 A good review or your product and services will eventually lead to more returning and new customers. The social media links can be shared bringing in more page visits. This is an easy way to retain your customer without using a penny.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/bluebottle.png" alt="Blue Bottle receipt" width="400">
+  <img src="{{ site.url }}/img/bluebottle.jpg" alt="Blue Bottle receipt" width="400">
   <figcaption>See in the Blue Bottle example above how they have Twitter, Facebook and Instagram icons that link to their profiles. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ Take a scenario where a customer has filled in **wrong information** such as bil
 As an email developer, you need to factor in this when developing an effective receipt email template. You can allow the customers to **edit the information by themselves or otherwise provide contact information for customer support at the footer**.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/airbnb.png" alt="Airbnb receipt" width="400">
+  <img src="{{ site.url }}/img/airbnb.jpg" alt="Airbnb receipt" width="400">
   <figcaption>See in the Airbnb example above how they make it really clear how to contact customer support and make changes post confirmation. Photo credit <a href="http://reallygoodemails.com/">Really Good Emails</a>.</figcaption>
 </figure>
 
