@@ -1,12 +1,12 @@
 {
-  "name": "Motherplate",
+  "name": "htmlemail",
   "description": "",
   "main": "index.html",
   "authors": [
     "Lee Munroe"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/leemunroe/motherplate",
+  "homepage": "https://github.com/leemunroe/htmlemail-website",
   "ignore": [
     "**/.*",
     "node_modules",
