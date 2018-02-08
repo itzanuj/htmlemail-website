@@ -2,11 +2,13 @@
 $(document).ready(function(){
 
   // Rotate header text
-  $("#typed").typed({
+  var options = {
     strings: ["Startups", "Developers", "Mobile", "Marketers", "Enterprise", "SendGrid"],
-    typeSpeed: 10,
+    typeSpeed: 20,
     loop: true
-  });
+  }
+  
+  var typed = new Typed("#typed", options);
 
 
 
@@ -44,7 +46,7 @@ $(document).ready(function(){
 
 
   // Initiate smooth scroll
-  smoothScroll.init();
+  var scroll = new SmoothScroll('a[href*="#"]');
 
 
 

@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       options: {
         map: false,
         processors: [
-          require('autoprefixer-core')({
+          require('autoprefixer')({
               browsers: ['last 2 versions']
           })
         ]
@@ -113,7 +113,7 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'node_modules/jquery/dist/jquery.min.js',
-          'node_modules/typed.js/dist/typed.min.js',
+          'node_modules/typed.js/lib/typed.min.js',
           'node_modules/smooth-scroll/dist/js/smooth-scroll.min.js',
           'node_modules/moment/min/moment.min.js',
           'node_modules/js-cookie/src/js.cookie.js',
