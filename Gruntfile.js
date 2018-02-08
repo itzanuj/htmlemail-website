@@ -249,4 +249,15 @@ module.exports = function(grunt) {
                                 'newer:svg_sprite',
                                 'concurrent:drafts']);
 
+  // Serve with drafts too
+  grunt.registerTask('build', ['sass',
+                               'postcss',
+                               'cssmin',
+                               'concat',
+                               'uglify',
+                               'copy',
+                               'newer:imagemin',
+                               'newer:svg_sprite',
+                               'shell:jekyllBuild']);
+
 };
