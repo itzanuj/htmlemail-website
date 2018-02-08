@@ -29,8 +29,7 @@ theme: minima
 
 # Exclude
 # Ignore /assets/* so that Grunt handles those
-exclude: ['node_modules', 
-          'bower_components', 
+exclude: ['node_modules',
           'Gemfile', 
           'Gemfile.lock',
           'Gruntfile.js',

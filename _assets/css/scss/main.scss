@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,200|Work+Sans:400,300,600);
 
 // Reset default browser styles using Normalize
-@import "../../../bower_components/normalize-scss/fork-versions/default/_normalize.scss";
+@import "../../../node_modules/normalize-scss/fork-versions/default/_normalize.scss";
 
 // Set variables and reusable mixins
 @import "base/config";

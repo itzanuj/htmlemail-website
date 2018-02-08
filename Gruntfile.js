@@ -112,10 +112,10 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
-          'bower_components/jquery/dist/jquery.min.js',
-          'bower_components/typed.js/dist/typed.min.js',
+          'node_modules/jquery/dist/jquery.min.js',
+          'node_modules/typed.js/dist/typed.min.js',
           'node_modules/smooth-scroll/dist/js/smooth-scroll.min.js',
-          'bower_components/moment/min/moment.min.js',
+          'node_modules/moment/min/moment.min.js',
           'node_modules/js-cookie/src/js.cookie.js',
           '_assets/js/main.js'
         ],
