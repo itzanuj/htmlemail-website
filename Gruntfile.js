@@ -215,7 +215,7 @@ module.exports = function(grunt) {
 
     shell: {
       jekyllBuild: {
-        command: 'jekyll build'
+        command: 'jekyll build --future'
       },
       jekyllServe: {
         command: 'jekyll serve --drafts --future'
