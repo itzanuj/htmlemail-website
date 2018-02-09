@@ -8,7 +8,9 @@ $(document).ready(function(){
     loop: true
   }
   
-  var typed = new Typed("#typed", options);
+  if ($('#typed').length > 0) {
+    var typed = new Typed("#typed", options);
+  }
 
 
 
