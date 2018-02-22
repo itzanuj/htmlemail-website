@@ -2,13 +2,11 @@
 layout: post
 title:  "How to use custom HTML email templates with Intercom"
 description: Learn how to set up Intercom to use your custom responsive HTML email templates
+featured: true
 tags: tutorial, esp
 category: integration
+thumbnail: "blog-intercom.png"
 ---
-
-<figure class="blog--image">
-  <img src="{{ site.url }}/img/intercom-logo.gif" alt="Intercom" width="200">
-</figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Intercom so you can use them.
 
