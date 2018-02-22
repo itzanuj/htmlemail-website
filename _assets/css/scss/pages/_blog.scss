@@ -45,6 +45,8 @@
 
 .featured-posts {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: $padding;
 
   a {
@@ -52,9 +54,10 @@
     text-decoration: none;
   }
 
-  .post { 
+  .post {
+    @extend .span4;
     box-shadow: 0 0 20px rgba(0, 0, 0, .05);
-    height: 100%;
+    margin-bottom: $padding/2;
     transition: all .2s ease-in-out;
 
     &__content {
