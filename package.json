@@ -5,6 +5,7 @@
   "devDependencies": {
     "autoprefixer": "^7.2.5",
     "grunt": "^1.0.2",
+    "grunt-cli": "^1.2.0",
     "grunt-concurrent": "^2.3.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
@@ -27,8 +28,5 @@
     "normalize-scss": "^7.0.1",
     "smooth-scroll": "github:cferdinandi/smooth-scroll",
     "typed.js": "^2.0.6"
-  },
-  "peerDependencies": {
-    "grunt-cli": "^1.2.0"
   }
 }
