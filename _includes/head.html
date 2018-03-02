@@ -14,5 +14,31 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for HTML Email" href="{{ site.url }}/feed.xml" />
   <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@htmlemailio">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:creator" content="@leemunroe">
+  {% if page.thumbnail %}
+  <meta name="twitter:image" content="{{ site.url }}/img/{{ page.thumbnail }}">
+  {% endif %}
+  {% if page.desktop-preview %}
+  <meta name="twitter:image" content="{{ site.url }}{{ page.desktop-preview }}">
+  {% endif %}
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  {% if page.thumbnail %}
+  <meta property="og:image" content="{{ site.url }}/img/{{ page.thumbnail }}" />
+  {% endif %}
+  {% if page.desktop-preview %}
+  <meta property="og:image" content="{{ site.url }}{{ page.desktop-preview }}" />
+  {% endif %}
+  <meta property="og:description" content="{{ page.description }}" /> 
+  <meta property="og:site_name" content="HTML Email" />
 </head>
 <body>
