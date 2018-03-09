@@ -220,6 +220,7 @@ $(document).ready(function(){
   // Track subscribe click in overlay and create cookie so user doesn't see it again
   $('.js-subscribe-exit-overlay').click(function(event){
     Cookies.set("htmlemailExit", 1, { expires : 365 });
+    $('.exit-overlay').hide();
   });
 
 
