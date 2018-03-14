@@ -40,3 +40,6 @@
   <meta property="og:site_name" content="HTML Email" />
 </head>
 <body>
+{% if jekyll.environment == 'stage' %}
+<div class="alert alert-warning">You're looking at staging.</div>
+{% endif %}
