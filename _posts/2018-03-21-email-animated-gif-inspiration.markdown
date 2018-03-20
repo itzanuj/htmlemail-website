@@ -21,8 +21,8 @@ While any sender can add a good GIF meme into a message, that can be a bit borin
 There’s so much to love from BBC emails: edge-to-edge blocks of color, experimental layouts, use of live text, etc. The main attraction are the animated GIFs. The below countdown clock and charts really stand out. The animated text makes a standard email really pop.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/post-gifs/emails-made-for-you.gif" alt="BBC animated gif email" width="390">
-  <img src="{{ site.url }}/img/post-gifs/the-end-is-nigh-new-pre-apocalyptic-crime-drama.gif" alt="BBC animated gif email" width="390">
+  <a href="https://reallygoodemails.com/enhancement/gif/the-end-is-nigh-new-pre-apocalyptic-crime-drama/" target="_blank"><img src="{{ site.url }}/img/post-gifs/emails-made-for-you.gif" alt="BBC animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/inaugural/welcome/emails-made-for-you/" target="_blank"><img src="{{ site.url }}/img/post-gifs/the-end-is-nigh-new-pre-apocalyptic-crime-drama.gif" alt="BBC animated gif email" width="390"></a>
 </figure>
 
 ### 2. [MOO](https://reallygoodemails.com/tag/moo/){:target="_blank"}
