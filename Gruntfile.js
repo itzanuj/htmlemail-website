@@ -215,7 +215,7 @@ module.exports = function(grunt) {
 
     shell: {
       jekyllBuild: {
-        command: 'jekyll build --future'
+        command: 'jekyll build'
       },
       jekyllServe: {
         command: 'jekyll serve --drafts --future'
@@ -224,7 +224,7 @@ module.exports = function(grunt) {
         command: 'jekyll serve --drafts --future'
       },
       jekyllStage: {
-        command: 'jekyll serve --drafts --future --config _config_stage.yml'
+        command: 'jekyll build --drafts --future --config _config_stage.yml'
       }
     }
 
