@@ -222,6 +222,9 @@ module.exports = function(grunt) {
       },
       jekyllDrafts: {
         command: 'jekyll serve --drafts --future'
+      },
+      jekyllStage: {
+        command: 'jekyll serve --drafts --future --config _config_stage.yml'
       }
     }
 
@@ -249,7 +252,7 @@ module.exports = function(grunt) {
                                 'newer:svg_sprite',
                                 'concurrent:drafts']);
 
-  // Serve with drafts too
+  // Serve production build
   grunt.registerTask('build', ['sass',
                                'postcss',
                                'cssmin',
@@ -259,5 +262,16 @@ module.exports = function(grunt) {
                                'newer:imagemin',
                                'newer:svg_sprite',
                                'shell:jekyllBuild']);
+
+  // Serve staging build
+  grunt.registerTask('stage', ['sass',
+                               'postcss',
+                               'cssmin',
+                               'concat',
+                               'uglify',
+                               'copy',
+                               'newer:imagemin',
+                               'newer:svg_sprite',
+                               'shell:jekyllStage']);
 
 };
