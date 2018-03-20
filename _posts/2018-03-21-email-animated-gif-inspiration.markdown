@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20 Brands that are killing the email GIF game"
+title:  "20 Inspirational brands that are killing the email GIF game"
 description: Shoutout to these top 20 brands who are killing the GIF game and keeping us awake at night thinking about how our emails could be better.
 tags: tips, gifs, inspiration
 category: tips
