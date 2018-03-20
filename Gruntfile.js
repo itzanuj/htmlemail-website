@@ -95,7 +95,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           cwd: '_assets/img',
-          src: ['*.{png,jpg,gif}'],
+          src: ['**/*.{png,jpg,gif}'],
           dest: 'img'
         }]
       }
@@ -173,7 +173,7 @@ module.exports = function(grunt) {
       },
       images: {
         files: [
-          '_assets/img/*.{png,jpg,gif}'
+          '_assets/img/*/**.{png,jpg,gif}'
         ],
         tasks: [
           'newer:imagemin'
