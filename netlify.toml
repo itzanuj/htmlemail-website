@@ -30,10 +30,9 @@
 
 # Branch Deploy context: All deploys that are not resulting from a Pull/Merge Request and not from the primary, linked branch will inherit these settings.
 [context.branch-deploy]
-#   command = "echo branch"
+    command = "npm install && npm rebuild node-sass && grunt build --config _config_stage.yml"
 [context.branch-deploy.environment]
     JEKYLL_ENV = "stage"
-    command = "npm install && npm rebuild node-sass && grunt build --config _config_stage.yml"
 
 # # Specific branch context: Deploys from this branch
 # # will take these settings and override their
