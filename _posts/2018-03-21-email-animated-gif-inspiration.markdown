@@ -21,8 +21,8 @@ While any sender can add a good GIF meme into a message, that can be a bit borin
 There’s so much to love from BBC emails: edge-to-edge blocks of color, experimental layouts, use of live text, etc. The main attraction are the animated GIFs. The below countdown clock and charts really stand out. The animated text makes a standard email really pop.
 
 <figure class="blog--image">
-  <a href="https://reallygoodemails.com/enhancement/gif/the-end-is-nigh-new-pre-apocalyptic-crime-drama/" target="_blank"><img src="{{ site.url }}/img/post-gifs/emails-made-for-you.gif" alt="BBC animated gif email" width="390"></a>
-  <a href="https://reallygoodemails.com/inaugural/welcome/emails-made-for-you/" target="_blank"><img src="{{ site.url }}/img/post-gifs/the-end-is-nigh-new-pre-apocalyptic-crime-drama.gif" alt="BBC animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/inaugural/welcome/emails-made-for-you/" target="_blank"><img src="{{ site.url }}/img/post-gifs/emails-made-for-you.gif" alt="BBC animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/enhancement/gif/the-end-is-nigh-new-pre-apocalyptic-crime-drama/" target="_blank"><img src="{{ site.url }}/img/post-gifs/the-end-is-nigh-new-pre-apocalyptic-crime-drama.gif" alt="BBC animated gif email" width="390"></a>
 </figure>
 
 ### 2. [MOO](https://reallygoodemails.com/tag/moo/){:target="_blank"}
@@ -41,8 +41,8 @@ Quartz is taking the normal [GIPHY](https://giphy.com/) GIFs and using them in a
 Want more? Read our [Lessons Learned post](https://explore.reallygoodemails.com/lessons-learned-from-the-quartz-email-team-3c55aee7c627) with Quartz. 
 
 <figure class="blog--image">
-  <a href="https://explore.reallygoodemails.com/lessons-learned-from-the-quartz-email-team-3c55aee7c627" target="_blank"><img src="{{ site.url }}/img/post-gifs/spreadsheets-happy-birthday-to-the-original-killer-app.gif" alt="Quartz animated gif email" width="390"></a>
-  <a href="https://reallygoodemails.com/punctual/newsletter/spreadsheets-happy-birthday-to-the-original-killer-app/" target="_blank"><img src="{{ site.url }}/img/post-gifs/ramen-selling-the-slurp.gif" alt="QuartzMoo animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/punctual/newsletter/spreadsheets-happy-birthday-to-the-original-killer-app/" target="_blank"><img src="{{ site.url }}/img/post-gifs/spreadsheets-happy-birthday-to-the-original-killer-app.gif" alt="Quartz animated gif email" width="390"></a>
+  <a href="https://qz.com/email/quartz-obsession/1224362/" target="_blank"><img src="{{ site.url }}/img/post-gifs/ramen-selling-the-slurp.gif" alt="QuartzMoo animated gif email" width="390"></a>
 </figure>
 
 
@@ -64,7 +64,7 @@ Headspace has a wide range of funny GIFs. While these emails are pretty straight
 
 <figure class="blog--image">
   <a href="https://reallygoodemails.com/promotional/holiday/gift-headspace-25-off-a-years-subscription/" target="_blank"><img src="{{ site.url }}/img/post-gifs/eyes-headspace.gif" alt="Headspace animated gif email" width="390"></a>
-  <a href="https://reallygoodemails.com/promotional/promotion/give-the-gift-of-/" target="_blank"><img src="{{ site.url }}/img/post-gifs/socks-headspace.gif" alt="Headspace animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/promotional/promotion/give-the-gift-of-headspace/" target="_blank"><img src="{{ site.url }}/img/post-gifs/socks-headspace.gif" alt="Headspace animated gif email" width="390"></a>
 </figure>
 
 
@@ -73,8 +73,8 @@ Headspace has a wide range of funny GIFs. While these emails are pretty straight
 In addition to personalized data being pulled into their emails, Strava has some crispy GIFs in their campaigns. From welcome emails to fitness reports, they use GIFs in big ways to capture attention and enhance their aesthetic.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/post-gifs/strava-2017.gif" alt="Strava animated gif email" width="390">
-  <img src="{{ site.url }}/img/post-gifs/strava-cool.gif" alt="Strava animated gif email" width="390">
+  <a href="https://reallygoodemails.com/promotional/email-digest/your-year-on-strava-so-far/" target="_blank"><img src="{{ site.url }}/img/post-gifs/strava-2017.gif" alt="Strava animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/punctual/newsletter/real-cool/" target="_blank"><img src="{{ site.url }}/img/post-gifs/strava-cool.gif" alt="Strava animated gif email" width="390"></a>
 </figure>
 
 
@@ -84,8 +84,8 @@ In addition to personalized data being pulled into their emails, Strava has some
 Uber tends to use subtle GIFs in their campaigns. The rotating “2017” GIF adds some additional color to the email design. The moving cars match up to the app. In both cases, the GIFs are not the main focus of the campaign and are not intrusive. Since these GIFs are so subtle, Uber doesn’t need to add additional fallback images. Subscribers will still have a good email experience even if they can’t see the fully animated images.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/post-gifs/uber-2017.gif" alt="Uber animated gif email" width="390">
-  <img src="{{ site.url }}/img/post-gifs/uber-ready.gif" alt="Uber animated gif email" width="390">
+  <a href="https://reallygoodemails.com/enhancement/personalized/this-year-zoomed-by-fast-didnt-it/" target="_blank"><img src="{{ site.url }}/img/post-gifs/uber-2017.gif" alt="Uber animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/promotional/product-update/meet-the-new-uber-app/" target="_blank"><img src="{{ site.url }}/img/post-gifs/uber-ready.gif" alt="Uber animated gif email" width="390"></a>
 </figure>
 
 
@@ -94,8 +94,8 @@ Uber tends to use subtle GIFs in their campaigns. The rotating “2017” GIF ad
 Netflix is a great example of a brand taking an extra step. They create stunning GIFs that you can’t look away from. In both of the examples, they are transforming the entire email design using GIFs. I look forward to opening Netflix emails to see what they will come up with next. 
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/post-gifs/coming-friday-october-27th-stranger-things-2.gif" alt="Netflix animated gif email" width="390">
-  <img src="{{ site.url }}/img/post-gifs/suspicious-activity-marvel-on-netflix.gif" alt="Netflix animated gif email" width="390">
+  <a href="https://reallygoodemails.com/enhancement/gif/coming-friday-october-27th-stranger-things-2/" target="_blank"><img src="{{ site.url }}/img/post-gifs/coming-friday-october-27th-stranger-things-2.gif" alt="Netflix animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/enhancement/gif/suspicious-activity-marvel-on-netflix/" target="_blank"><img src="{{ site.url }}/img/post-gifs/suspicious-activity-marvel-on-netflix.gif" alt="Netflix animated gif email" width="390"></a>
 </figure>
 
 
@@ -104,8 +104,8 @@ Netflix is a great example of a brand taking an extra step. They create stunning
 I wasn’t super familiar with Great Simple Studio, but their use of GIFs made me do a double take. They flex their prototype files right in the email. While the templates they use are somewhat standard, their GIFs are bold and refreshing to see. Big fan of using large text and contrasting colors.
 
 <figure class="blog--image">
-  <a href="https://reallygoodemails.com/wp-content/uploads/meet-untitled719-new-sketch-templates-for-all-iphone-resolutions.html" target="_blank"><img src="{{ site.url }}/img/post-gifs/black-friday.gif" alt="Great Simple Studio animated gif email" width="390"></a>
-  <a href="https://reallygoodemails.com/wp-content/uploads/black-friday-60-off-on-all-products.html" target="_blank"><img src="{{ site.url }}/img/post-gifs/meet-untitled.gif" alt="Great Simple Studio animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/wp-content/uploads/black-friday-60-off-on-all-products.html" target="_blank"><img src="{{ site.url }}/img/post-gifs/black-friday.gif" alt="Great Simple Studio animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/promotional/announcement/meet-untitled719-new-sketch-templates-for-all-iphone-resolutions/" target="_blank"><img src="{{ site.url }}/img/post-gifs/meet-untitled.gif" alt="Great Simple Studio animated gif email" width="390"></a>
 </figure>
 
 
@@ -154,8 +154,8 @@ One of the useful ways brands can use GIFs is to walk users through their produc
 Read how Asana delivers value with every email they send in our [Lessons Learned interview](https://explore.reallygoodemails.com/lessons-learned-from-asana-s-email-specialist-447af359deb3). 
 
 <figure class="blog--image">
-  <a href="https://reallygoodemails.com/industry/app/since-youve-been-gone/" target="_blank"><img src="{{ site.url }}/img/post-gifs/asana-work.gif" alt="Asana animated gif email" width="390"></a>
-  <a href="https://reallygoodemails.com/behavioral/engagement/new-add-a-start-date-avoid-the-scramble/" target="_blank"><img src="{{ site.url }}/img/post-gifs/asana-run.gif" alt="Asana animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/behavioral/engagement/new-add-a-start-date-avoid-the-scramble/" target="_blank"><img src="{{ site.url }}/img/post-gifs/asana-work.gif" alt="Asana animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/industry/app/since-youve-been-gone/" target="_blank"><img src="{{ site.url }}/img/post-gifs/asana-run.gif" alt="Asana animated gif email" width="390"></a>
 </figure>
 
 
@@ -212,8 +212,8 @@ Getting your phone bill in an email isn’t that fun. Sprint does a good job bri
 Away is one of the few brands that shows their products in action through GIFs. We get to see how their suitcase works and get a good idea of sizing. They break the constraints of the screen by having their product roll into frame. Their use of GIFs and layout bring the subscriber down the email to read the whole message.
 
 <figure class="blog--image">
-  <img src="{{ site.url }}/img/post-gifs/away-give.gif" alt="Away animated gif email" width="390">
-  <img src="{{ site.url }}/img/post-gifs/away-cary.gif" alt="Away animated gif email" width="390">
+  <a href="https://reallygoodemails.com/promotional/marketing/give-more-than-luggage/" target="_blank"><img src="{{ site.url }}/img/post-gifs/away-give.gif" alt="Away animated gif email" width="390"></a>
+  <a href="https://reallygoodemails.com/promotional/announcement/in-case-you-missed-it-something-bigger-is-here/" target="_blank"><img src="{{ site.url }}/img/post-gifs/away-cary.gif" alt="Away animated gif email" width="390"></a>
 </figure>
 
 

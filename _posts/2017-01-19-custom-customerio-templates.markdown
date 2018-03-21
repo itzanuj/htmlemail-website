@@ -4,11 +4,9 @@ title:  "How to use custom HTML email templates with Customer.io"
 description: Learn how to set up Customer.io to use your custom responsive HTML email templates
 tags: tutorial, esp
 category: integration
+featured: true
+thumbnail: "blog-customerio.jpg"
 ---
-
-<figure class="blog--image">
-  <img src="{{ site.url }}/img/customerio-logo.png" alt="Customer.io" width="200">
-</figure>
 
 Congratulations! You've just downloaded your set of [responsive HTML email templates](http://htmlemail.io) and are ready to start sending professional looking emails from your ESP (Email Service Provider). Now you need to put them into Customer.io so you can use them.
 

@@ -11,7 +11,7 @@ nav: blog
   <h2>ESP Integration Guides</h2>
   <div class="featured-posts">
     {% assign featured_posts = (site.posts|where:"featured","true"|where:"category","integration") %}
-    {% for post in featured_posts limit:5 %}
+    {% for post in featured_posts limit:6 %}
       <a href="{{ post.url }}" class="post">
         <div class="post__image">
           <img src="{{ site.url }}/img/{{ post.thumbnail }}" alt="{{ post.title }}">
