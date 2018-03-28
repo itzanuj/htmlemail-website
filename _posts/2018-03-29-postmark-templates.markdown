@@ -91,7 +91,7 @@ The `TemplateId` field is used for telling Postmark what template is being used.
 
 The `TemplateModel` field is where the magic of populating variables with content happens. This field is where you will need to **populate your template variables with actual data** that will eventually be rendered in the the email the recipient sees. 
 
-Using the above example, the `"name":"John Smith"` key/value pair is telling Postmark to populate the `{{ user_name }}` variable in the Template. Each variable you place in your Template can be populated in this `TemplateModel` field **you use in your API call** to Postmark to send an email using a Template.
+Using the above example, the `"name":"John Smith"` key/value pair is telling Postmark to populate the `{% raw %}{{ user_name }}{% endraw %}` variable in the Template. Each variable you place in your Template can be populated in this `TemplateModel` field **you use in your API call** to Postmark to send an email using a Template.
 
 **Tip:** Since [Postmark does not support sending bulk email](https://postmarkapp.com/support/article/831-why-cant-i-send-bulk-emails){:target="_blank"} to subscribers or managing lists, you will want to **remove the unsubscribe links in the footers** from the HTML Email templates when importing them into Postmark.
 
