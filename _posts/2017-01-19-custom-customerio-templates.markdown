@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to use custom HTML email templates with Customer.io"
-description: Learn how to set up Customer.io to use your custom responsive HTML email templates
+description: Learn how to set up Customer.io to use your custom responsive HTML email templates.
 tags: tutorial, esp
 category: integration
 featured: true

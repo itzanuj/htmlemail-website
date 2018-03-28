@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to use custom HTML email templates with MailerLite"
-description: Learn how to set up MailerLite to use your custom responsive HTML email templates
+description: Learn how to set up MailerLite to use your custom responsive HTML email templates.
 tags: tutorial, mailerlite, esp
 category: integration
 featured: true
