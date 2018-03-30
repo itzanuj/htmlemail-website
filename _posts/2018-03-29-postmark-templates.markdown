@@ -39,7 +39,7 @@ You can also use dot notation `{% raw %}{{ object.property }}{% endraw %}` for a
 ```json
 {
     "person" : {
-       "first_name" : "John",
+       "first_name" : "John"
     }
 }
 ```
