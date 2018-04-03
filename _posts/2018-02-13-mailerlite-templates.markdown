@@ -8,6 +8,8 @@ featured: true
 thumbnail: "blog-mailerlite.jpg"
 ---
 
+_The following is a guest post by Mailerlite's [Ilma Nausedaite](https://twitter.com/ilma_tweets){:target="_blank"}._
+
 [MailerLite](https://www.mailerlite.com) is an email marketing service provider with a focus on simplicity, excellent customer support and beautiful pre-built designs. 
 
 MailerLite helps customers create professional email campaigns with a powerful yet easy-to-use content editor, subscriber management tools and campaign reports highlighting the most important metrics.
